@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright © 2013 VMware, Inc. All rights reserved.
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Except as explicitly provided herein, no express or implied licenses, under any VMware patents, copyrights, trademarks, or any other intellectual property rights, are granted or waived by implication, exhaustion, estoppel, or otherwise, on modified versions of the Software.
+-->
+<xs:schema xmlns="http://www.vmware.com/vcloud/v1.5"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:jaxb="http://java.sun.com/xml/ns/jaxb"
+           xmlns:meta="http://www.vmware.com/vcloud/meta"
+           jaxb:version="2.0"
+           jaxb:extensionBindingPrefixes="meta"
+           elementFormDefault="qualified"
+           targetNamespace="http://www.vmware.com/vcloud/v1.5"
+           version="1.0">
+
+    <xs:include schemaLocation="common.xsd"/>
+    <xs:include schemaLocation="entity.xsd"/>
+    <xs:include schemaLocation="catalogItem.xsd"/>
+
+    <xs:annotation>
+        <xs:documentation xml:lang="en">
+            Schema for the vCloud Catalog entity.
+        </xs:documentation>
+    </xs:annotation>
+
+    <xs:element name="Catalog" type="CatalogType"/>
+    <xs:complexType name="CatalogType">
+        <xs:annotation>
+            <xs:appinfo>
+                <meta:content-type>application/vnd.vmware.vcloud.catalog</meta:content-type>
+            </xs:appinfo>
+            <xs:documentation source="since">0.9</xs:documentation>
+            <xs:documentation xml:lang="en">
+                Represents the user view of a Catalog object.
+                Catalog update will create an asynchronous task starting in API version 39.0.
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:complexContent>
+            <xs:extension base="EntityType">
+                <xs:sequence>
+                    <xs:element name="Owner" type="OwnerType" minOccurs="0">
+                        <xs:annotation>
+                            <xs:documentation source="modifiable">none</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Catalog owner.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="CatalogItems" type="CatalogItemsType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Container for CatalogItem elements.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsPublished" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True if the catalog is shared with all organizations in
+                                the system not managed by the organization the catalog belongs to.
+                                This value is read-only in the user view. To modify it, an
+                                administrator must use the publish link in the admin view of
+                                the catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsSharedWithManagedOrgs" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True if the catalog is shared with all organizations in the system
+                                managed by the organization the catalog belongs to.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsSharedWithPeersParentManagedOrgs" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True if the catalog is shared with all organizations
+                                which are managed by the organization the catalog belongs to
+                                and all the other sub-provider organizations and non sub-provider
+                                tenant organizations.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DateCreated" type="xs:dateTime" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="5.1"/></xs:appinfo>
+                            <xs:documentation source="modifiable">none</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Creation date and time of the catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="VersionNumber" type="xs:long" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="modifiable">none</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Represents the current version number of the catalog.
+                            </xs:documentation>
+                            <xs:appinfo><meta:version added-in="5.5"/></xs:appinfo>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DistributedCatalogParams" type="DistributedCatalogParamsType" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Parameters to make a Distributed Catalog.
+                                Distributed Catalogs can read/write data only from a special
+                                type of storage that enables data synchronization.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="Healthy" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                False if the catalog has issues that need further investigation
+                                via the issues endpoint for this catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="CopyOrMoveCatalogItemParams" type="CopyOrMoveCatalogItemParamsType"/>
+    <xs:complexType name="CopyOrMoveCatalogItemParamsType">
+        <xs:annotation>
+            <xs:appinfo>
+                <meta:version added-in="5.5" />
+                <meta:content-type>application/vnd.vmware.vcloud.copyOrMoveCatalogItemParams</meta:content-type>
+            </xs:appinfo>
+            <xs:documentation source="since">5.5</xs:documentation>
+            <xs:documentation xml:lang="en">
+                Parameters for a copyCatalogItem or moveCatalogItem request.
+            </xs:documentation>
+        </xs:annotation>
+        <xs:complexContent>
+            <xs:extension base="ParamsType">
+                <xs:sequence>
+                    <xs:element name="Source" type="ReferenceType">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="5.5"/></xs:appinfo>
+                            <xs:documentation source="since">5.5</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Reference to the source catalog item to copy or move from.
+                            </xs:documentation>
+                            <xs:documentation source="required">true</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="PublishCatalogParams" type="PublishCatalogParamsType"/>
+    <xs:complexType name="PublishCatalogParamsType">
+        <xs:annotation>
+            <xs:appinfo>
+                <meta:content-type>application/vnd.vmware.admin.publishCatalogParams</meta:content-type>
+            </xs:appinfo>
+            <xs:documentation source="since">0.9</xs:documentation>
+            <xs:documentation xml:lang="en">
+                Parameters required when sharing a catalog with other
+                organizations. Only one of IsPublished, IsSharedWithManagedOrgs, or IsSharedWithPeersParentManagedOrgs can be set to true.
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:complexContent>
+            <xs:extension base="VCloudExtensibleType">
+                <xs:sequence>
+                    <xs:element name="IsPublished" type="xs:boolean" minOccurs="1" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                A value of true makes this catalog available to
+                                the administrators in all organizations
+                                in the system which are not managed by the organization
+                                the catalog belongs to. A value of false revokes that
+                                availability. To share this catalog in your
+                                own organization, use controlAccess.
+                            </xs:documentation>
+                            <xs:documentation source="required">true</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsSharedWithManagedOrgs" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True if the catalog should be shared with all organizations
+                                which are managed by the organization the catalog belongs to.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsSharedWithPeersParentManagedOrgs" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True if the catalog is shared with all organizations
+                                which are managed by the organization the catalog belongs to
+                                and all the other sub-provider organizations and non sub-provider
+                                tenant organizations.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:element name="DistributedCatalogParams" type="DistributedCatalogParamsType"/>
+    <xs:complexType name="DistributedCatalogParamsType">
+        <xs:annotation>
+            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+            <xs:appinfo>
+                <meta:content-type>application/vnd.vmware.admin.distributedCatalogParams</meta:content-type>
+            </xs:appinfo>
+            <xs:documentation source="since">39.0</xs:documentation>
+            <xs:documentation xml:lang="en">
+                Configuration parameters for a Distributed Catalog.
+            </xs:documentation>
+        </xs:annotation>
+
+        <xs:complexContent>
+            <xs:extension base="VCloudExtensibleType">
+                <xs:sequence>
+                    <xs:element name="IsDistributed" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                True means the catalog is Distributed. Distributed catalogs
+                                need special storage capabilities. Please refer to documentation.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DistributedCatalogId" type="xs:string" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                UUID of an existing distributed catalog. This field can only be provided
+                                at catalog creation time to make the new catalog part of an existing
+                                distributed catalog. This field cannot be changed once the catalog
+                                is created. If the value is not provided during catalog creation, then
+                                system generates a new distributed catalog id for this catalog if
+                                IsDistributed was passed as TRUE during catalog creation.
+                                example: fa94a3e1-a96f-472c-8d3f-2724e747273c
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="OnDeleteAction" type="xs:string" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Default action when deleting a distributed catalog.
+                                Allowed values are:&lt;br&gt;
+
+                                Detach:
+                                A DELETE operation on this catalog will simply delete
+                                the local catalog entity, all corresponding distributed file contents are preserved.
+                                This is the default value when binding to an existing distributed contents.
+
+                                Delete:
+                                A DELETE operation on this catalog will delete all
+                                file contents on the corresponding distributed datastore(s).
+                                This is the default value when creating a new distributed contents. 'Delete' value is
+                                only allowed for catalog creating new distributed contents, it is not allowed for
+                                catalog binding to existing contents.
+
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DistributedCatalogName" type="xs:string" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                This is the name by which this distributed catalog is identified
+                                by other sites that get access to the distributed content.
+                                The name must be unique on a given distributed storage.
+                                If more than one datastore is used for a storage policy,
+                                the name must be unique across these datastores for the given
+                                storage policy. This field is only applicable when creating
+                                a new distributed catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="BoundAccessLevel" type="xs:string" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                Default access level that the author of the catalog wants
+                                to grant to all the other consumers that want to bind to
+                                this distributed catalog.
+                                This field is only applicable when creating a new distributed catalog.
+                                This field can only be updated by the owning site of the primary catalog.
+                                The allowed values are:&lt;br&gt;
+                                ReadOnly: The consumers cannot add new content to the catalog.
+                                Consumers cannot share the catalog to other tenants.
+                                Consumers cannot publish the catalog to other subscribers.&lt;br&gt;
+                                Change: The consumers can add new content to the catalog.
+                                Consumers cannot share the catalog to other tenants.
+                                Consumers can publish the catalog to other subscribers.&lt;br&gt;
+                                ReadShare: The consumers can further share this catalog with
+                                other tenants.&lt;br&gt;
+                                Consumers cannot add new content to the catalog.
+                                FullControl: The consumers can add new content to the catalog.
+                                Consumers can share the catalog to other tenants.
+                                Consumers can publish the catalog to other subscribers.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="DistributionHealthy" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">always</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                False if the catalog has distribution issues that need further investigation
+                                via the issues endpoint for this catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                    <xs:element name="IsPrimary" type="xs:boolean" minOccurs="0" maxOccurs="1">
+                        <xs:annotation>
+                            <xs:appinfo><meta:version added-in="39.0"/></xs:appinfo>
+                            <xs:documentation source="since">39.0</xs:documentation>
+                            <xs:documentation source="modifiable">none</xs:documentation>
+                            <xs:documentation xml:lang="en">
+                                A read-only field that is true if the catalog is the primary distributed catalog.
+                                Otherwise, it will have a value of false if the catalog is bound to the primary distributed catalog.
+                            </xs:documentation>
+                            <xs:documentation source="required">false</xs:documentation>
+                        </xs:annotation>
+                    </xs:element>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+</xs:schema>

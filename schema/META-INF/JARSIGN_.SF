@@ -1,0 +1,3150 @@
+Signature-Version: 1.0
+SHA-256-Digest-Manifest-Main-Attributes: ODCBYORxjjuoPlpQJaOUqWyv33M+2
+ h9Md7Ra0TOuInM=
+SHA-256-Digest-Manifest: fE7/7o/jhdNWeyQ+/EggCP61syVsWGvsRzNk/hFnXpM=
+Created-By: 1.8.0-jdk8u322-ga (VMware)
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/EntityType.cla
+ ss
+SHA-256-Digest: yBC7wbXBdYzkD0qRXvKJymXP7c0tGa3Ew84hsbUc3Sw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayConfigurationType.
+ class
+SHA-256-Digest: TOQXhE5++WV18T7+QQCt+CyirsCgbXiH3a5sJL87HGU=
+
+Name: com/vmware/vcloud/api/rest/schema/versioning/ObjectFactory.class
+SHA-256-Digest: 0U5NJWF99iGN46Rzpywi68fTZUYkTaE9F64emhpWsD0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CloneVAppParamsType.class
+SHA-256-Digest: oVAa+p+5lkOA89M+EunaALLiP7GpMEX8TPX0bqb74rI=
+
+Name: com/vmware/vcloud/api/rest/links/LinkRelation.class
+SHA-256-Digest: 11exLsoNT2QGFWDVWS9RkZsgTM2zGYGFxATRiIvrdjU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmGeneralParamsType.class
+SHA-256-Digest: MacHoovgNL5T+lrNoNaJ/6Vdg0xx/I1wDmdtSqSJJ9Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ApiFiltersType.
+ class
+SHA-256-Digest: kKorgRP0T74IpE6LmA5Rmpu5BiLJLiL/viFYpC3s/xc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReplicationTrackingDiskSe
+ ttingsType.class
+SHA-256-Digest: GeIbNM5eHxme+9CXdcbvp9b1eTHfvP9O3H3B2Y8szfc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/ObjectFactory.class
+SHA-256-Digest: c/1iohpi7Bvsiz3ZFEhbSn8JwUd1pFLVuY8LJ7C8THo=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/SectionType.class
+SHA-256-Digest: HxOfEHpHhPOgHOdu6YKj/dkIhZ7l9ZcYQSGPP40s76k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DeployVAppParamsType.clas
+ s
+SHA-256-Digest: E4789/n2uvZBT0nxkzfbsqtU3dGG0n1gH2ATkP3dtVI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultResourceClassA
+ ctionRecordType.class
+SHA-256-Digest: rKNO4R3emeoiDILRWCj8sB7K0os6j+i7yeck+aVFMCA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/KeystoreUploadSocketType.
+ class
+SHA-256-Digest: ue1MRPLLQvC/BGL7ZwNi/fCDzLPbv7TgUMtG8DxQsSM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NicIpMapType.class
+SHA-256-Digest: JA9Y31TH1A9GW54EMoWRrbax1cncSv9KokAWqEg6TCI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVAppNetwo
+ rkRecordType.class
+SHA-256-Digest: hcRFj0Hot3vRiK68N1U/+RLGVbwFvR1Wwj5ATGLIBhk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CertificateUpdateParamsTy
+ pe.class
+SHA-256-Digest: 5vZRSH9SdMY0WXfJg6EY20a7YCA8IFzr8V+LDCX4IoM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpConfigurationType.cla
+ ss
+SHA-256-Digest: bWXrr4eejV/9UnagalafnraccooLxSgtQ4wwecibuo4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CreateSnapshotParamsType.
+ class
+SHA-256-Digest: y2LUxD0sk0xP2aNeZtdDnE6KJ/dk0mxOZSBByyhb54M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcR
+ eferencesType.class
+SHA-256-Digest: fTDdhJ2HSNAZTyB6mdI28ZnzgY0nb7RFPx6fbhEQq1k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SubAllocationsType.class
+SHA-256-Digest: 3onbUF94XAZI9K3SSdoOvq11K07znR9QNwizQ0Sz5ak=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgGeneralSettingsType.cl
+ ass
+SHA-256-Digest: UG+FIKhvABkRtW82+Hvw3ilMb9040pATJvUBVUAFfCk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminOrgVdcSto
+ rageProfileRecordType.class
+SHA-256-Digest: b32Wx+VxQPELlkDPJFkIic0o4Xv5bh+JYyk9LZ0ITj4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminApiDefini
+ tionRecordType.class
+SHA-256-Digest: DNd7E8cLZb+YYawZFX/UnZ0//FXJqIkwQw4PDUMTriE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RegisterVAppParamsType.cl
+ ass
+SHA-256-Digest: Ce8ZzO+9MsCTOXwIW1OiahLelj+8fZvLtkdQvmDId6Q=
+
+Name: etc/1.5/schemas/vcloud/mksTicket.xsd
+SHA-256-Digest: eQ3SU4KL6irhe96Wlbv6s46tfszXbx0fFTFZp4a1e1M=
+
+Name: etc/1.5/schemas/vcloud/session.xsd
+SHA-256-Digest: LiASSjSd4nQHnoMOH0pFt/cuksc7ZAz9tjC4mV9y/nk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicensingReport
+ Type.class
+SHA-256-Digest: wyXEtTA9QtHBToFOQQO76A+4wIATgRk4+Tgr+78JRgU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResourceReferenceType.cla
+ ss
+SHA-256-Digest: 1A3XAjBSpI8Ky7XSFjLWBp6WzsW+Bct6a5WI4V2b9qk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PublishExternalCatalogPar
+ amsType.class
+SHA-256-Digest: v9WfEsqx9lZfqzIg0+ffo5qa6kDxvV+CxUgsMYka8fM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RecomposeVAppParamsType.c
+ lass
+SHA-256-Digest: VleB6iNstNpluM0QHk5yIeGF0IW34rkw4Y48eN/tDv8=
+
+Name: etc/1.5/schemas/admin/event.xsd
+SHA-256-Digest: 8tqmPczqIubYQkcVd7K1K2FC76lx2ItIX3wkgQ7NBss=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworksType.class
+SHA-256-Digest: uPR4dZ/ag0yqIiL0BAPyQFVBbtoWdp8u6Tce0GaFj6o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicensingManage
+ dServerType.class
+SHA-256-Digest: FQNiNQUgugnfEhdJMz4x7G/obTmjkgKvHSRmFlceU+E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcR
+ esourcePoolType.class
+SHA-256-Digest: WmmuGSReBNabLkIrsq8rR2xDC71EqR4tggzeoezyb5I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResultType.class
+SHA-256-Digest: ZaNoR+CNvL3j5pYKbcLAXrAd6ErERxjQUcREO3AZ2rM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReplicationTrackingDiskSe
+ ctionType.class
+SHA-256-Digest: Qg+t5NfesP6KY2uCvdlDJ149IuWcDfUIErZ3N32icUA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/TenantMigration
+ ParamsType.class
+SHA-256-Digest: /Uag87DzI1r5DG51f/71x7LPwFoufVC3VuTB48vdXAk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkServiceInsertionTy
+ pe.class
+SHA-256-Digest: CQgydekw3wLcF/WoAtsipSIC7+gLb+iESAl0ntbfxTQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVmParamsType.c
+ lass
+SHA-256-Digest: E2rWX04Bqz8UyuzWSk5p6yCfZB7UDseygn1AEoJZHyk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkType.class
+SHA-256-Digest: SPVV4mRSZKK0mnCti+8ipAcehz5UW8EtR8lENr6+/dY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminMediaReco
+ rdType.class
+SHA-256-Digest: jL+4tPl0PYuEXSnyGS8TYIjO+ZXqC8LVI5lj435kSWo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OwnerType.class
+SHA-256-Digest: 059zqrKhyuqnDWoN1UM+CsVHNAhPVw/BXb70ATgcGa8=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/QueryResultRecordTy
+ peJaxbDeserializer.class
+SHA-256-Digest: ZLaY0WRfeLY5I3bU1PTEAi/l2AJFipokYyXruTuGTBY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/StaticRoutingServiceType.
+ class
+SHA-256-Digest: ZXMgEaRrL0IF/BDvSrMMAzFYLKLq5Z+ljEZ3nXVN2OA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcR
+ esourcePoolSetType.class
+SHA-256-Digest: jgAoAabdIYlC5Qd5trk/ruisUVUyVifILdqru8GhXVo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OAuthKeyConfigurationsLis
+ tType.class
+SHA-256-Digest: VpGT1xF1OFDSO6fy+Spzq36729ZMBYPx7x8RZG4hXXs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultProviderVdcRes
+ ourcePoolRelationRecordType.class
+SHA-256-Digest: LpdXiet/yP17jOVTBgAoWZNq3Dg0PeHpihC5ahxuFJE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminFileDescri
+ ptorType.class
+SHA-256-Digest: 07oBzZSda8D5gzU6IbrldVEMPBOt9lh+PGj7/v8UmRU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/CpomSettingsTyp
+ e.class
+SHA-256-Digest: /2SYUECQu4XKz+n24SET7ywkGIa/Tbe1SWrk1W00jwk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayFeaturesType.class
+SHA-256-Digest: KSVT5vtioIaI899cvMpi2GB9A7cEhQ45odhE4J+SnVo=
+
+Name: etc/1.5/schemas/vcloud/vmAffinityRule.xsd
+SHA-256-Digest: B0d8Jw6NqRgtbApEBOj/xMpunO7CaeUbQXH/IMVJbPM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimInt.class
+SHA-256-Digest: JHosQE5RMBLrUatFupDrZbJSqrUdLbvWyoi7cjGDfgs=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/StorageGroupType.cl
+ ass
+SHA-256-Digest: gZVwNQZsGAtKBBvBJ6FVuOUJ3W2nGilu0aHa4fg9MnU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SimpleMetricType.class
+SHA-256-Digest: OfiNHsF3jc8Wfb3hUCcb28eNYP+zfTs/2jbSg+vyFjg=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/FileType.class
+SHA-256-Digest: ISp/3VdzPgkgxh9GvJYTqwr8Y7iYMyFTWD+yliTpxeI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ObjectFactory.c
+ lass
+SHA-256-Digest: S47t5Eq5+RK3FB1m6ULhpVr1JOwFiSkF9PPyt1UWlgU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultServiceResourc
+ eRecordType.class
+SHA-256-Digest: 43qkse7P6Pq9pIscnd+cn0xur/iBBoQCPDc9a/xbN58=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcStorageProfileType.cla
+ ss
+SHA-256-Digest: 9dy1c17FP0GXs9TTzB6AdBuLIeKeFvoNaWvB9AHkwIQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultCellRecordType
+ .class
+SHA-256-Digest: lX6Nt7CSkGwQoFh1G9SqvnGpxqRgoxrkxmSNKjhBLGA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SmtpServerSettingsType.cl
+ ass
+SHA-256-Digest: eCWius30TJX8YGGOBCp4J1elkKoVDBWQQIErlS6+lI0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/ExtraConfigType.cla
+ ss
+SHA-256-Digest: b8SLA/m8YEtvCTHXwCGehnIjBbXm5Imw/NJ7pOgWVT4=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Configuration.class
+SHA-256-Digest: I3mb/OpO2NWeLAikdh+SihSRGM7bVSHFZyO3P6BYiWw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportVmParamsT
+ ype.class
+SHA-256-Digest: xjTfizdmAlKxVWUfuUeX+2oF5HsgUGbJLtm5QkLjVCI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultGatewayUplinks
+ RecordType.class
+SHA-256-Digest: jxhWxb0JYob1Xn8q+m+M8kAEJ01KWHncscnXl4jMqPw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LocalityParamsType.class
+SHA-256-Digest: 4fzgGNhdbbT3/CUc1AWhTcKa8Nb0fo1w2EZAi6nMsZU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TimeType.class
+SHA-256-Digest: ENAtS4Dc2R1vJ0gfhvrG4Yij/K20E/Hi6TMYLLiYYmc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RoleReferencesType.class
+SHA-256-Digest: 4yMj7VsNhmZeHvGwdOB8trqrO3WFgvXKsxHe1RvHb1g=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ContentType.class
+SHA-256-Digest: PjnQHmNvQawGkMCxM8oKBxJcQv/EFO7eIy1VqYcEMHM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgAssociationType.class
+SHA-256-Digest: tmo3uf06uZ7yI3fkwvkQVHpNTxTh5eHIpFbyjRsT+Hw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FirewallServiceType.class
+SHA-256-Digest: P999+X5o799x4o8jt60tidsl7nI0cNUokeEeNdnzTjo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SiteType.class
+SHA-256-Digest: Xb3Vz+cgrIwOk3x1Rcc+hYijNb30c4BxFHh+UrGhkXw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VsToVmxMapEntry.class
+SHA-256-Digest: 31DC0rqQo66Tp+H1fxXOSvyc4QBge/2xf+pFkaKyQ14=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EdgeGatewayFormFactorType
+ .class
+SHA-256-Digest: 4kQjDvr+wP0skO68t1ytM+azswhnrCLIfT8RvvxfmJE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskType.class
+SHA-256-Digest: M2NcMGS7bwvL5wXhO/WYkW+GaHIofYWVBhw3Z8c97fE=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$Uri$MultiSite
+ .class
+SHA-256-Digest: MwQb4GuN7CRubfjRII1Q7UrrSsSsC3gQOlvzJbuSDTM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultSiteAssociatio
+ nRecordType.class
+SHA-256-Digest: c+5c5Ti9V5xx0HHngbVMKzl84a5usqUAFYecl8678c8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultProviderVdcSto
+ rageProfileRecordType.class
+SHA-256-Digest: YcS7hhqA5eEJ3V8PSKidm9+oOor2Ceu5ZAZMcU7MmuI=
+
+Name: etc/1.5/schemas/vcloud/disk.xsd
+SHA-256-Digest: 97MbjfgqH26Mzjp3+OSJHg6Th1oYT4+Dg1v/K75mTA8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FromCloudTunnelType.class
+SHA-256-Digest: 6vV6cbsWJWnH0RDa9UJl/9sLuteTQBg+gDs22+BsCn8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppNetworkType.class
+SHA-256-Digest: dS56+BB2z+5bpFgUXPVrjPkwPYt/qnZzyN4ME6GhAA8=
+
+Name: etc/schemas/external/ovf1.1/common.xsd
+SHA-256-Digest: +N3bJoYzXPgg1Ur1IlnTumcFHGNY2EMzpfPzEx6sK8I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmAffinityRulesType.class
+SHA-256-Digest: kVLg5g3XD04AkursmlqPOZr+w8bVC1n0TPiNP4dK3f4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWStorageProfi
+ leType.class
+SHA-256-Digest: BzfdJqOlVz64LTMagYtBqeXuHl2qDim5NhV9rZ9KX4k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OpenIdProviderConfigurati
+ onType.class
+SHA-256-Digest: fYRmsWvOgJLs9G6ldhXmhtS9WV5Yqv+VoOunMJHIgio=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AvailableNetworksType.cla
+ ss
+SHA-256-Digest: 128boMCAbCk1Pv8Ik2BtyUhcBDTCwASURujAKnmOg6A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskMoveParamsType.class
+SHA-256-Digest: zTxeTAMSknmygGh5YAZOoRleAT3bwmmRtuFGhkbAsKc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrganizationReferencesTyp
+ e.class
+SHA-256-Digest: bYpHjV2xyfw79Kk5FNZEJXJMBuccXNwm4yrQZ5CN1cs=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualDiskDescType.class
+SHA-256-Digest: sUrHCvBDVBwZN/OiMbiMhc7HZ84lRg60ag+iEwyr3l8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayNatRuleType.class
+SHA-256-Digest: kFaeDWMtGWVXNoZg4DDTvG/SOd/oxw4JmHGABFEujYc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimReference.class
+SHA-256-Digest: vaoQn0OJRkxtq5MCQJ21zo7nIODkg3/833bK6sDfG7U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PhasesType.class
+SHA-256-Digest: MwmUhOpzPI6YunwPbVwUVquYFq9DGyCvk5reIQbgOCI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminFileDescr
+ iptorRecordType.class
+SHA-256-Digest: m00Y7ZhJi0vArvDbfynwRsY8klpWZigffxT5iVLd2+U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgOperationLimitsSetting
+ sType.class
+SHA-256-Digest: D3Y8flvliGw+Wxuh0do+ZQRCX1XKw/RqXH25l5sGetU=
+
+Name: com/vmware/vcloud/api/rest/schema/versioning/SupportedVersionsTy
+ pe.class
+SHA-256-Digest: R1zXcNBNY0HYiMBKQTsA6nM1QIg7K8wcQCFGpORYQzg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultRoleRecordType
+ .class
+SHA-256-Digest: HIO0EtED7v7mG9YM8Kdd6S0RhP/XRN5OTHdskmPLu6w=
+
+Name: etc/1.5/schemas/vcloud/organizationList.xsd
+SHA-256-Digest: QvcV4MBxOER19Qtuc4e1L7V6JfO9zTDeUL5mE4FbbyY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ObjectFactory.class
+SHA-256-Digest: 9z48aTFLgoMc69BXj9Jy2bGtjAf24pDswLmRSDZc2S8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceAllocationSectionT
+ ype.class
+SHA-256-Digest: ppBww2NpHEhGlj5kIoOfNG74/CGalbZi147XxEAgyrE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataDateTimeValue.cla
+ ss
+SHA-256-Digest: Se15BT4BQUjlK0E9z9hlM/AONF/B7A/7c3y2egT3gjo=
+
+Name: etc/1.5/schemas/vcloud/resourceEntity.xsd
+SHA-256-Digest: ddMdnrSsQPfvzpOfgtdKp7loqWXbInTBoFDKSECZBo8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgVdcRecordTy
+ pe.class
+SHA-256-Digest: XKTUqICGfWGQZ5NF6Pse+ip2EdUNDpzIB5ZPOP5rsgg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpScopesType.class
+SHA-256-Digest: VniraXQNXmRgUGAvfYdniEkGDXjqy36Pxk0bZalkoMY=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/DeploymentOptionSectionCon
+ figuration.class
+SHA-256-Digest: HdOEuw061uCxLXpNF/YfaQS/xV6lqDDRBlCOhtcKwfA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultCatalogItemRec
+ ordType.class
+SHA-256-Digest: 6s++zFePW8m470+RcBOxnaE1BtEwrFcxQM8K20a+6A0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminEventCBMR
+ ecordType.class
+SHA-256-Digest: 4BnHB+85FwnjYyXQ2aOujE0EVHLgQDMdn8McQ7rn8LU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SspiKeytabUpdateParamsTyp
+ e.class
+SHA-256-Digest: jLi8IKLyFSXn7xKuQpb6oC10YxTLMKJzTlvLPHuz1Is=
+
+Name: etc/schemas/external/ovf1.1/CIM_VirtualSystemSettingData.xsd
+SHA-256-Digest: fh4pr5xl5rpj7xbw6FvxX1n1BVZ4MUjgCy+fftUKSqM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VirtualHardwareVersionTyp
+ e.class
+SHA-256-Digest: q3pavyIkFQo8pOXI5+3eLYxMwpb6W4kjf/fsxb0Fh50=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWStorageProfi
+ lesType.class
+SHA-256-Digest: LEY6QxvkN14LNBZ6aY1aGGRoid5sy6Fnz7172ZVuAoA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgsType.class
+SHA-256-Digest: 26xMvF3YVNzWUJMQPeapnKrLodqj4DKOsso1atURawY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVMRecordType.c
+ lass
+SHA-256-Digest: PGfKuQG4XmAZgW7ivaR4sxcBQABNsm6u1K33c5hx0t4=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/SectionType.cl
+ ass
+SHA-256-Digest: wZbdyG4GpdMPyfJpT4IBbhierYKyGBhBe7vw4hjyWO8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VMWareTools.class
+SHA-256-Digest: 4zuImGg+LVKwiQgqo8OhGTerfbz9LOcErulxpggwkBk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SiteAssociationType.class
+SHA-256-Digest: +RFkLHjdXlx47ZmqdlPmBKtywuZgAUafhoind/iOoFY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DefaultHardDiskAdapterTyp
+ eType.class
+SHA-256-Digest: PsJT5EFCIetfSAvzeXayLNbd8UGW2sB4sFZs1sh1KFw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskSharingType.class
+SHA-256-Digest: 4JXJBhW0wSD2zB9QwFbDynHEQqbRdV5rfgdovYrDGMU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultLicensingRepor
+ tSampleRecordType.class
+SHA-256-Digest: 4wJ61l/RyqdE1xnLrr++O15Dfxsj9Rq+X2KnocAgo1M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataDomainTagType.cla
+ ss
+SHA-256-Digest: 6IKH3f+sCsnatHuLy4/CDIP79qYjehooLhLMB0pcs0s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminServiceTyp
+ e.class
+SHA-256-Digest: rnMD1Cf3C6NGHe2j1hw5SRgwdrSJ5J8sF9sbJBtbvP8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReferenceType.class
+SHA-256-Digest: KJJVmDY8Rb2mgZHUoIqyMKP+NlcCJC2XsS191puUvwI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcsType.class
+SHA-256-Digest: QIXDSYI7zJM5faiN9qbSMpoCNRKtg/QQ8HZe6EqKQ9U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplateS
+ pecificationType.class
+SHA-256-Digest: gOyqs2CAkUaUeZdgqSWT5qdh/2fnuBPWI4/jQON0iV8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/StringsType.class
+SHA-256-Digest: PXcK/sqctHrqgC5Dls8HntEentku7Sw8z3VMcEqqDZ4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ApiDefinitionType.class
+SHA-256-Digest: HfAQoIWWfktRi6UTPcN37xPquYHoS2UKe4QD8x676XE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComplianceResultType.clas
+ s
+SHA-256-Digest: FdV/E4ykKpVhefEFhUADwSmVDycntJXHgIS184f9hwM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LeaseSettingsSectionType.
+ class
+SHA-256-Digest: 5zgEvni6l4WzVMtrsq+Z0IlVXFDe+WYs5l/tLH0sOCo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ObjectExtension
+ Type.class
+SHA-256-Digest: 367haI4vjsspta8ewFwOTYuEnGgFddm2qc/Izm8BvqY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RouterInfoType.class
+SHA-256-Digest: QsV2SOEmUUWQJg8+i7OhOG9OofsVST4hXdWGlLzOh4E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnSubnetType.class
+SHA-256-Digest: fxoixQAzdYNgV+5DxJ2EJZvOSarioWkNvlhUWZwSY9I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RightType.class
+SHA-256-Digest: AbiHQxO1vMGeIefYiK0QPcgrbC7NXktvEWqF13aYyfo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplates
+ Type.class
+SHA-256-Digest: UCjGWI8w5BU8041DVEaUIkvw/o4u0CtRQfChub1DApo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayType.class
+SHA-256-Digest: TAHjziR+9iv122Ua5bgekgVr7V819lb+0SuOsB4GYyA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultPortgroupRecor
+ dType.class
+SHA-256-Digest: 2w/T/fCwzusEHqI8vU1zmXzdB9A+isGeX04/ySv2X9k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultType.class
+SHA-256-Digest: hT26I0mFTVGy6coWYk4y49AVzXa7ylrLmAQVmKrW15s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NicIpEntry.class
+SHA-256-Digest: QE1sZO9lH01E2oCBBg+OBSK/FAdPKDVQZ0EA7DDTnbI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RuntimeInfoSectionType.cl
+ ass
+SHA-256-Digest: g1r43MzHhds0dVWZFEfBBYF6pdk3G3IZ8A3WfhyCyfQ=
+
+Name: com/vmware/vcloud/api/rest/constants/RelationType.class
+SHA-256-Digest: yJWhe035ILR5ag5LNc1rumiGvnO85ZBuqW6ebsFyNHM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcS
+ torageProfileType.class
+SHA-256-Digest: u7xnxjnkKiorrQALDoJRLE/H4Hf6kNAUAPB27lHdxeA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TunnelingApplicationType.
+ class
+SHA-256-Digest: aKc/PCmrzUsU/OMGV3VdDMcQhV4N8IMIc7dpyLqhygk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ScreenTicketType.class
+SHA-256-Digest: FenP0LU9XnJAZl1RFqy2zX/yZHQJB7kLA+C80GuG/8I=
+
+Name: com/vmware/vcloud/api/rest/constants/ExtensionConstants$Uri.clas
+ s
+SHA-256-Digest: 16GQWxmUvsIFkJTTykUglQ1rqy7O6mQAF4s0I8t5lfE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVmTemplatePara
+ msType.class
+SHA-256-Digest: Hk2iQqbGwj2bRzMDfCINtJV/g66VtOQpVo0aWx8BNio=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayIpsecVpnServiceTyp
+ e.class
+SHA-256-Digest: aPoN/VHRX+VpxanomvTf0Xv3SfsSYf7oVvP4vhduDSs=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimByte.class
+SHA-256-Digest: M1QGXtAySN4eFTZr+eHqWiaYrJaWihVEXNq7FX0jC/M=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$TokenConstant
+ s.class
+SHA-256-Digest: JSXCk8EnU40/lxzSgd+TKPMHYJbDmoo8N4BK+4rWlJI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateOvfPropertyTyp
+ e.class
+SHA-256-Digest: rMmSiJQFTpEMosp9t70PHusOt58+bZrPEyRvIX4IAL8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicenseType.cla
+ ss
+SHA-256-Digest: WbuHNv7dJNXxOPmaq4b7ROXvvgeL2ECum5fCNUzogsg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ToCloudTunnelCreateParams
+ Type.class
+SHA-256-Digest: PH+rClIwSsD9u09Oc4b7UMXqziodOye1VR2Il439Tjs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgAssociationsType.class
+SHA-256-Digest: 6edVXqr+RdHCrRagANmjjeLwPekhyACxuSFyRd0L9S8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcTemplateSpecificationG
+ atewayConfigurationType.class
+SHA-256-Digest: ajq2y2uAlFAzD2ruXNK0++n9RCsCXJheVn436TaLNTg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminEventReco
+ rdType.class
+SHA-256-Digest: gqVbC+JDPRNE1SKJd6A1VLn+6oBcYzFB8EjIw07bV18=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgLdapSettingsType.class
+SHA-256-Digest: fPQStT5GB1+z7FRdoCx5BUn/HjbyW9/HS759ddNrW+Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EdgeGatewayType.class
+SHA-256-Digest: RI7nWsQaG3fia16HjzBLODXwO+dSXAHHIFKFdF5ZqxM=
+
+Name: com/vmware/vcloud/api/rest/constants/RestAdminConstants$ActionUr
+ i.class
+SHA-256-Digest: ET4YjCFKC23qQ12xjTumoUj9hm4TzHwWnH3jU7TD27s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FileDescriptorType.class
+SHA-256-Digest: QV3evOtOXPY0WvISbSNlQwW4lZHl4gGLjLrXFOdtbLQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultNetworkPoolRec
+ ordType.class
+SHA-256-Digest: E37oqXamFMKJke+oWz4QnmxeB2gUSI+w0s+UhFosAy8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultRightRecordTyp
+ e.class
+SHA-256-Digest: cJ0HbrdwLQ0R4gBqSI0u2IgTdPUjCwenU63ZbhsSELI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VirtualCpuTypeType.class
+SHA-256-Digest: gLbx2cLcsu60CxRq2Fp0QZrJnJY5rNvb/n38+CDvCNM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppType.class
+SHA-256-Digest: YZRej6PPzP4pbMjBXNw6JM0hdl2TfLlfCLqzybP1klo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskRequestBaseType.class
+SHA-256-Digest: xZYCOL9gyteHQDbVRfbU1HfF5cgj4PIMpMw1HY8tW3Y=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourceClassAc
+ tionsType.class
+SHA-256-Digest: y5Ivbi/dITITxU0P5xhJw3clB9gBrRj6C6W65EZLo60=
+
+Name: etc/1.5/schemas/master/master.xsd
+SHA-256-Digest: cylLL0qCwIv4d1Ak5oquDDE34vf6kD9agA7Msg2ktUo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVmHostAffini
+ tyRulesType.class
+SHA-256-Digest: l8N9qotmVyDtAlkuf0MM//N5PZQ2fK/oNJE8/DMQVlw=
+
+Name: etc/1.5/schemas/vcloud/vms.xsd
+SHA-256-Digest: pdmAw6Kfg4D539Yr3d18igyzaVKVSYZdPu6bKSYYF+o=
+
+Name: etc/schemas/versioning/versions_v15.xjb
+SHA-256-Digest: KTpPY8HNgBgvL0LwfO9iQ+N5B3/P2Rp/K9Tm5w4S/jQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVAppRecor
+ dType.class
+SHA-256-Digest: /Ez++RxZieJskClT8v+oCgbe4w+01FiNgiMEFc7PZFc=
+
+Name: etc/1.5/schemas/admin/providerVdc.xsd
+SHA-256-Digest: 4xI7aAj/FnkrOmoWWRWjkRdQWvudv77E51Pn7nGLzOE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplateL
+ istType.class
+SHA-256-Digest: 9Cv6sskiL+rX62uJCZxmc0rcsw85kwU4tfvY323AiwY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LBPoolMemberType.class
+SHA-256-Digest: r1u9+f4L+a/6F+XclKWyRmmhGyV1l/JyrLkDLjsL1hg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppTemplateType.class
+SHA-256-Digest: e2a7rQ01DTKCGy4WXf7Z5+ZGBGK0625jFvV/mIelmb4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/RightRefsType.c
+ lass
+SHA-256-Digest: /MyBMLTZSgbgxq8UlNVCskQ6a1YmWKpv+Hh8m2RxGX4=
+
+Name: etc/schemas/versioning/versions.xsd
+SHA-256-Digest: g4xnqg0fAMn4Y8m2/T31DFd+vLrZ1/J8xqZiFfI5opA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/OperationLimits
+ SettingsType.class
+SHA-256-Digest: nIFjnHQjoyPdDyzXJYAHO4DB39NNHfQmimBhsM/PXAY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MultisiteType.class
+SHA-256-Digest: erNsXLf02mYDWg4pMDVN5z0VNNopg9+KrVDVcFP8Tz4=
+
+Name: etc/1.5/schemas/vcloud/entity.xsd
+SHA-256-Digest: 2Rao4F7oP3WDUTiXWUC0rxGvmd2y/gVFazlcSwAxpCU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/IpAssignmentSection
+ Type.class
+SHA-256-Digest: 2rwXPLMWUz+tv2TEFPa6UyWlPIufAc3T9jWGLaGDvC4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicensingReport
+ SampleType.class
+SHA-256-Digest: 9VJZJhVE6qQd+mhKoY5DKYDgJG1ciLNuotiyyxbxopA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CatalogItemsType.class
+SHA-256-Digest: GlY3GX5kdyDUypE6hf+qtMHse3uc3AXiM5D/qVnA8/4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/package-info.cl
+ ass
+SHA-256-Digest: YA7zzkn/xT197VEYA+xCSDQqGhTMtuehR2JslmrtQ5c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgVdcStorageP
+ rofileRecordType.class
+SHA-256-Digest: RXW1vNQMD6jB0o6NSEtNcJlKFcOLvOuuH77CAJmUWgY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/EntityReference
+ sType.class
+SHA-256-Digest: gjiWIfc0r+xNZ9gYTeQFq0qiHdKuPRn6SlM6Chhe8Mc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultNsxTManagerRec
+ ordType.class
+SHA-256-Digest: Q2oDe9zR+UKxyCzK5mvMS232ELc9sOhcClWJZu0+TRg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VCloudExtensibleType.clas
+ s
+SHA-256-Digest: Bk5D9XZqwsANYh67WYqODlGnVhpaYFCEAWmoAlSpw7Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/NotificationTyp
+ e.class
+SHA-256-Digest: +5nmD6+GOvWhMH7CJASZv4lZkdClm4ekEz2mgOtoJcA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkServiceType.class
+SHA-256-Digest: eozLfpFjhgrG9zdz0TffijJ0s8ZJJiaJ2nBHJqGTQJI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SourcedVmInstantiationPar
+ amsType.class
+SHA-256-Digest: urgp/+c2aw9aNBYo6Gi+CYtXmcIF8w8ddVXgkXJor7c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VdcTemplateNetw
+ orkBackingType.class
+SHA-256-Digest: X23wYINlvGTtBTj/F4k7cgU42OLe+B4IxzWvqhenksk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ServiceType.class
+SHA-256-Digest: uFuoBxqk5STAioWkjzGyDQXcwtQfMUMT2bEpd5jGqVE=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants.class
+SHA-256-Digest: EZ4yQ8ZywBLsA8Z0xcY45ZQWi0buD4XKxsHeEnP5wyw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVAppParamsType
+ .class
+SHA-256-Digest: e69H5mik2RBaVbC4TKKxvhGrl6tXAe5RJz4CiBtC5bw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ToCloudTunnelType.class
+SHA-256-Digest: YZdibGsdqw2gYiRrrueG0+XsLXKkKyD/O9CLhvF6T54=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourcePoolLis
+ tType.class
+SHA-256-Digest: yTFoWeKgoCmNcKo4nW2wzrPRUB84aqK2nNAqQ8aja/I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaTypeType.class
+SHA-256-Digest: IzsVPBRYbcriKPkOWVpUeRwcsOOqi8BVEjvp7hTkYjU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdapterNameType.class
+SHA-256-Digest: oovNod3qRbCBKW66blkJKZemPW6oKAdJBUgLURKBnLw=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/PropertyConfigurationValue
+ Type.class
+SHA-256-Digest: N7i7+vjd+DwkuXlFq7zUpNo8EBmUDTtZ9bIOwNu9qCY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/StrandedItemVim
+ ObjectType.class
+SHA-256-Digest: tvm2vGJfJ/ppYmOqdt/gQ5Ofo/wE9GkMZXin+l/g2sQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TenantSyslogServerSetting
+ sType.class
+SHA-256-Digest: eO/fVHS5ZAzCcN2y6g2/go/L2bqksekt9XthoYzKt3Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAllocatedExter
+ nalAddressRecordType.class
+SHA-256-Digest: kYb8UpYdah4fKeOBMlkXdZaeNLCJIp3VmhjpTSxLD/M=
+
+Name: etc/1.5/schemas/vcloud/ovf.xjb
+SHA-256-Digest: 0WtM/90reurpBx0BWKc5IZJheq5NkKK8WBxdzcze7aY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWNamedVmGroup
+ Type.class
+SHA-256-Digest: ITEDSGEeYgJAAzWSYo1Zd8OYhiZWVZkZBuRwQqRfId0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SourcedCompositionItemPar
+ amType.class
+SHA-256-Digest: bZl3ot3R+BPb+E7ZLKnGDelV/FrHTSJdqwUVOvXmsfo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/StaticRouteType.class
+SHA-256-Digest: K52GIgPRbwy9wWXiYQkcRejoBgxZDFknzpjIoQaJfvc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmCapabilitiesType.class
+SHA-256-Digest: Pd64jxGllfOjuyZE3dlZxJyRwtBgdFguXJ8ZOc7mfLg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CatalogsListType.class
+SHA-256-Digest: ocqu4IHtqMKuxBcNdAxQxvRILMFmY+p/N05Uf9vFi/8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultBlockingTaskRe
+ cordType.class
+SHA-256-Digest: SfZk9HJqy7nZCuJESHtFx6dNKZfB+h/hAewlmIsep6E=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimDateTime.class
+SHA-256-Digest: 5yAef3CEkOL2Xo9ytJnpdwyW6r6egGu06A0TyZhWmCY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ManagedServerMe
+ trics.class
+SHA-256-Digest: zN/OUBDUZCLZwLLnlZpTJN1eiHR/S8Nuel2c0U1+eOk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ServiceResource
+ sType.class
+SHA-256-Digest: b2kKAuq6Uhk3GF3EB8GtieTorP99YJDy0fcLu+Ardfc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BrandingSetting
+ sType.class
+SHA-256-Digest: VfIriBa9DJL9Vyx7oF5Z0gDCCKZcD7FZl8QBeohC9Jk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LdapSettingsTyp
+ e.class
+SHA-256-Digest: ZZ7A1zJclAEb1w2j+GTBKD17rjLTsK6ol/4sHt3Mk3s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RelativeTimeType.class
+SHA-256-Digest: DTU8Pw1++doPcGT1XSJ2DQEHJDN4YzlbjcA4fzzn7n4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgNetworkType.class
+SHA-256-Digest: S+NCR6U7zAWbD+Myj/zjqu9hnAQTZr3dXnQnp5hIISY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/PrepareHostPara
+ msType.class
+SHA-256-Digest: d1vqGD9cUrQKfyPgsafw7fPX+m7UfI8LUyz+LjFdwg8=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$Uri$Metrics.c
+ lass
+SHA-256-Digest: bZd26GbL1R2evyMKXflk/Wo5rUzfAlr3/SWx2JdF5Gg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SspiKeytabUploadSocketTyp
+ e.class
+SHA-256-Digest: tp3FLKl4eX4qt649KNDLURqIKgA5NsbZQJzdOKeuAX0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/PropertySectio
+ nType.class
+SHA-256-Digest: gaa0/DHS1UbUTj3Jk6aLqJYhE42Gco6wXwqqNsxa4DM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultExternalLocali
+ zationRecordType.class
+SHA-256-Digest: JfDhYpAoATNe43KYZt5Fht2T46HhZY/38DXwiPn/4Ag=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatVmRuleType.class
+SHA-256-Digest: XZxTKJ1H84QEoAtZZ2OeeDCAYE1okqnB7+uaKE9ypXQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VimObjectRefType.class
+SHA-256-Digest: yBVoBl6yC7HTfKKalIjTgXua0okxv7H835eTpPteU6I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultLicensingManag
+ edServerRecordType.class
+SHA-256-Digest: NC/MHcbYZTqBKxTU5t/FVdBGfOk4UbukKZXpxEbddJc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVmDiskRelation
+ RecordType.class
+SHA-256-Digest: uFabUy79IoV8fU9ViR0UNy2W/+JLBXroI2u/tlVbUPw=
+
+Name: com/vmware/vcloud/api/rest/deser/schema/ovf/environment/SectionT
+ ypeJaxbDeserializer.class
+SHA-256-Digest: +fJoNNb7PZIX2KbMdyf0DQ4+DatVRfiZwXeoGJU5usk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/EnvironmentTyp
+ e.class
+SHA-256-Digest: FRNO4BuyNObAXA1htb+6+1rqaBXD7txj1CyZP+WCM9Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ServiceResource
+ Type.class
+SHA-256-Digest: dxDLaFO5YtWYiKK4wdfXZ4/Guf/nKCX+RptADYtyUuM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceAllocationCaptionT
+ ype.class
+SHA-256-Digest: WnVvR+XaKrHhMYPwvGkZSuyCukGwqn08j8zvjhvD/Ds=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$ApiVersionAtt
+ ributes.class
+SHA-256-Digest: NVWh7TGvkPnvOL0GkwyZ2tKNIriUfvlK67kQky3qayk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportMediaPara
+ msType.class
+SHA-256-Digest: rIgBmylOoIekoVYX2Ny4+JLutABIw2C8bO2/WYJU4hg=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/Level.class
+SHA-256-Digest: Dh7i6mjLawCuDbDkxF/nCAFxHMMKKQ6rljhrDdu5DyY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWAllocationVa
+ ppVdcTemplateSpecificationType.class
+SHA-256-Digest: WQhehUOd386+eMDCPA5FA6TaKvWODimhKxolVnuEwjM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PropertyType.class
+SHA-256-Digest: iE/GvgcnKyhEu0JdRFShKAVN6M9HCNVLjbLnmxTHTyE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppCreationParamsType.cl
+ ass
+SHA-256-Digest: d/rf/Tzk3QqVPoSLCUnOnq/2VF9PL9QktlCWr8cL/yw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultResourceClassR
+ ecordType.class
+SHA-256-Digest: CEwVDMVXAnhURR+zZX0zgRAAbTIIENiGE9rzaAKjuMQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiationParamsType.c
+ lass
+SHA-256-Digest: dTcfb+X6yO8q0/LF8VsXlOblQ5y9Pbjg+2MVGNQ4WNs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminDiskRecor
+ dType.class
+SHA-256-Digest: NBTNLWfxjotetVHPIQk7/Ghp/qTgojdaFvZ15S3uCec=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AccessSettingsType.class
+SHA-256-Digest: kLGiEVIQYIVtmo1vUbVq4v0cTeCoH4qYWH+2EKcgIcY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RemoteUriProbeResultStatu
+ s.class
+SHA-256-Digest: u0klJRmYiIxhwrEsBMJ0Hxy3GPriEsPYs1lj4p/i7gA=
+
+Name: etc/1.5/schemas/admin/admin.xsd
+SHA-256-Digest: ShaYoBUU5VV32RDo5gZIIvBzMW6IxnMq2Jt0rs1+n4M=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/QualifierSArray.class
+SHA-256-Digest: 43a7PzPSfLjG55Z8asOii21aYs2BRY/I3mUafDqSULI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResourceType.class
+SHA-256-Digest: pGQMjPVVGXuzk8kCahlNj8kB+XLsv7FMFx75TAgVFzE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmFailoverParamsType.clas
+ s
+SHA-256-Digest: smdxKCgNxrvQFlb2kwFKrC3e7tHDIo3sbk1TFYY96nI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RangesType.class
+SHA-256-Digest: lpaJnsfmolD3vfDwdB14AVRlGK1N4RDiQqmggvvY4EY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminUserRecor
+ dType.class
+SHA-256-Digest: g0UcsZCHRt0qYiMZaCnXu2m0GMyKw8J2K2HdNZm5VuE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminGroupReco
+ rdType.class
+SHA-256-Digest: PY5l3zIAHw3vQ4966J4b0/ajDrKVfO+iCOKViRblZBQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/package-info.class
+SHA-256-Digest: 4rzkvfk9rAykaRSHG1LbY29QrUGFaPo5Yj3kYMdb8DY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/BusUnitNumberType.class
+SHA-256-Digest: vPfX7ow6PX4HOf5nK6rSkesQjyzknKZLN41SKHMRPOo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultResourcePoolVM
+ RecordType.class
+SHA-256-Digest: Kh6afvQG2IJsQCmpulnc8jaFpQyLsc+SDn5Qs3eJamM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/RealmType.class
+SHA-256-Digest: ux6+StL48/b11drYBuxgLk1vjoUXSKpd+X7ZMj7TeW0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgGuestPersonalizationSe
+ ttingsType.class
+SHA-256-Digest: KcDChZg2TgEnYDdz9MCqrK3HVBmch0g2X+vaa5LBIj8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/StartupSectionItem.class
+SHA-256-Digest: cXc+AIHY03pHuZ6yyN84GAcZPplvQRa9jOao/0RtgeA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaSectionType.class
+SHA-256-Digest: lREz7232teQXIAEIHdtNCRyNMmdaE38QcM8JNQ5nnuY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/UndeployVAppParamsType.cl
+ ass
+SHA-256-Digest: LL2pZ9GHc5/Gy46nSr4kafVEvlDjrrUb+rEhLAtJ82A=
+
+Name: com/vmware/vcloud/api/rest/constants/XmlJsonTypeMatcher.class
+SHA-256-Digest: xbzntqhIfsnGL0xVC2ZPMbEeSVifMD/TRxh6UHb88Yc=
+
+Name: etc/1.5/schemas/vcloud/multiSite.xsd
+SHA-256-Digest: 54FkyWUEg+aTQyhQLajH+uVsMRqs0cNGjQmcYFkgs4Q=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ProductSectionType.class
+SHA-256-Digest: 9rZjcnESe/SXPhG82/NxMyt8VtUS/1SVhVINzXilVNo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkConfigSectionType.
+ class
+SHA-256-Digest: bwbV+dLTVZwtA1TPjgKDxVhh0E8SwCHrNtjlmD/XuXo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ParamsType.class
+SHA-256-Digest: P0KVOyLVJkfQPtxOV3OR3TSmogi3DmIbapdWaaJgUls=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgPasswordPolicySettings
+ Type.class
+SHA-256-Digest: QIBF6S9rRtBLmvR0Xjlc+ZGjS9Ki9g6pTOLvvuCxz7g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminApiDefinit
+ ionsType.class
+SHA-256-Digest: fFGNxTcKskYg2kxWYvWfu2f37S0GIxNOSNOI/IxkWho=
+
+Name: etc/schemas/external/ovf1.1/dsp8023_1.1.0.xsd
+SHA-256-Digest: TipnUXybyTJ7Gt/uWOyaCbgvexzGWTmg5VwhIBcvq+U=
+
+Name: etc/1.5/schemas/vcloud/hybrid.xsd
+SHA-256-Digest: h34lYe6nHjjYIeMTJ2tcOG9mBHS137P7LZH2B5LCxpM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ExternalNatIpEntry.class
+SHA-256-Digest: 5aOFUnCPfriRAtRaveNco48/SpieGUbyn6N9WMqZrBM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LBPersistenceType.class
+SHA-256-Digest: BYr+KJW6eQ/0CUtVg6twW0YzGzQJ9LFkeGnv7vA3mJE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/UserType.class
+SHA-256-Digest: MrKkyuqh9U6oEmFfnlsd8MEEGh3nx2yLsjxZsRR42iU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GuestCustomizationStatusS
+ ectionType.class
+SHA-256-Digest: qPbB1ReMYEheWYoEZyDGVcJpfuR6T7c8ofwiaMlGxLI=
+
+Name: com/vmware/vcloud/api/rest/schema/versioning/package-info.class
+SHA-256-Digest: aTDvdR+CIbmrU9EY3bCMWichf8MPkgNoJBIL3DXpvIU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/QualifierSInt64.class
+SHA-256-Digest: nQlfa1ACObk9d/xFZGV3uV5+UiCyyHnJOMsbitX9M0Q=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimUnsignedInt.class
+SHA-256-Digest: od9aKH31o1Jxgj+9iE59ZF7WUgvqiHsKMzWGyJ6MGeA=
+
+Name: com/vmware/vcloud/api/rest/constants/VCloudMediaTypes.class
+SHA-256-Digest: jOKZ+0qViNsrvQrnt1Ll16ahYF05dkCpITdeHcaXXeg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ProviderVdcMerg
+ eParamsType.class
+SHA-256-Digest: gfCLpfyGJbpQ4mxuqE+rDNv6BENxAlM4dm6yYuv8PeI=
+
+Name: etc/1.5/schemas/extension/objectExtensibility.xsd
+SHA-256-Digest: ijnCC2Uqzrk0ztoyb3bI7/Lzj87ulZRRIKmliRwBCws=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SupportedHardwareVersionB
+ aseType.class
+SHA-256-Digest: tEqNuiu1GnSki1Cq07kpdI+RAruS67ZlCNLTjFl95vs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/UsersListType.class
+SHA-256-Digest: Wpb8hXRzlxxAhagUmwfjkBzO4fm5b3BFqsJVpUecxio=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayInterfaceType.clas
+ s
+SHA-256-Digest: eXZwkOPLnZccDAJJLKT8d3Gj9MlRu/AOTBVBeuF9I5Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VcTrustStoreUpl
+ oadSocketType.class
+SHA-256-Digest: iDSl/ZL16ec4+Zhm1Gr3m3KNaEnt+eFm2TuR667G2F0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/Disk.class
+SHA-256-Digest: nk7CFw8EtK4//J9QHzDl5BKgggfEiKYvVqvRjfJo8JA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcStorageProfileParamsTy
+ pe.class
+SHA-256-Digest: MrpsEe60KKwWYoVmTfM4WbgAg+9GX6aN+nqBki9OEw0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/CatalogSettings
+ Type.class
+SHA-256-Digest: ZCj/bF/mc//z9Q0hmxYcFexQciHkkiItA1BF7Tjy16M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgVdcResource
+ PoolRelationRecordType.class
+SHA-256-Digest: shvj07ExxvIVDd1m237X8f/WNH3hIBuwyKEpgv//4x0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/HostObjectRefTy
+ pe.class
+SHA-256-Digest: 2nIjWmbAZu+8FJBmTfiZ/upbsx6EkS8869TTzVkJFVY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgOAuthSettingsType.clas
+ s
+SHA-256-Digest: Al3JaTjZKwAxRsXwju8TZq8ZRFJfG5/jWbNvCZDwv7E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskSettingsType.class
+SHA-256-Digest: 0PzVYfMgcerIlAZa2C7N5N0vQImeYzmXzI4snCGMN04=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$ActionUri.cla
+ ss
+SHA-256-Digest: 0mKbGTGfrPWJ+HqkLCtmGodj1DkJxaC51Y2rsueWc2o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskSectionType.class
+SHA-256-Digest: J52z/UQW4aKRQezJP+Y4BsL9v2YUkEJipB81ZGtWU8I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ExtensionServic
+ esType.class
+SHA-256-Digest: ErrlZIEoXgeHVzsKYAEEYHsVjsnnAISHHTdlVCxnBi8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HybridTicketType.class
+SHA-256-Digest: yc1AqhICrddpRjEbZaOoVL6p056tWhm8ZiAVyEehnMg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SourcedVmTemplateParamsTy
+ pe.class
+SHA-256-Digest: 4lauIA4IgkmFC/OjmBNXgRbkSX4FHolyx8vX2o69kbk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FromCloudTunnelListenerTy
+ pe.class
+SHA-256-Digest: 01rayiC2yXjYxTyquF7Mk34C/kEbLrqnYST879A1DYk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVdcRecord
+ Type.class
+SHA-256-Digest: l2gRBltu28F50bZpHN7KMHZLRaglnaIAFat1JJK7/7A=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimUnsignedByte.class
+SHA-256-Digest: KZ0NlMMF7BsIF+6a3x3EYtg9mX7Ns9XE98J8ACnTVDI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VmObjectRefsLis
+ tType.class
+SHA-256-Digest: XnTHOokKJvdLFfOHqbDF5e/D9hlTlpz35FSaGzHZTzY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWHostGroupsTy
+ pe.class
+SHA-256-Digest: brKexqINmgFDi8OhJm7ceYyJM2y3bIm8GrWkaYM/wng=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWNetworkPoolT
+ ype.class
+SHA-256-Digest: v5c2BpNydghW+VMyCvOpPERTt9SzOUuHyZJlyKYq8cw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultLicensingRepor
+ tRecordType.class
+SHA-256-Digest: E4GsVA4hjfjbPyuoxKNzZhZKPopjxXrvwezlCqI6TqE=
+
+Name: etc/1.5/schemas/vcloud/queryRecordView.xsd
+SHA-256-Digest: k0xnvH5nhX/OdbSuPdon5XGfI42xPehcmylVxVZXiko=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DhcpPoolServiceType.class
+SHA-256-Digest: Y3xmPp+Qj231z7b19VdpdIsdQIfWtVJjGsozjfGciKk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TimeUnitType.class
+SHA-256-Digest: O1r3HXIvtTxpkhYoo7k4V0tO+s3Fhssq16nAOS+q4K4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminCatalogRe
+ cordType.class
+SHA-256-Digest: wScubiKl/V0cIdqgPNyuVm6e1i4vx/xtdgntC4CdVyw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminFromCloudTunnelType.
+ class
+SHA-256-Digest: d70kQeO7LRPBQkj0/zavxE8grLSv/oPgphAMzOFB8LU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminVdcStorageProfileTyp
+ e.class
+SHA-256-Digest: IhuvkwgRucnm2BMl3lFu8HknaujxkJAjbxNmoU/UJJU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RequestOperationParamsTyp
+ e.class
+SHA-256-Digest: gZBEg/zP9+yJApD7Ys3ZODLubZa6QesaMRmmVVEhYJU=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/PhasesTypeJaxbDeser
+ ializer.class
+SHA-256-Digest: PSyLPqVLob+r3BgepG9cUN2jV69e3HPEsKbnrhTSrwY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnRemotePeerType.cl
+ ass
+SHA-256-Digest: gkFr070ftKIfexJSK8UDoDxcJTLCfus12vidCuTYTc0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcTemplatesType.class
+SHA-256-Digest: h8++8nI3LnqYQbb2zhT+iZ3R7ByIjTUiRzpJTZvDUXU=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/ReferenceTypeJaxbDe
+ serializer.class
+SHA-256-Digest: 6soKWdruEyY7k/R14IpwxwX4et0hP3fTX8CE369/F7E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWFlexVdcTempl
+ ateSpecificationType.class
+SHA-256-Digest: 7UfGe/S0RoVJXw/JocBVs44iJFLOmHHwzesDHK72zuY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ContainerType.class
+SHA-256-Digest: kfBVGALKt8uHoQnRUBzx2L10XwymzBiwmdw8zEgucrM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskCreateParamsType.clas
+ s
+SHA-256-Digest: GuiCf//IRBL94AnGgzglLZvhDiwJoT2HbpoycsYqKmQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultNetworkRecordT
+ ype.class
+SHA-256-Digest: A0otZ4Q+ndP+EO1vqgG0hyajpqKOrWV9Y3ljsfjE5MA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/DatastoresType.
+ class
+SHA-256-Digest: t0pftZfhJNjaLAKgldypbdCmJUmIE0OTP+6LKOziSM8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplateP
+ roviderVdcSpecificationType.class
+SHA-256-Digest: VB7SaKxEOD9eedFfLNqyb1TbHgMzpWCywjPy+1uLngo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RightReferencesType.class
+SHA-256-Digest: Q6oiTpiRALv6bE2Dq2dzUtP2Cj4/BFMC7pajl1zduP4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReferencesType.class
+SHA-256-Digest: W6ntj/S/P+pyI+p6x3VA1y1fZYUKo1U+7cnOhmJSjjA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComputePolicyType.class
+SHA-256-Digest: lJPEm+920hR2Ra2t6AHhZ0tgA5PWhJuYKuP4HmW4PAI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AmqpSettingsTes
+ tType.class
+SHA-256-Digest: vhsuMQPk1iSFMS4VwzpYZ6QDQpeFLQ2NbYC2tiEXJtY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SamlSPKeyAndCertificateCh
+ ainType.class
+SHA-256-Digest: iPSXtET3IquCxvydCGE24JTWTGOwqtNM7aWJjykMItg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VmObjectRefType
+ .class
+SHA-256-Digest: o2iJ7jfcUdQ+uhigp8BYDg1Ze7CW9Ieq9kO4SuDPLCo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/UpdateVdcStorageProfilesT
+ ype.class
+SHA-256-Digest: FOPyWCHl4qjDbrgLUmaizkyCaXLcGThtq0pANHMdtrs=
+
+Name: etc/1.5/schemas/vcloud/productSectionList.xsd
+SHA-256-Digest: PGUZFxZL1rrqgrVcAJQBWaRKop9PUKj2pY539khhVDI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SupportedOperatingSystems
+ InfoType.class
+SHA-256-Digest: ROENEzbEV48rQXrbVM6Oe/URoUY3pMIvLmMGX8NsMqk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminToCloudTunnelType.cl
+ ass
+SHA-256-Digest: rgxtjt1iSWOoOQ1/p6qm11+SCFgzzwuz8UCMNcuJrNo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourceClasses
+ Type.class
+SHA-256-Digest: 5W/bEjtmZVnIHnQoaHCXl3g1b7o4sUQxeLXXWONXXY8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VCloudExtensionType.class
+SHA-256-Digest: u0Ff7NTRILr570eSC41XVvhKWST7YYvcXUD894tyxm8=
+
+Name: etc/1.5/schemas/vcloud/queryReferenceView.xsd
+SHA-256-Digest: NvAAauXg1veivneLPE0V+6ftzOjNLfUB2CdkLc5LxOA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmType.class
+SHA-256-Digest: zgUOlHNr+k1nyZBS3sPcWwP/i9+/jK96W9jna8AdlYM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BlockingTaskUpd
+ ateProgressParamsType.class
+SHA-256-Digest: ejAJapdS0jpEr4gsloXxv3SRq7hrBooxPHm8XiFKy0w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BlockingTaskSet
+ tingsType.class
+SHA-256-Digest: 7uwEeNoS+g23PpEwwUWiXF2Xd6mCxxYQnh92/wQ9Vgs=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/NetworkSectionType.class
+SHA-256-Digest: yQreaRuzycnPrrz9cb4dGHDO+ueBJvh4bwBi+g6Saqw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComputePolicyComplianceTy
+ pe.class
+SHA-256-Digest: FhPR4A8akSU4dKtOCInVrlvFSDXJ2lfObRaS18aYfAA=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CIMVirtualSystemSettingDat
+ aType.class
+SHA-256-Digest: vZgimNq6jRQGN0fzrF3bwR8taIWh2k57cHj52gChUAU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcTemplateType.class
+SHA-256-Digest: iQ4bA4QxwKIZk0EMeYYMCohRBzj80FXYSBl2xfBRo+4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FileUploadSocketType.clas
+ s
+SHA-256-Digest: bQuMUzHsreEBWAd6cn0621KX0cChXFbLDJb+FGGjldM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminShadowVMR
+ ecordType.class
+SHA-256-Digest: rJZ7s2glY2bJpXumGHPqDlLhy9H2z1mYcJCfFBP4ENo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TenantErrorType.class
+SHA-256-Digest: m9/a/Dch3/N+HDFGcQOqfrSCDLwwE8DBzaUrKPLt/44=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CreateVdcParamsType.class
+SHA-256-Digest: KXLGKPTHnW2azHQKL0Ki99DA3nYsLx8Eij8k5zDogp8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FromCloudTunnelCreatePara
+ msType.class
+SHA-256-Digest: R4utpMc9FQajaHz8N3eVuZL3sTkR8Q35hQTxG5d91mQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LBPoolHealthCheckType.cla
+ ss
+SHA-256-Digest: AbXbqrnmL0KKYAp15soYHQg3ZPFFOlOg0B4U+nEZHL8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/SerialPortConfi
+ gType.class
+SHA-256-Digest: gi+/HT461QN7KjZlDvmmFKF9iwuqtZxGAvLQQJzPwf4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpComponentConfiguratio
+ nType.class
+SHA-256-Digest: TNgV8iPDq6AcIDq10MX9+P+g780n44Hq2g+JQ3GYYs0=
+
+Name: etc/1.5/schemas/vcloud/vcloud.xjb
+SHA-256-Digest: 5Azotmax5aPdWNP9bShrFMH+W12NzFPuFSyKYRrPD9I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VirtualMachineM
+ etrics.class
+SHA-256-Digest: bFO2NUUeoJewAxuLimmXeejC1ffztYqnWWR+xuzamJw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVAppNetworkRec
+ ordType.class
+SHA-256-Digest: pxK6TpbA2WHWoJ5McdIuyzIPuZBCwRL+sMt7R2Lkm14=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgVdcNetworkR
+ ecordType.class
+SHA-256-Digest: 3ZTG40nL8L0VmIjSlH3Va0LM5oXCFGD9UT+2Nwz5Zl0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpAddressesType.class
+SHA-256-Digest: TA+doyV+EKdkLonyIZxcrCj91XD63wDt8NhJjDrBHKs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LoadBalancerPoolType.clas
+ s
+SHA-256-Digest: Pz/TkTH3MHaijzlAHTTp66JhnDb7bBEFV/UDC24sql0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVmHostAffini
+ tyRuleType.class
+SHA-256-Digest: Mi9FTwhBBnficHXDgBP5unTl03O9y1N60D5gIdHJpq0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimString.class
+SHA-256-Digest: b/zVRA5Y/GJsRINjk4S7qJC7e51zNnEYSjHfxl1vyYQ=
+
+Name: etc/schemas/external/catalog.xml
+SHA-256-Digest: tcEbtOSlmhszMYbkIzZHt6JZZWBUTS0m2SlM/PNnb1M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IopsResourceType.class
+SHA-256-Digest: o6lkmNyB8axHYFszjqVHsZEEGg2MCT9Bwr0P478GKb8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmSelectionType.class
+SHA-256-Digest: EaO+TTlAUwZCV4ndqTFY8xHHBdfw/kmenLHjox+KGco=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Item.class
+SHA-256-Digest: sAP0QaOe/szqiCtTd8LeczbwIObfYbSllKbsGkOi6Dw=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ProductSectionIcon.class
+SHA-256-Digest: lw5iGBCAMBx7FG6hAiNq0qlCvXB/TOzH+7zBRk1Y+kM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/Protocols.class
+SHA-256-Digest: L792sjpxbrP00eyAAPBk3RLfspgU6iFhiOrXHKW7U7c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SchemaLinksType.class
+SHA-256-Digest: QtcM8EZcHkFzVh443pn2GerV1087dremCCEBZmXypRg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminApiDefinit
+ ionType.class
+SHA-256-Digest: t/6+b36MPnLLmSGRvapZwPyHDAuM9lsP0uCi37Q/1RI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VlanPoolType.cl
+ ass
+SHA-256-Digest: O5ddM8MlIIawMCSult+IFD2a5pjd/S8f30gxLtgaSDg=
+
+Name: etc/1.5/schemas/vcloud/queryDoc.html
+SHA-256-Digest: RGHngYLc9RAGD+srFoOON0vVcE21WAkvHsYwuHLjGnA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgLdapUserAttributesType
+ .class
+SHA-256-Digest: ioLSjq9TaZ40+PNEAopN1MbgMkqUWwmwPzAISdtj1Fg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultRecordsType.cl
+ ass
+SHA-256-Digest: kKH06WA/pLZaAvbCOagtHfaLYa+bmcmi0xZk6++NLDs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWNetworkPoolR
+ eferencesType.class
+SHA-256-Digest: BxF9tTpmAjR45tiAK1NbwK6p9ptXsHUlnjWo93u491k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcComputePolicyReference
+ sType.class
+SHA-256-Digest: YjgkwJCpugCFkRGV7cUK2qEmVpuLkyccFRfSR8myTX0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/KeystoreUpdateParamsType.
+ class
+SHA-256-Digest: Z5+XV8jUMokWzBqg2DHokmpBplx3gR2Q5vvCq8y5Nfg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/HostType.class
+SHA-256-Digest: dmuceS3p3minU6kRfGjLvGWPrBGbHus8BYUcoRpBKKc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemChangeableTyp
+ eType.class
+SHA-256-Digest: MPnKzZBBX6XU7QULQGU3c2b3ZHL3apH4JjWaMTs5LBE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SupportedHardwareVersionT
+ ype.class
+SHA-256-Digest: RsVEk+lVfxVZBASz6902I8k6sBfb9B68RF51f3Lcg1Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcT
+ ype.class
+SHA-256-Digest: 1Kc2jNNB/dFpq8Dka787B072aPFXjSlgc2BXKcM74Sk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminRoleRecor
+ dType.class
+SHA-256-Digest: Y9k9a0vy12K4uagxdzheZJjt9vVr8wIRlLUnedtMDZ8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVmHardwareCust
+ omizationParamsType.class
+SHA-256-Digest: qw1uNzIFHa0r9qKUQT8o/hDcGTBn4DJewW1xwvD2Oa0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LdapGroupAttrib
+ utesType.class
+SHA-256-Digest: Sk5JaOUy++NXbfqVh9qGNbotmLAZGfFRiQgmlQu14T8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgVdcNetworkType.class
+SHA-256-Digest: rBUdaFiJDmBAE14nej7SEfPWV4JnCJFxhnHkIy6tDcQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminServiceRe
+ cordType.class
+SHA-256-Digest: +qYjKlvAkNmgczloFFhpjGM18JvybDNUZYE2z6Z+Qpo=
+
+Name: com/vmware/vcloud/api/rest/deser/schema/ovf/SectionTypeJaxbDeser
+ ializer.class
+SHA-256-Digest: KpZwJpV5wSZ8ku5igpJiIgwvXZNZVTEnGZEatOrYCKY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminFileDescri
+ ptorsType.class
+SHA-256-Digest: BtLTGTG81IbsFh+9FozxpyFO0dnHD7dTUvBTjcbQGi8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HistoricUsageSpecType.cla
+ ss
+SHA-256-Digest: W8dLZ1K5btaAFYaXmnBzvydNbrP65cBMro71y+HFQso=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/BootOrderSectionTyp
+ e.class
+SHA-256-Digest: wcgFWApWtTbROTAn3Je61OYAusmANDJxnahO3g1xT8Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MultisiteSessionUserInfoT
+ ype.class
+SHA-256-Digest: O3eRF5/Q3RgBHlQpuZobSkpK0tFns8jEoFAig1JksCg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultLicensingVirtu
+ alMachineRecordType.class
+SHA-256-Digest: Qu6y8tOveRALSPAD6EVH+64E87w9L5StWPJoQK2xrUw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgListType.class
+SHA-256-Digest: qNTIKSJ2/2AnVFxAI+ieDFvCgrldzz1c0LBo+8pdfwc=
+
+Name: com/vmware/vcloud/api/rest/deser/schema/ovf/ContentTypeJaxbDeser
+ ializer.class
+SHA-256-Digest: 5c0QOjzNJv5zOotJut/b2+7POEuM98+cWWGYbh2gTPA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EventPropertiesType.class
+SHA-256-Digest: s/BFR9e4Y8fEC9dAGkaPXXLo6KMjPnpdlpii/D61Y2Q=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Icon.class
+SHA-256-Digest: qwLIJaoR5xRWCcealCs+Uev1H1RSM8vtRIwOePsMAnE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/UpdateRightsPar
+ amsType.class
+SHA-256-Digest: 3x8eMG2Kikb0+xfGyuLllrS/+StiDmr5GPMhag6+qX4=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceAllocationChangeab
+ leType.class
+SHA-256-Digest: bfhCVPAQsr97K4f75MqMyoHQC8vbUhMjCgTJH3PR2EM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVdcTemplatePar
+ amsType.class
+SHA-256-Digest: fySjM0K1wXvFDnd3UtFbe2SyT70tZ8bnM0vl2Okm/5E=
+
+Name: com/vmware/vcloud/api/rest/constants/ExtensionConstants$ActionUr
+ i.class
+SHA-256-Digest: ryoZCiNoJMd6fna927asUrVEQJyyrIY/KVpujMaTsSY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CertificateUploadSocketTy
+ pe.class
+SHA-256-Digest: Zpr63mAn+4S+Xt5muh+OY+iQsH/bvzWMr/ySb8jApMo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LBVirtualServerServicePro
+ fileType.class
+SHA-256-Digest: KHWHOhKxOGA4VvcyizNef9UTgwgHp00AAwPnddjJgCA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FlexVdcSummaryType.class
+SHA-256-Digest: Bw/5TWYMiIT0O3+2/zI1+WdDcBYLfAVKIV5Ww4+d8U4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatOneToOneBasicRuleType.
+ class
+SHA-256-Digest: WbDkicofDqRnTrFpKdwyGI37uk9iTZLf+ls4MwMga40=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemType.class
+SHA-256-Digest: H9/keZ3rsmGEc5uMYpkvQd5GBylIb5sIbJans1PvBgk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdapterType.class
+SHA-256-Digest: U5qBhN1lrk7PvbtvLYxNoV3mUtFEX2YmwQUi3mD6WsU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualHardwareSectionType
+ .class
+SHA-256-Digest: wigjjcQ8Io01DBEANQFer2A5jkfwyHMfkxtDYroGiK8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportedDiskTyp
+ e.class
+SHA-256-Digest: iu9tZpco1mxlMNalqzGjTkU79+wlZSg6DtMaI8Jiq6w=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CIMResourceAllocationSetti
+ ngDataType.class
+SHA-256-Digest: FucReAULdWXudJhx60ijrcy7hZLC0y/28F8BpmPZKAU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VimObjectRefsTy
+ pe.class
+SHA-256-Digest: PNo2zVHA9bMWygLTEkALj2iohmphyLwJG25DA8/+jqM=
+
+Name: etc/schemas/external/ovf1.1/dsp8027_1.1.0.xsd
+SHA-256-Digest: Pq8IYqAscI3aLsKqMOyrGh0YIpfezSZzMBsbaWR/nEc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimHexBinary.class
+SHA-256-Digest: BAJsXjv4vQurXq+yraZbUINSi8rBgcvwgHJ418sXPlQ=
+
+Name: etc/schemas/external/ovf1.1/CIM_ResourceAllocationSettingData.xs
+ d
+SHA-256-Digest: ucjsVeYwdo3jsPGu5okVsUzvasS05Zx7joylMKsRidQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ControlAccessParamsType.c
+ lass
+SHA-256-Digest: gWNNXipjZckk0nuIAIDNHFVzg8ebpGJUhxwXiKDMCZw=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$QueryParams.c
+ lass
+SHA-256-Digest: 9lHm1o8Wf/LAd+zhwGIV3gHd5DE4h4B5BtXkFPqEnXc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgVdcRollupType.class
+SHA-256-Digest: rJkBUNXVNejEyDcYQOU1gMdOKXsyf6XdUDPHvSP8anQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgFederationSettingsType
+ .class
+SHA-256-Digest: Fs8uwrMwpqHl01xNcvd7mW0MePtymv7o35lBxzSFxtQ=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/StartupSectionType.class
+SHA-256-Digest: zUwi3N1bjczf9sPNOBfKry1xfLrUvfiJ0f1Esc/u35A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultEdgeGatewayRec
+ ordType.class
+SHA-256-Digest: 8u7i54i7Hvrb2k2aEES1ECxprnBokVbayrRyM8aPNbw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgVdcTemplate
+ RecordType.class
+SHA-256-Digest: ZobgjqW81wu50jim3TCTO60ibGk+2CbUkBwZugiG9Wk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimAnySimpleType.class
+SHA-256-Digest: zUvkh9epaVTNy82hONWLMDOtbtQDcHmf/L3VF5YDR70=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpBrokersType.class
+SHA-256-Digest: g5izgownZlYlWBPZ2uKVuQMAsKkGPdYvFzptJ/1/lig=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CapacityWithUsageType.cla
+ ss
+SHA-256-Digest: p1Mmx+Yd41OY33BaZ/2/Khue/OcmuOVqdQB8+TeD6tI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SubnetParticipationType.c
+ lass
+SHA-256-Digest: t0tX526jaCSMVe9nA3czuUQOtM40uNZJUwmHaGR1VNE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TunnelingApplicationRegis
+ terParamsType.class
+SHA-256-Digest: 1/fBUZPNtrVnO1+73N4FMf5tMbdYG54/0dTkYstoWiw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWHostGroupTyp
+ e.class
+SHA-256-Digest: F7f9Wc8Sb0vtcQHUPGCeBSRN1nHywt3DMOizOH2VOhw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AccessSettingType.class
+SHA-256-Digest: z7QHm8KZ9uD+Q2IWdeQrHN1UDGNlQXSfawfWnjZpTts=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVmGroupVmsReco
+ rdType.class
+SHA-256-Digest: fkGXUO8evt/reWxtXNiVDK2bvmNjOWLouUJymgqgMcI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/NsxTManagersTyp
+ e.class
+SHA-256-Digest: gCWlb7XZDsNrTRd+KgfLzDjHCsmoW3mEbM37z4oVsUs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EventProperty.class
+SHA-256-Digest: Cecqtg5EEq+1cUxMn4qgJ2D2PyNbo5V6u6IPUi79sYs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ErrorType.class
+SHA-256-Digest: NxREFXv9ft4rpcxfFza9Ox7/PxzfdDXQcXV2u3y6FDc=
+
+Name: META-INF/maven/com.vmware.vcloud/rest-api-schemas/pom.xml
+SHA-256-Digest: h8Y9tvvOT/i/gGVNv6SIs5DV5JEOAnq8m70FKCBD+6s=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/InstallSectionType.class
+SHA-256-Digest: J6ZCWMX2572fKaJb6cr/Y4n03BZWPvjlyWUxy4CxfjE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OpenIdProviderInfoType.cl
+ ass
+SHA-256-Digest: XIsRLfvU+ZGpS/N7jmiK6IWcKbw0yG/+dfmM+ssI59M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgLeaseSettingsType.clas
+ s
+SHA-256-Digest: q3ti4frzFyjQHIKvv8wMMr2j5nEOYrhIjSge54Op76o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CatalogType.class
+SHA-256-Digest: HXjYOt3n2210urrzqpsHFljs6ny0EhAvxXtkcdUnVmo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ExternalSubjectType.class
+SHA-256-Digest: 6Krz4BA23SMYvOBswdskbkMsPpDaPG8lLiSoDJIMz8s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DhcpServiceType.class
+SHA-256-Digest: Cd7L5Zd+QeL+icto2z73gt5UeYe+1S7tZg8hWMR9+o4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpConfigEntryType.class
+SHA-256-Digest: OXSdyqs0ttx/Awt8sq8oz6EixXi1Ret+uHKeRZGfzyg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LinkType.class
+SHA-256-Digest: mesgGk+I+R6hqCjlanol5NyBvynRkD7pgce6kM4ZQlI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnManagedPeerType.c
+ lass
+SHA-256-Digest: oJoYJKbe0mfthKxLSuQKlQjWa0b31PLFKALdQVlYYZI=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/OperatingSystemSectionType
+ .class
+SHA-256-Digest: B30R/961zWTqYV/UfVcS8QA7HN4yAffKzCK4zgkt9X0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MksTicketType.class
+SHA-256-Digest: /Vytj/ssevL1e9ys2oH9WlliEaWT/jlKp9CcIKjGtAQ=
+
+Name: etc/1.5/schemas/admin/amqp.xsd
+SHA-256-Digest: Le6GWsoflriz2HCqlMi2SEbNHSrQZRfGyAur9W86tQM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/DiskSectionType.class
+SHA-256-Digest: Em4vZ9d/zXEPiyLYmr8EshVWw0KnivBvMOSNCFj/Ckc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CaptureVmParamsType.class
+SHA-256-Digest: Zmpm4etYGjOOgz//DeGB0qTeinqD4YwXCed/X2d3VbA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TasksInProgressType.class
+SHA-256-Digest: jHzYLdy6Euoyuke3bsrMM0DZSw56uhdIratUMLmIKuk=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/extension/Selectors
+ JaxbDeserializer.class
+SHA-256-Digest: eWLP4kGKg0kRo/0GsTde7WSGtClH2TwQ/qZ+Iuf3bto=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVirtualCenterR
+ ecordType.class
+SHA-256-Digest: OFCQ+nZK6d8WY0CNWq4w4SaTfcyYthAWvH1sEsC7wbM=
+
+Name: etc/1.5/schemas/internal/internalQueryReferenceView.xsd
+SHA-256-Digest: 3S6P9FXU1kuuIqbha/3/v813LUA9r8nXb3N1Nll563w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PvdcComputePoliciesType.c
+ lass
+SHA-256-Digest: i4tFfeJjsvZz3tO93b4aZn80ishIQXSHuTKujs/NiF8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimFloat.class
+SHA-256-Digest: mnv/GDWCzmq4VUUumxC5Wiodw0SZlcy83zFuHXQNmrk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/RegisterVimServ
+ erParamsType.class
+SHA-256-Digest: i7UolQDcVgf3N42iAdhRHUwCrNqyir8rtY/k/ZPzuiI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IdpGroupsType.class
+SHA-256-Digest: uUl+DB12pohW0rwhhp3p62elPMmYkxBYa5C9+88QQ3g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VCloudType.class
+SHA-256-Digest: RNsKHYNOJFMV9FqjGQfpUXQloI2cPfX/888zvlfoO6I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultStrandedItemRe
+ cordType.class
+SHA-256-Digest: eISuckS8W2/N9s32uRDjkbKoXVw5/3nA/HBMkGTG3Pk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PvdcComputePolicyType.cla
+ ss
+SHA-256-Digest: wsPwR6XsZ5SDXgKstg96h1lLKwhEzIl7kcmgozb7avA=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemCollectionTyp
+ e.class
+SHA-256-Digest: ND5YQLGRewCxSKvTCsKnCxCaK9CcGgksgWEdKQ1WtU4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultTaskRecordType
+ .class
+SHA-256-Digest: v/rfQvIPy0IL0UuzsJAQtvNxeEdcHmHZObGBzSbWImU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimLong.class
+SHA-256-Digest: jNviG6DH296MvephMz+anqZrg4K6/JbLdSve+j5foOk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ExternalNetworkType.class
+SHA-256-Digest: tqip2S5eWmG5HOtPzuuO5z5in+KcDUjJkFUOgie51rI=
+
+Name: etc/1.5/schemas/vcloud/vcloud.xsd
+SHA-256-Digest: MqEdphZc8Tjtf0nFs93h3SIIxXCZAuXxhJJpgvqk0aU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GroupType.class
+SHA-256-Digest: APBwwGs8PSBRQQFUBAszavpwHJOnnGCEwOg3Pg0k/jk=
+
+Name: etc/1.5/schemas/vcloud/catalogItem.xsd
+SHA-256-Digest: isKkK/YPgkxPYPBGXY0pJDI0bsdi05g407BWB5RI6Cg=
+
+Name: etc/1.5/schemas/vcloud/tasksList.xsd
+SHA-256-Digest: iFzZUpBHHnmBJD/pSkIZxC78Y+S9XhDuoJ0WXuVf2Zg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataNumberValue.class
+SHA-256-Digest: 5hAc0B2/961nr/KtFWoFB27Woyb+CxdtS1hzKk/ZBQ8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DistributedCatalogParamsT
+ ype.class
+SHA-256-Digest: Z9hYSzopW8CpY0wx20ZwSr1066o43dWZ/9msajK2Gkw=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimUnsignedShort.class
+SHA-256-Digest: EbNWtFtn8mFRsGfOTO6Vj5ATkm4zbROwfT4ujIK9Mjk=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$Uri.class
+SHA-256-Digest: on2EESQOLFvlIkNErmYkExd+AisI37w0/KCu4VT1kcU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Msg.class
+SHA-256-Digest: 8CmApIFsxFIsPV79OPkjwhrTW99++ITUYh3/EhgOqO8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RootComputeCapacityType.c
+ lass
+SHA-256-Digest: kHI7L6Nq/AZVym0jSyu3noWu/a+XN5pFw9W1QCdOnRU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DiskAttachOrDetachParamsT
+ ype.class
+SHA-256-Digest: cA+CBAFyjFG3DGWYlgy8mf/tzjDaaBBCym/Z3z76JVM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayDhcpServiceType.cl
+ ass
+SHA-256-Digest: cGtX47Tgb8mPQw3lV5Rdh5SrGsXVGUndjREYu3k3Ysk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultUserRecordType
+ .class
+SHA-256-Digest: e+Td1qOdb2vlepevFXaO/MZ67A+UXVwDyea0d3SFOnc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVmGroupRefer
+ encesType.class
+SHA-256-Digest: SV0pw2EO1RoIs584+Vc3T7l0fLQp0N9HPCbWSfyg2ws=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FirewallRuleType.class
+SHA-256-Digest: wzdE2Xh+pI9r/32Aqd3yE/YE9WFRvzoeXkHIBwuRkCg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OperatingSystemFamilyInfo
+ Type.class
+SHA-256-Digest: F8Rn58xuJhWMYhx4e5DeByHUFONYKi2ICyzvTuzRztc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/Phase.class
+SHA-256-Digest: odQ6vquW+5GrymKiKpKT2sUkOpOhUV21L/LeJWrokro=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWDiscoveredRe
+ sourcePoolsType.class
+SHA-256-Digest: QuAbALd2LLoIxRW+sOQEJbEUoV7EAPbArqwvJBqUXw4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpTypeType.class
+SHA-256-Digest: apZMN31uyEBd7/UIJIp6Au9Z6zozX5QHHLFJeatKhFE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CloneVAppTemplateParamsTy
+ pe.class
+SHA-256-Digest: hgr5xz9lTzS7xX7WXN+SHRJSQwpN5daZepsqt/MC6go=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SampleType.class
+SHA-256-Digest: zx3+ipGwyeR38IEaZ6xryBP0Q1Zpp/FSYXwiCWhCiRc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VsToVmxMapType.class
+SHA-256-Digest: NN1vcdx/ts+OIDphLjPttjZB6gR7lJOTqUVrF+ewgr0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceAllocationCaption.
+ class
+SHA-256-Digest: QQwiCIBFDEQjzLGz5JYQp11r76Vk49uLX5CfjUS+46U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcStorageProfileIopsSett
+ ingsType.class
+SHA-256-Digest: 0kD9flUsUXpz7i0NJDLeh4jop/cvxGA2wppEDq4Sa58=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/NsxTManagerType
+ .class
+SHA-256-Digest: Nyt3ks5tXJPXXgSE+496Xi3NJXFPg4EzWBlHPGR61SE=
+
+Name: etc/1.5/schemas/extension/vmwextensions.xsd
+SHA-256-Digest: Ud4cHlyNlg4vUhWX6bvaCYozsxl49YlmN1wg7bDwNdg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/DiskDatastoreTy
+ pe.class
+SHA-256-Digest: qB+0Qvn44tU43PScsJSIKGB6mwtQOf0ahxv7p38WfyY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CloneMediaParamsType.clas
+ s
+SHA-256-Digest: YIgtas3h6WJIxSjFZbTrjV31KqRuToKu36aVe+PDYJg=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimBoolean.class
+SHA-256-Digest: v5g6i0PXpMSRVK2B8LpMyF3C/a2NEsJGdZpRK+g4ocI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkAssignmentType.cla
+ ss
+SHA-256-Digest: aGBpU21zr5irFX2XNZlwGLgjMjRPYZ62XJ/beAWnJu4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWReservationP
+ oolVdcTemplateSpecificationType.class
+SHA-256-Digest: eNpOgVJep/2RAKuSuSFXEwt5WMkoB+qf5zLagQAwwsw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VSphereWebClien
+ tUrlType.class
+SHA-256-Digest: JG1uVvX5MIZUS/lg9nrSmRSKgBqZHVRLkNy6kLLNnGE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HardDiskAdapterReferenceT
+ ype.class
+SHA-256-Digest: 8rQ9tfBHhhtIbYeSahqoTP1l9H/gI4g4BrTuFmEwlFs=
+
+Name: etc/1.5/schemas/extension/taskExtensionRequest.xsd
+SHA-256-Digest: izX1Mh5UiYe9HanvCSDrMvc+0OH9FXlaFGtSLiCmtYU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultFileDescriptor
+ RecordType.class
+SHA-256-Digest: sigSFrQkUTwsUrp80jr9djyvuXxiWrcgSnSt3ZbV3Nw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HardDiskAdapterType.class
+SHA-256-Digest: HS1TcqrQ4ryHkutngQhw4C5BtpY8lL44bXEmqmebGxw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourceClassAc
+ tionType.class
+SHA-256-Digest: 8FRgsMkq+Bwmt9PbsfJt2/JFhNquapg3OXshGOqwA0U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataBooleanValue.clas
+ s
+SHA-256-Digest: 6+z6H4QHo8kR6jjHcbLuFOZXGEtd5A7n0/EeJys58is=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmSpecSectionType.class
+SHA-256-Digest: wKP9fyM8mPMBcSKIX+iuXiJX3/du8BCl6vL9MvK7Yg8=
+
+Name: etc/1.5/schemas/vcloud/file.xsd
+SHA-256-Digest: k6AtZvAf3lrKBNqTcvYSAmmEOLw8OyuH3tUiy1/bufo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EntityLinkType.class
+SHA-256-Digest: tJch0U3cvDG/JWJ9CKBU5pZ6+0L7jPn3F0N/TyIZ+xQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VendorTemplateType.class
+SHA-256-Digest: Tfba8qHHVG+8dl2ur9AU7YmXHkK2wY7Oli8lanxqxMs=
+
+Name: etc/1.5/schemas/vcloud/screenTicket.xsd
+SHA-256-Digest: 46NZTbEgnsc4wZhZjqEKm62YpgIPztHlfvgYQSwGbKs=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/EulaSectionType.class
+SHA-256-Digest: Skxq5+bJIiUYBOqB8yqRY5KrQq+IvaAT3mxIWQPripM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmsType.class
+SHA-256-Digest: fXOXBZKINmuZvvAs2zOR7loSXgj/6mDkPzlGZqZrFMY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VcTaskListType.class
+SHA-256-Digest: bLPW6ea9SFCVLO6m6LBn04OvHSX1JYUcEKiqsE9njck=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AclAccessType.c
+ lass
+SHA-256-Digest: WqhhFdw0ARC3gt5QdMkQIG3bRpY+elArKEEhP9ZppMk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VendorServicesType.class
+SHA-256-Digest: R9Dc7svNoOxtvTk14RwWh4I7ve+lcHdQquJlTLAsVC0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultEventRecordTyp
+ e.class
+SHA-256-Digest: 6p+cbCUzpoX+3avuYzUp2iIul9Shasg2eNi6We3Mchk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProviderVdcReferencesType
+ .class
+SHA-256-Digest: 9uBoLYwuAxFGa//V+W6VwkBFroOOJ0KtCeiYNr4mrwQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AuthorizedLocationType.cl
+ ass
+SHA-256-Digest: 3tyErYwy9Azokhx+jtOD5mnRsF82ytNqXMPONjoGRgE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BundleUploadSoc
+ ketType.class
+SHA-256-Digest: XodoVEpTMzQyZ2qkTdLXAPxweYV2q81vqika9/qZNIk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VimObjectRefTyp
+ e.class
+SHA-256-Digest: U+859R1M2KyzAK5Rk8CkHxnDpxhbY6r8U8+1pA52UMQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkConnectionType.cla
+ ss
+SHA-256-Digest: lkEHc0hxV08iHQRVxabbBAQs96SSC6EzHZI9eDDnimQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultDatastoreRecor
+ dType.class
+SHA-256-Digest: ELh5ilQnfQq5vC/ShdW6mH2WcaBPbjAgZZGqfS71P2Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ApiFilterType.c
+ lass
+SHA-256-Digest: OxQCJFFu1F8wUt8ef4TXlP7JDqy7DdNwaoR83fCSVGM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/EmailSettingsTy
+ pe.class
+SHA-256-Digest: tF1zFWyixMMGMRxLTMgee+n8GXC9R+UfG6SOl9aJR8Y=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmQuestionAnswerChoiceTyp
+ e.class
+SHA-256-Digest: VP6bhUARnKeeAHjpuW3+RFSpZbJs0p383+af1CEQkBQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcType.class
+SHA-256-Digest: VZHAEOI39gs/WghkjEGdngroPlha78HpJClYVlLrj1s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SessionType.class
+SHA-256-Digest: //RM3bXGLVjtT18hVSUgho1rGRZyxLztegzCm1+/yEA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SelectorExtensionType.cla
+ ss
+SHA-256-Digest: Vbk7McBcw5CggzGyHYQY1mAG3QUdHXKCPk3BHrvqzKM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ApiExtensibilityType.clas
+ s
+SHA-256-Digest: g2Tja765c+w0a8QixiORoZ2+MeARA2+Jc79xvVNEILY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/SystemSettingsT
+ ype.class
+SHA-256-Digest: Ra+oaZMn3dxEgTNdGDxEQ0b11kZgWCz0FVNFcViSGWs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SupportedHardwareVersions
+ Type.class
+SHA-256-Digest: 5vFvLhT6MSaO0mIY66OPPfPV4oiWijtpc4ocvygAfKs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AffinityRuleType.class
+SHA-256-Digest: bqZRrhJCPN5hPK5UwQk9Fyzqf4pNMsrwWVWdDk1aL8o=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimShort.class
+SHA-256-Digest: FX2o+IylQEvov6cExofITRz0VRXlsJXO7YvjfalWUP4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RemoteUriProbeResultType.
+ class
+SHA-256-Digest: ot4jd4oDhTBPqc8/sIBU0mKhA/BRJ3XbHGAlg43dzlk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResourceSharesLevelType.c
+ lass
+SHA-256-Digest: 1C56P7+Un8N6bEScztoUKtynYvR2fX6BPFjNwkHXORM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TimeSeriesMetricType.clas
+ s
+SHA-256-Digest: bkXF+pjbR2Bfou3kb/B5k2GwveXWdxFA4ckXqIlb7lE=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/NetworkServiceTypeJ
+ axbDeserializer.class
+SHA-256-Digest: 0RYGnf8jFLijkoKNxXs3QD9nITd/jY/7BF7nx3XDGI8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/StringsMsg.class
+SHA-256-Digest: e+OqwZu0poaTXoCeXc1OABePiSuFQP22tOMm0xsRYYk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/AnnotationSectionType.clas
+ s
+SHA-256-Digest: WSxcWdVsFUhMqMGhZ/R5i374JSAIxwQrll7tWUNH/gk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminCatalogType.class
+SHA-256-Digest: PaiBwoCibs6RtTB4P/vs9S/05BNsewzlqRZT3rshF6o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultConditionRecor
+ dType.class
+SHA-256-Digest: dt6PqSHdPNVKOqkK/hF+q5k6u/yoOkor6XbRRZ0FE7U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataEntryType.class
+SHA-256-Digest: nhTgHQwB0ufKUycJA2Up3IKTArYmmA+fetatViylHi0=
+
+Name: etc/1.5/schemas/admin/upload.xsd
+SHA-256-Digest: t2BbNq4hHGrfnTyYoRC7Y35MrBQakh53qYKtwhEtAro=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GroupsListType.class
+SHA-256-Digest: B+fnxkBjEQ/YlgSsHy5ZHRDoQ8mWM6wRj318qycl78w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/StrandedItemTyp
+ e.class
+SHA-256-Digest: Lwu5N/LjI4nTAdmt8XCPVDqPMtsbyMEXeF32oPp3fjQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NICBaseType.class
+SHA-256-Digest: 6JLV7WSHIhvZDLuv0DvQIVWfYtLIoIJqZ1TYwqV+bAk=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$DeleteParamet
+ ers.class
+SHA-256-Digest: QM47nWKV3xftm+95D4ejndD7+Af4sp1nVBpdZvrgpb0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ReferencesType.class
+SHA-256-Digest: 3bnNQWAxS2FNdTIhlhAy61B7FWDWcr0I2veM+tPRAMo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultServiceLinkRec
+ ordType.class
+SHA-256-Digest: 1qQaia6UmPILxxlM6/D3keTd/+7x5bdonXoLk6mvhM8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/DeploymentOptionSectionTyp
+ e.class
+SHA-256-Digest: 4K6Wyxgyyi7+qgjrD8c/GhHS9eJUYt/8Xf/xoIN8yHk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnTunnelType.class
+SHA-256-Digest: ya+fb3FAKLOZqOpnpjrLEYgXsgeXLMI23ojYBZ3Uq/Y=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmCheckPGCType.class
+SHA-256-Digest: jN82xstONNS+HgNTnXS6AM+O3m/31/ig1AZ57GL/GPQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TrustStoreUploadSocketTyp
+ e.class
+SHA-256-Digest: udhjtFIWG8GftP31dfSG60dsCBGYt1qc2fvpPVuiMkY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AllocatedIpAddressesType.
+ class
+SHA-256-Digest: kxmLE3nVjXsMYGpqVTOZ2tQtHwoHuSFeV9UbMaJ8Zgw=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceType.class
+SHA-256-Digest: ID+OIsEuCIoG0n7mWZQ+YELVEqlTEe4dcCaWDXfa7rY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/UberAdminSettin
+ gsType.class
+SHA-256-Digest: vlfcfnIGvMaJkV0tJqsL5AKM8bB49kRXsNCcdipvK1k=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/ConfigType.class
+SHA-256-Digest: RQ/IyIuZQ/47JFL94jmAR+ZN1GS7ajhnYTaHnc+y4nQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskType.class
+SHA-256-Digest: edzBOSYvKklcBuGZANtHSEiO09/6aNZct2JsI3fqPuA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultApiFilterRecor
+ dType.class
+SHA-256-Digest: s2/OdE2hdXZuW6dk0Iio6IyIDgxcWcJcCwQTRs8vI9A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcTemplateListType.class
+SHA-256-Digest: cP0fvG2by8xb5Z1TxgA9kWWrSxanEEADXTi3O8iCF/U=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AllocationPoolVdcTemplate
+ SpecificationType.class
+SHA-256-Digest: bn8mVc1Mbb0TbdX4whDEuOD0+4iHHo5g4vV+8dQvzC0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SmtpSecureModeType.class
+SHA-256-Digest: kuOVsP+y2VVHSzA2MCYY2O9NH3BI+2ZoTKAsca69MkI=
+
+Name: com/vmware/vcloud/api/rest/constants/ExtensionConstants.class
+SHA-256-Digest: b72Pek2fLhevsex7xBvzOIPnBVx4yXUhzs/8HkUIFIc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcReferencesType.class
+SHA-256-Digest: fp15TpyKX8fST36JJ+4gF5Cyjk+/T6N8i35VKwK/1W4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AuthorizationCh
+ eckParamsType.class
+SHA-256-Digest: XGhxBMkmEF3D1dKJViOlgxs1cqdJHcJ9VmYYng5IMBs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgEmailSettingsType.clas
+ s
+SHA-256-Digest: KzI/4KxmlCAFm7Dy/E56f5saye6u4MtWqPnh3AESHzs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PayGoVdcSummaryType.class
+SHA-256-Digest: W5ZgE6gGVrLdT/PKEUB0URUFXCmjVjM37aBefpCjQDQ=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/Property.class
+SHA-256-Digest: 9b9HElMZM70PLpZF3zj/ZFcK8UozA5JOGpOfc2vss6c=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimDouble.class
+SHA-256-Digest: mQvZsHR+KEsOaADxsWYKLz+C+NxzO0fzd4wwUTq10RQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FlexVdcTemplateSpecificat
+ ionType.class
+SHA-256-Digest: TUwIen0zRv0YCBlZvXHNvO1L0f+DYh8PoOGo2rYLXCo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SyslogServerSettingsType.
+ class
+SHA-256-Digest: e8zoIJbCbhnzqiQUCto2oV1MsP/1Nx6DNM1jVBk5TSg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcStorageProfilesType.cl
+ ass
+SHA-256-Digest: WKMp/h/iD461zlnlhEwAjSFgyencU59w9YktX2qWrmE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AuthorizationCh
+ eckResponseType.class
+SHA-256-Digest: g8+ohMOqGBklKyHcH/P8Sxu153cHzxE/KxnOYBBft+4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FirewallRuleProtocols.cla
+ ss
+SHA-256-Digest: UfgK7pk/kvtXizGn0pig3LozCf67V/9WAzz9lBw2BQk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VSSDType.class
+SHA-256-Digest: PgSBzS7JB2kCoz1Ln6iVpzSubz069yZ6GQ6wq5ATLmE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryListType.class
+SHA-256-Digest: /oYP0wZpj20+9M0esUOnlmYLRxd5smg/4S4WAquGMWg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/CbmDataType.cla
+ ss
+SHA-256-Digest: Ltt1YvoQdlPZFmYkp6OAkQedsc5h8L5ebkn6B0jcc/k=
+
+Name: META-INF/maven/com.vmware.vcloud/rest-api-schemas/pom.properties
+SHA-256-Digest: gYjT5ep/6Vr9Qdaxu9B/kxRHXGSYoFP8bVJbuzD/yVM=
+
+Name: etc/1.5/schemas/vcloud/vApp.xsd
+SHA-256-Digest: b8WJWUmhmt2vxcUh+Sd+Kho/pE8KdkTqBAiXrJQl5ng=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RelocateParamsType.class
+SHA-256-Digest: RFmOaUqkh4z2ETrkTA6s3n1oWGuTFepGaRSE0zf/Efk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmAffinityRuleType.class
+SHA-256-Digest: svVJ3+134jMVCDwFgttAqSLUz6h5BrfnfDCpFmiOd7w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IdentifiableResourceType.
+ class
+SHA-256-Digest: DHArrzQvnoWj7fBeLHItnckyKCSt/PhAzkfmIXyEloU=
+
+Name: com/vmware/vcloud/api/rest/constants/RestAdminConstants$Uri.clas
+ s
+SHA-256-Digest: N8W9kvMGewjaThNxzMX+9mGTzreGwort4OIeLzfECP8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResourceEntitiesType.clas
+ s
+SHA-256-Digest: LPmO9kcuZEE3fAb1pIeLhDICP6teHiPkCrOzUuySPsw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaSettingsType.class
+SHA-256-Digest: dMYPKp+k56v69YHj5GzAjKyNxMtNST20NUMjlgl8xnE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayIpsecVpnTunnelType
+ .class
+SHA-256-Digest: OvIaoCW2NQ6KQZDOILKqWL/3KbmxxleZZuOj792LQU8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ObjectExtension
+ sType.class
+SHA-256-Digest: FcjAKm2ZLBNp5yO42a3DvJyH5AXFtkzrIQEyL+4cLIc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SyslogServerType.class
+SHA-256-Digest: goMvnAGJFFzuLuVTvpm/8VSzNPbL7qvxxvh7DebiGoc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ServerType.clas
+ s
+SHA-256-Digest: R00h0BHBsMGvuJXauIJzmNDMzLYzMVnjb53mLxYUt44=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataTypedValue.class
+SHA-256-Digest: fC9TD0vU4tT9kOinq7I5RGqpw/QGGRkM45xoL6vZbns=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgVAppTemplateLeaseSetti
+ ngsType.class
+SHA-256-Digest: 8w/9/9y998HoDgpLW9GR5o0dtOKyAslsEcMQ9Ao/On8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ObjectFactory.class
+SHA-256-Digest: GElXwY9x0TKcN/v7zOoJDjXBqW0Y7NTs40hqgFPwL04=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CatalogStorageProfilesTyp
+ e.class
+SHA-256-Digest: RmgcmUypX8C1edoqGR3PIZ7GYydwHSAlQKv0p3/WHAY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnLocalPeerType.cla
+ ss
+SHA-256-Digest: qXSd8xxqdsMckWDXpI4w8/Vs3PEcCufZ37fBiV4lQWg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VcTaskType.class
+SHA-256-Digest: ZmiDU7pDbwA6Tl0jIFgJb5+mxBFRejStZ7rZduQJnxU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrganizationReferenceType
+ .class
+SHA-256-Digest: JN4wgP3JCcEDC348cy+42NrrJpuQ5iCMIMw/WJVjbSY=
+
+Name: com/vmware/vcloud/api/rest/deser/java/lang/StringJaxbDeserialize
+ r.class
+SHA-256-Digest: 5kY432nYeLfcTMQ2pa7MlR27FGcWztivX1ak73S9EB0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FromCloudTunnelListenerCr
+ eateParamsType.class
+SHA-256-Digest: 7MRnTiM1CdERBef6Q6ofaBwWMCTewu0KMJq6039Ps6A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayBackingRefType.cla
+ ss
+SHA-256-Digest: v4LbSJPRVAfA3fye5M35RkUecDyVqFDt62yZr1mIkXQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AuthorizedLocationsType.c
+ lass
+SHA-256-Digest: WY6RHDDVL1m//4bNmSu0u7fPMcRQff4iE2gELifWcpo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CopyOrMoveCatalogItemPara
+ msType.class
+SHA-256-Digest: jIRfNeotMcUMe5S7SitA9y8hU8k0unlqrUBbxP72dqM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminOrgVdcTem
+ plateRecordType.class
+SHA-256-Digest: 0vx9SDKzTC9JgGoz070yxf+99uVRMwjvt75x9lvahQ0=
+
+Name: etc/1.5/schemas/master/driver.xsd
+SHA-256-Digest: ipMYD4XdlYBbVjY10dN1gwLFaqToCEVSD3itx4tJaiA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatPortForwardingRuleType
+ .class
+SHA-256-Digest: KPZ375k1nGptVn0y79CdcC7tmU9qDjKN2YmpWL/dX4c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkPoolType.class
+SHA-256-Digest: 5qSu8+cJBDZ0o/jY9AZPtLx9sUaJbly1FkF0TY+yhMo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/PublishCatalogParamsType.
+ class
+SHA-256-Digest: +Kmiq368sf4hlIgf6h4w0g7A3HBTPGqC2J9k9L2rIr4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/SmtpSettingsTyp
+ e.class
+SHA-256-Digest: 5TBZRg5HsgcytURB9MfCZli5CrsWbcTW0pWuZec+h14=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicenseMetricsI
+ nfoType.class
+SHA-256-Digest: Iqmjw+kJ3P9ICzPvEu2YZVHoGHxhIs5uMY01AokrVso=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AllocationPoolVdcSummaryT
+ ype.class
+SHA-256-Digest: 5V2WuoJyXmnQmJwgZZMj+z2xnUxdJ6ISljmtw7r7d3Y=
+
+Name: etc/1.5/schemas/vcloud/services.xsd
+SHA-256-Digest: 0VSlYfWD6GNP6sVOMBd9hznPUm2TbQE45BDTpE5Xngo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkFeaturesType.class
+SHA-256-Digest: hVS3XTD8BP7Y0dotYsAhZQ1LXRQJq/STZaWYba4kTeA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultDatastoreProvi
+ derVdcRelationRecordType.class
+SHA-256-Digest: SEtrYbEs9b2TaaxXvjINYYwl3makP9vBDpuI9gtn3t8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVAppOrgVdcNetw
+ orkRelationRecordType.class
+SHA-256-Digest: Kx+/yBVPGXs95v6qbZDbzZj2IsaRrI3H+RtQPzGtXr0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EventType.class
+SHA-256-Digest: oGLohiMOptuDXYeQwzW6emnTMsnHA8KXbVbKwxaZbno=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/StorageSectionType.
+ class
+SHA-256-Digest: XtCvmRbju/3WwT1LTCu6mNZ/VfIg5tQNGVlRjhwBIlY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminServiceLin
+ ksType.class
+SHA-256-Digest: WykatghHL8tbqIGxpprTDV0767jh+XOuRtgrIcvaEnE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVmDiskRel
+ ationRecordType.class
+SHA-256-Digest: GS5WLHONHooYwNDa+N+CbWmw64xSUZAz5y5QfHBbIlU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/SystemPasswordP
+ olicySettingsType.class
+SHA-256-Digest: Mz5PiuWGnAqi5yt4gN8vqTE+huZj+82rOZRYI/Jxcj8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VimServerType.c
+ lass
+SHA-256-Digest: l3qxj54Xi4JrL1u+9H19XtTBe85mgUe1LWhye/0h5ms=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/NetworkSectionNetwork.clas
+ s
+SHA-256-Digest: ggUmjzMQbqEwFX298u337vyOKGqSVjd9/toj4X8i3Fw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VcTrustStoreUpd
+ ateParamsType.class
+SHA-256-Digest: 210toMA0HJ4ZTUcovwhRdfozWVVSKei7A26c0S1X77M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultSiteOrgAssocia
+ tionRecordType.class
+SHA-256-Digest: 5rmGwYb16c1qh+iX4dMvW1OVf7F26pNwHoKilq2VUFk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnThirdPartyPeerTyp
+ e.class
+SHA-256-Digest: vdMdIyo3od2cEMVWxWNQPTFlpRS2HGqsOr5HtxfIgbo=
+
+Name: etc/1.5/schemas/extension/services.xsd
+SHA-256-Digest: 1JASJynwEXPeJYzYHxKjt1Bf3TADclG2JBIvaaM9wPE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayIpsecVpnEndpointTy
+ pe.class
+SHA-256-Digest: V96AnoEp9RT8BW1KA223acmnlUSzegQaF+iYbBkcH1s=
+
+Name: org/w3/_2001/xmlschema/Adapter1.class
+SHA-256-Digest: vOONWRdO927pOflKDU1dLHXD9imyKXeRGjG9afYHV4w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SnapshotType.class
+SHA-256-Digest: 0w+8+v6lx9vgFu8dLqvcTl6mDtLYQCSuqphUZ2ozl/I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkPoolReferencesType
+ .class
+SHA-256-Digest: cLWT4GXC528Sp//ZAkNTt8mOamibYxL2o8K5Qq7iBd0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVmGroupsRecord
+ Type.class
+SHA-256-Digest: VtqtplHsI4Cz/DV46xg85AhQ2RAILQTudat97zGk31g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComputeCapacityType.class
+SHA-256-Digest: UNyAjgamLbVT80Ql1gcQaql21xS/usddCgrGLdPmdpY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgRecordType.
+ class
+SHA-256-Digest: puDzujE/5qFAPUnaTBhIIyMulc0miru6X5DEmlHmpr0=
+
+Name: etc/schemas/external/ovf1.1/ovf-vmware.xsd
+SHA-256-Digest: LvZ9OqpvLJR5lMqL5bxXGhFE/pdPVTmIEE/JVYCGwLI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplateB
+ indingType.class
+SHA-256-Digest: k/sAkHsj1A7yKvpn3LbE0pSUdft9NkjPy8mJEaM49Lc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GuestCustomizationSection
+ Type.class
+SHA-256-Digest: mzoj24AoevdqMzxiP8uyYRT7/kPb+m9n58OBe+u0f1Y=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/package-info.c
+ lass
+SHA-256-Digest: zvUYl4oF44/i0r6sASNQVqiE8OQpDZhXjKSn57YmryA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LdapUserAttribu
+ tesType.class
+SHA-256-Digest: Qd2nqtZ3ba+J/MbwXviDPgH7yWgAhqWqCUJFFTln3xo=
+
+Name: com/vmware/vcloud/api/rest/schema/versioning/VersionInfoType.cla
+ ss
+SHA-256-Digest: QVmXA+qoHsnZZmKjX1iO5j5oEX2Fe8/7Kinu+uUxEBg=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ProductSectionProperty.cla
+ ss
+SHA-256-Digest: 8fP3cVlcrfUwXQSz5j2bX2JOYehgtSKolCdiJHTFDh8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AbsoluteTimeType.class
+SHA-256-Digest: 8OuDABgrMxqpbK/DGBOVvsP1+a0zKesorfh/ccg/EpU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComposeVAppParamsType.cla
+ ss
+SHA-256-Digest: HWA8xF4cDgbmWpjOud3ATRPBHW18aZskWb7WXVkhSSs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVimServerRef
+ erencesType.class
+SHA-256-Digest: /OTvbSC/UwYh3s+JOG6I3zHQPC55UEbeunari3Tmuqs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HardwareVersionType.class
+SHA-256-Digest: 04mlexCZ7TQRAmIlVVGsa3eMdhwo+io7CxCwAEbbBUM=
+
+Name: etc/1.5/schemas/vcloud/metrics.xsd
+SHA-256-Digest: Ion9OMBhSzSyu+rOcmdUNzXrQeVlz47ujYhypYEI4iU=
+
+Name: com/vmware/vcloud/api/rest/schema/versioning/MediaTypeMappingTyp
+ e.class
+SHA-256-Digest: 5L/rlX8PdzNFiwq6uwEnRLZKDSgu/2JbsnXjML0TLsw=
+
+Name: etc/1.5/schemas/vcloud/task.xsd
+SHA-256-Digest: JMlLn9bnV4BII4gk0qw8RGNsA+aqm90kzG4RO6NTJJw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LoadBalancerVirtualServer
+ Type.class
+SHA-256-Digest: pwpVClZWcTYnteykXHKlh3AuCDmLtk09yyXwQ9Lf3fI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpRangeType.class
+SHA-256-Digest: al9sBfz333BlBRjgODpJfL4t/MW/aBY7KYOLXV4FDAU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultDvSwitchRecord
+ Type.class
+SHA-256-Digest: PA2jc1zWmkYLAmUsHdcQAx+wqU08oTQBlZAIo1MsfaA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RangeType.class
+SHA-256-Digest: RtHI8VPUyWtc9qLdK73KKgHz71Rnj4le5XWt4f7NI6w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourcePoolTyp
+ e.class
+SHA-256-Digest: 3ocNxLj3QWqBZvImFHQv5sSDiDt3kw/8SysRMWICYCk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/AutomaticRecoveryAction.cl
+ ass
+SHA-256-Digest: lpl7x4rn4HJ6ZPyjcM+km1m/5wdDZdL8KW9hFEd4+7M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProductSectionListType.cl
+ ass
+SHA-256-Digest: Ra+/daqCbLTYAr2L1c8vuoZUHzWAQK+c8XPhhbqyCg0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/StrandedItemVim
+ ObjectsType.class
+SHA-256-Digest: MezXEh3N0g46Ek08yUxdLT6yNSYvDEqg9l1FxqkN0Nw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BundleUploadPar
+ amsType.class
+SHA-256-Digest: MX1Bm68YMSKRgyG2HoVmDbd8G5fw4GrsI8o7M9z108s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VimObjectRefLis
+ tType.class
+SHA-256-Digest: kg/JfM5hn5IA9HAdkX3MV13IAqm8yf8FIeHKflew4+E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AbstractVAppType.class
+SHA-256-Digest: nsjDD4mTir3CyXzNCHrySv3vIvS1EsVxIjCN+54umak=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AuditEventType.class
+SHA-256-Digest: qxgTzR7eJkRvrp7Xt+X19l/QuuhCjMm2PkC0/tanJEY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVmGroupsType
+ .class
+SHA-256-Digest: X/0x007lo/IqGga5P7ytt9gnksODSpIE7U0jaqwnijM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportVmIntoExi
+ stingVAppParamsType.class
+SHA-256-Digest: SrXRTxzqaKJieGRoaw/766nJerf/wX+g9pEiI2u004Q=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProviderVdcStorageProfile
+ sType.class
+SHA-256-Digest: a5xOH74dMkDR/rB8BHNdfuJZTShkxq/OzwEq2sch66E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SubAllocationType.class
+SHA-256-Digest: MS2FB3oqVx8/sSmKz/bSsUb0k6UpRzdn4O7IarNjGnY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OvfToVdcNetworkEntry.clas
+ s
+SHA-256-Digest: qNC02KA4Vw2LQmnjCgyghGCCE8zWCkZ5eddXkLtCRAU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TunnelingApplicationListT
+ ype.class
+SHA-256-Digest: JgrOLiBxWsNqkq1gzgTCDmr2+LJVBteAj4TBgCGAjXg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicensingReport
+ ListType.class
+SHA-256-Digest: zT0jFnFP0bowkPgSKZrfCjP/OkTd7vKxVgWFiRtTi24=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/ObjectFactory.
+ class
+SHA-256-Digest: XMNCaJp1FN9XEqqFgtZsmZ5Lw2T7fXGwgUaXzAjl6sk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/HostObjectRefsT
+ ype.class
+SHA-256-Digest: ovnqbdGTQwI3c/vbDVMeOBD54wEjUIY4cAMHcOEOWRg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultRecordType.cla
+ ss
+SHA-256-Digest: 7HncrhzotCJ3soYrdjnjRA83zOww2M0vmz1QkiXEmHE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LoadBalancerServiceType.c
+ lass
+SHA-256-Digest: wNldyEKE4+OnXxNJbCV9+cGpgOPOMrv+iAjT/mRPkaM=
+
+Name: etc/1.5/schemas/vcloud/organization.xsd
+SHA-256-Digest: KonYqzdHHcqzGkHS2pWJXHpnq4X3hZou8I1v5JNv+FI=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$AuditEventSta
+ tus.class
+SHA-256-Digest: 28LHHFtp60IwjuRZkusj8aVFjevLBsVkArvjMS1xy2M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AllocatedIpAddressType.cl
+ ass
+SHA-256-Digest: APcuNbavmxP1FC2fuw1AdWVurCu2MQfzAFU0IbmgyMc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/UploadVAppTemplateParamsT
+ ype.class
+SHA-256-Digest: hxW4MmBT2YKsD+2vqVdeRK6pOKnlK08vJn6bQ2PgRiY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AclRuleType.cla
+ ss
+SHA-256-Digest: ZROBZ0a/8uZia1/hU2hTvO0e2Kwz0LyNBfP+vJyaiRM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/NotificationsSe
+ ttingsType.class
+SHA-256-Digest: JZyo730tb5ZjGKOx6ePRK4hHnyjUXQmEXeElBIAGzcg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpBrokerConfigurationTy
+ pe.class
+SHA-256-Digest: 7Dx2Kyyf2lfKlfpkI7YsHrtEb4dRe2dMUUc+0sEojWw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TpmType.class
+SHA-256-Digest: dpm35SCSQe9ZtKq4O+RB/oI0VBlGgHG3tEEnCiQCsnU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkConnectionSectionT
+ ype.class
+SHA-256-Digest: w5C/gUr4Qpf5SsHXGb/g073khnedH4FYh/gJJwRo+C8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TasksListType.class
+SHA-256-Digest: q8VrDx5ddqA49LQK6opJdNHtBRR8SOeRXU5oMegRUOk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReservationPoolVdcTemplat
+ eSpecificationType.class
+SHA-256-Digest: Ma1cfSwdIJjo0a5BFcTGRZdsDkAomDvbLCpBb/Ypeew=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/KerberosSetting
+ sType.class
+SHA-256-Digest: zZuVUbF0NdjOv//RVYg9U+FOQuXOV0+KX/FIt30I09o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReplicationTrackingSettin
+ gsType.class
+SHA-256-Digest: 2EtKRB4+qTgyv8Q6TOaM/rXzwjvzDNh5ny6kJqO454s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVAppTemplateRe
+ cordType.class
+SHA-256-Digest: EvJ7X482aMSU2/Lpj5JngusLP+UgWMQyIKvgSNdXyRE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgSettingsType.class
+SHA-256-Digest: V9Hv/XC/KJZA57v5vaY+8rPHuiTRVAu62ARHqazF1hQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkMappingType.class
+SHA-256-Digest: XtHbhzj2VhPLr+08gdP7FnKDmPiMnzL/1X1aGrrjwyY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultStrandedUserRe
+ cordType.class
+SHA-256-Digest: QidogYgAHJaIB2GzfkmUOgAhRr+xeRSJu3PPZCozNeo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/DatastoreType.c
+ lass
+SHA-256-Digest: luiDQq8SEkhydLqwTiQdD+o9OXkgslSkQUvEIUq4wk8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EntityReferenceType.class
+SHA-256-Digest: y6uEOYznDJCSMhHXF1XfGoJa2pFVvOmJ8MCVmnUWxRo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportVmAsVAppT
+ emplateParamsType.class
+SHA-256-Digest: mEAbrtXdxe3Ap5J53EUbuxucb2kEuJxEvPzDSFKi2GU=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$WebSocketCons
+ tants.class
+SHA-256-Digest: VzQ7lOXlwoSZnW2sOkQzrY/eb8CXe2s6qS1HclrPZFE=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/package-info.class
+SHA-256-Digest: wOtLXByUJjx7eMJicuoX/3JQzo80RDcSwNYnS8+26OU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmQuestionAnswerType.clas
+ s
+SHA-256-Digest: eNETVsPe86yWAVuZf0WayjQVFS6SjZ/5tPqPji+3Kos=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/environment/PlatformSectio
+ nType.class
+SHA-256-Digest: rO9lslyXZizFW+CVZN4v8uT0WkaEV9CdTfNrtEUfWgk=
+
+Name: com/vmware/vcloud/api/rest/constants/RestAdminConstants.class
+SHA-256-Digest: 0hvkDE/UZ+LQxg+SjPzMlAggTXiq6nFMrfE+CF0WpgU=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/RASDType.class
+SHA-256-Digest: oxTqgOPAs2gH7QyydBR2jxDg5TuiQ1E8J2MKPoBEwzc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CreateVmParamsType.class
+SHA-256-Digest: HKEdU/P4UJQoGG/b7G8AUoeD0Xyv8tZaDU+4lXIAkr4=
+
+Name: etc/schemas/versioning/versions.xjb
+SHA-256-Digest: rkPPLnVWQkgmmJ3PHKWnG3fkX2yQ45Ll5dyuAsnfO0E=
+
+Name: etc/schemas/external/xml.xsd
+SHA-256-Digest: WwqI7nvvVjNxupgQsLa+XI66RtF8qxq9rG/uenMYIjs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminVdcType.class
+SHA-256-Digest: xvjGmMXzFfV2x23xY3uXOPFORUhIAJmqDxQSUMIlu2k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CustomizationSectionType.
+ class
+SHA-256-Digest: gg+il+3JZmxhegsYJu03lgeVRCyxAZf04AJTODUDRxg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrganizationRolesType.cla
+ ss
+SHA-256-Digest: tICvHpagmk5hwJ5ffWma8wD1v7Geg+/pmr2cW9FC5t4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultCatalogRecordT
+ ype.class
+SHA-256-Digest: tvdMx7yip+15/Shm/1VZYX5b/OU3+UojTVtZWFX7cYA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LookupServicePa
+ ramsType.class
+SHA-256-Digest: 49HRXP31d2SXioHsNeMTg+1mkDkqmaGC8OXQl3KkB4E=
+
+Name: etc/1.5/schemas/extension/notification.xsd
+SHA-256-Digest: Jb39o81YpUl8eEVrtw3tpr81QNYDP4R3/SyGFW/jZOw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProviderVdcStorageProfile
+ Type.class
+SHA-256-Digest: IcuBt+tb7pzpd42c1cyvbgcs31yr+MdLkWlQ2wo2esU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/RightsType.clas
+ s
+SHA-256-Digest: J4SFLOvK70BYIhsG/TGyQl7UUnJ+O3weei33kHQimA4=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimUnsignedLong.class
+SHA-256-Digest: 507A6E3dHd+UHzeOw23CHO20R5GAUfLvr0wPesXAuZc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/UpdateProviderV
+ dcStorageProfilesParamsType.class
+SHA-256-Digest: Iz2WThSVNKlKIEqDHx+BEKzSj+FO9HzKn3GZoOrHPzA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HardwareVersionBaseType.c
+ lass
+SHA-256-Digest: NsEs8DUkJzNMIHGULtsur+GnzO4QI6qx+K4ofkadvLA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWExternalNetw
+ orkType.class
+SHA-256-Digest: gOvHSypgfx9BPgZnv94mfnhfRjlPbDfozCZR7gOdw1c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/Selectors.class
+SHA-256-Digest: qeYOr8+PcrJFlOLiriLhFbjmcw34dbl+Fwa6OgjVW8A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CatalogItemType.class
+SHA-256-Digest: xy+2iv5qhMxJ3IiYgIFLJ33YM05uH0h55qzG+BueTHE=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/Description.class
+SHA-256-Digest: NBA9CRVlyWEAcq47b9FoiQtmkepwM6uiy6/6/pjkNeg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/UserEntityRight
+ sType.class
+SHA-256-Digest: PFbeT5K+Ab/IEozuUvwKIR5wPcOJGk2PNcuGsfgBEPM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskOperationType.class
+SHA-256-Digest: K7irfoHLDSU875NZUfZrkRIkGDbBBsjol83UtIRIS4c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminTaskRecor
+ dType.class
+SHA-256-Digest: 0cp5qbvcm1DZzkcksccSyev9h0tJjk7n1oCh3M5O7t0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EntityType.class
+SHA-256-Digest: lAq24Mrb0dyEkc9T2LYo4PnJ19F0zPXS5XHampzQsQc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CurrentUsageType.class
+SHA-256-Digest: 4eEjxc3kM8a3vi/Hdg6JgNazNNrOOCXZWjXOqbm00fc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/StorageGroupSection
+ Type.class
+SHA-256-Digest: f3e2xhmTbsiOZr1fc62ufP4yST9M2wufze9y2IhBeyo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RoleType.class
+SHA-256-Digest: ZpJ/X6v8ZzgvTjPY2UQhygGiz1+4bGnO8m3f9fOFHRs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MoveVAppParamsType.class
+SHA-256-Digest: cG/bDeDfPiqJ0SkR827SBa8BDPCs2gFq9v1kjdgmWu0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/FencePoolType.c
+ lass
+SHA-256-Digest: NlY4Ip5T29V+rK5OkLYYip6OhTyoVCs9uOzNSbO/KEY=
+
+Name: etc/1.5/schemas/admin/selectorExtensibility.xsd
+SHA-256-Digest: IT4cx6HtswJqARLfkntRegYnl2i5j9RUmm++l6lp+cw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/EntityRightsTyp
+ e.class
+SHA-256-Digest: UztVGAdpLL6KAlgI57WrxAlMCdkgMtoLIHRmM0kdtds=
+
+Name: etc/1.5/schemas/vcloud/common.xsd
+SHA-256-Digest: QQ1AhbnFilkO0dEgBBovAamOH+335y1XaD2avfygKYM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OAuthKeyConfigurationType
+ .class
+SHA-256-Digest: c90Vi5EOVkNvRhQBFnLLBCRR7LQEjjBuCmSgVVuFb5E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataType.class
+SHA-256-Digest: K8MU/xQefZo3q45qesgRpiUP7NdbHERS38c8ak5WWJ0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ComputeResourceType.class
+SHA-256-Digest: jrexm3B6y5nksEbsRNgWVX+NjnpV3lZQKG7VDbAB3Oc=
+
+Name: etc/1.5/schemas/vcloud/vendorServices.xsd
+SHA-256-Digest: TNrpyGDxfrz5p+D7yOdD7QTESmmFBiGFi30Y+zYVQ+M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SiteStatusType.class
+SHA-256-Digest: CgcgXhZQqUNP5cYUTOWJRtu/qP4RW3oPye/EpSvil5g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ComponentManage
+ rSettingsType.class
+SHA-256-Digest: 4ya4v4hHjIp90SntCmgf9CfMzSDzQu0KOrXbWbcxR4o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgNetworkReco
+ rdType.class
+SHA-256-Digest: /BVRhHShUwlq1R1rvZyrbFO6VqSayG6t1mTDSXp00qM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AdminServiceLin
+ kType.class
+SHA-256-Digest: PFlT6r0hnzLLl2SAzW5GhuWwmf6kSUAp7tLCAncbVtA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaInsertOrEjectParamsT
+ ype.class
+SHA-256-Digest: R3j0oiQ7J3LL+SMgOtEkwQET6+Sg4le9YVxneAykUEo=
+
+Name: com/vmware/vcloud/api/rest/deser/schema_v1_5/IpsecVpnPeerTypeJax
+ bDeserializer.class
+SHA-256-Digest: BXAnPmzlX6yutWf4q80RxjAL241CH4Wo23u3JF1VEkI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ExternalCatalogSubscripti
+ onParamsType.class
+SHA-256-Digest: bMVjYdwcN3+HPSYnL/GT7Zz8/nLAOFPzU4iPxiXN8OQ=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Network.class
+SHA-256-Digest: i4P/3uo4eCgZk6XU7dnEq6UemInmlT1hYRf+ECErSBk=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemChangeableTyp
+ e.class
+SHA-256-Digest: RNWWRXIqLWto/1ojCvE/Q4VTOkM1bJcWdBlkHq23gXw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskOperationListType.cla
+ ss
+SHA-256-Digest: YxplNQmA49vAMEH+rNvDtKC+9WeoZUF9uTbgFRisjeY=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/EnvelopeType.class
+SHA-256-Digest: q3Nz5cCCRilmCgJqCkPBE82SqS0xYP/6xVRRNb/Ck0s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/GeneralSettings
+ Type.class
+SHA-256-Digest: 9SeLMxyaySlrt+cTlfaZ3ILsN3UJ1D/7iLyXQ2mviGE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatRuleType.class
+SHA-256-Digest: x+i5gBWK9TKXwSDHb5tttjdJCgal9WdLad03rwVLNoI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgType.class
+SHA-256-Digest: kjudp6zmtk5fpTc+J6p45+XzEhhGiFjfDFKWVH0NUK4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultServiceRecordT
+ ype.class
+SHA-256-Digest: L1h87iFyMFjWFmaFD4KaSFgz1Uqr2lVbD0ULMVj+mqM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemCaptionType.c
+ lass
+SHA-256-Digest: YjUeSU1Wb7WrUfAHzJX96iVsqx2cJLx8fO5l9EOBukk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpRangesType.class
+SHA-256-Digest: /yOIFdv+C81NXtGeK3ILY9cmreM/aADnR1x2XWd8828=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimChar16.class
+SHA-256-Digest: h9nJBIG1DTowCbK06+SYvTjX/W0YWhcQHyzrLpfSVjM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminCatalogIt
+ emRecordType.class
+SHA-256-Digest: 3/KeX6jm0uQF/8y7IuSabzofAKJ3okfDSClhj4iUhs8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LookupServiceSe
+ ttingsType.class
+SHA-256-Digest: SQI+Fyf9MM573yn5Wy0a1qvEbitCdblPH3X6bB4njV4=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$MediaType.cla
+ ss
+SHA-256-Digest: T9n6GPNbHN6+PDqgD6XhieDyZTQXwrp+Ue0L2BSB0SA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/LicensingVirtua
+ lMachineType.class
+SHA-256-Digest: QSI8smMbfhxB63uzoMoQZT6Fj5eNeh/upHGNfPPIGSE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FromCloudTunnelListenerLi
+ stType.class
+SHA-256-Digest: nol31OfqB/+3B6NRNMB1/TgJslqnpzDUd3Hi65HHZ+o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaType.class
+SHA-256-Digest: omFF3d7NwaPUsqSJmnN7WoUmymeIlJBnAZe/xF5Fb7w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VmPendingQuestionType.cla
+ ss
+SHA-256-Digest: NAMvAFFI47Vz8jqzRl641pnEKxoICQzskBBibLWR/gs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWExtensionTyp
+ e.class
+SHA-256-Digest: QR4p2apXqN1S+woRTVlitwgeUHjvs/OwLIAiXFevIvM=
+
+Name: etc/1.5/schemas/vcloud/media.xsd
+SHA-256-Digest: HVUqFrcY3PnPr9PkA4rHN/Qf4nnd6Sv7O28qbexyvws=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/AutomaticShutdownAction.cl
+ ass
+SHA-256-Digest: zsIW/GII00pyyo5e9l7pNxvkWDgfK+mSFvxzbw5wT3s=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$HttpStatusCod
+ es.class
+SHA-256-Digest: Pu17OhfRfGe1zivZwPf2aEKx60LpcGwr9OpP1JBgQ/0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWDiscoveredRe
+ sourcePoolType.class
+SHA-256-Digest: GC5sP2W6EES77PjFvjq2H4bm6Ro3MWaTNKhpzxeiy+M=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpComponentConfiguratio
+ nsType.class
+SHA-256-Digest: talEamtojAQZVrGHNUb0wrFcwVZ6Z/cL6XP46tivEC8=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/QualifierBoolean.class
+SHA-256-Digest: fkwoKfdGaSChvePbfm0bY2UxjcXvOpRLultJ9inHa/Y=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VdcTemplateSpecificationT
+ ype.class
+SHA-256-Digest: 3wyDPlP80eKBV5Tr5dpUNxE/JLyqa28eQOK8mfL8ve4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ReservationPoolVdcSummary
+ Type.class
+SHA-256-Digest: fcEF4BcnA4IpbI2Hgeq18YnfChsVZ8Uy6M6agaI7DD4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/BootOptionsType.class
+SHA-256-Digest: nTwf3WJGCdnlOJJ5BUuOyttlOtYjZTJv14orhRgtBP8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CurrentUsageSpecType.clas
+ s
+SHA-256-Digest: Sz3qMRbvh0HlY8qN1d6uH073VDqw/eVRUae/lTe4OJs=
+
+Name: com/vmware/vcloud/api/rest/constants/RestAdminConstants$MediaTyp
+ e.class
+SHA-256-Digest: yD4nG6w3vYKrwul+yF/nuwdxrtGkxLi1HrM4HBmp/dw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultOrgAssociation
+ RecordType.class
+SHA-256-Digest: 1SBdnL+iCxeJIL/HE/BgUjIjIVeizOZMjPxR50Zy0Zc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatServiceType.class
+SHA-256-Digest: oer4tMx08ZeK0y97va2CPoBdO4YATVTmgp/FJq+wG1s=
+
+Name: META-INF/JAXB/episode_rest-api.xjb
+SHA-256-Digest: vkwXNfmZhLsjmDXmB1jXhxXbXW+pdeadoriSIWmbp/g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AclRulesType.cl
+ ass
+SHA-256-Digest: T57Mx+TLpwK/Dwgo1L+Z/HgDk0g/XxhBm+H8MytqGfs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OperatingSystemInfoType.c
+ lass
+SHA-256-Digest: +Yp0c+flcZBvJcWiAFIjpcwpnrRsSkeJqlIi+7t7fDE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/OrganizationRes
+ ourcePoolSetType.class
+SHA-256-Digest: rOU0F8HxWp6QkJB1MoIGa5isESht+gz5gM+9//UC+po=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/QualifierString.class
+SHA-256-Digest: 7zMIsMiP8uMHYvjtyziNPlIiUQD8S70L6KZlW87ykJA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FileType.class
+SHA-256-Digest: 0UueIEbWgF/6diJ9na7ZC3++bE45fGciqzUbctINmZk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskStepType.class
+SHA-256-Digest: cRUFLM1I3ftUW1C+8Zly/leLSbhYRDRRgFab88FxRYw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVMRecordT
+ ype.class
+SHA-256-Digest: jMIZT5gLlG4OFsZ/h2e8zvUGlfLIk5tvGAZZ0N5W1Lw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NICType.class
+SHA-256-Digest: 3HOZIwB4yuuh0HP9KhAy3P1SxVtVK39MwiXvC/ng5oA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SelectorExtensionsType.cl
+ ass
+SHA-256-Digest: /9DHTUeYc3i9KCwYRPhJU7f67fq/QOd/MyKcpDkfvxA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SnapshotSectionType.class
+SHA-256-Digest: uSyhpBVGhFWrbMne8FlEjENSskmK1h6T4b1sTe1KISo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ResourceClassTy
+ pe.class
+SHA-256-Digest: K3QHCQG7Mb17fJqutpHLPX76b7KXdYq2p+qCC7wqUvk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/PortGroupPoolTy
+ pe.class
+SHA-256-Digest: BlvQ4AOo9SiXat6tSffyV1RkdL7p+PxJMoXNQgdBc3w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HybridSettingsType.class
+SHA-256-Digest: gC8m2JlQcwr3uf7IM7iZc9proPEHoAfE0qcxr1+/5BM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVmGroupType.
+ class
+SHA-256-Digest: iM4pQP0G7CLIcFSqkSiXOPn2raH6iuqd4y3mW43N3io=
+
+Name: etc/1.5/schemas/vcloud/network.xsd
+SHA-256-Digest: V4x531fQs/V/8ZLUfZDx5SZtHs7CkhKaAQXlLIXxAuw=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppNetworkConfigurationT
+ ype.class
+SHA-256-Digest: akSgV659dUh8N8JdQEfKR3wOywvNV+JKcxpQHLpcDyk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BlockingTaskTyp
+ e.class
+SHA-256-Digest: h+bFzJz2yGaheOL8EedCRRvHujcb5TVkr0Kd5XH32XE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/MigrateParamsTy
+ pe.class
+SHA-256-Digest: lFK1rH1Y9sZA6Z1xLxdkQzjjsXIRq2K7qW0kPAJtg40=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$OAuthClientMe
+ tadata.class
+SHA-256-Digest: 1KxLIfpsXrpuF/41xNMIPTCYmm+d+ITWKb7dFxoI4RI=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/AutomaticStartupAction.cla
+ ss
+SHA-256-Digest: +ZRPIvjIu+Ldlp1PvS7t1LhUhwC+10MTQm77ez2CnU0=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ConsumerVisibility.class
+SHA-256-Digest: jiAb54tV91DCCTbwl13cwVnuj15nBw/jPL3dyZGaE58=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWVdcTemplateT
+ ype.class
+SHA-256-Digest: ibNovowVnr+kUsovqRp4GuH5pRHNVGHFdfWSkdqAjOc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnPeerType.class
+SHA-256-Digest: K5h+eou0/ciO86Sj/cCUF8LSVaJOIWZavgBNTD18jls=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SamlAttributeMappingType.
+ class
+SHA-256-Digest: Y8IcWsD4JNt2vVImJrGL6jXdUqqvD5rq+8qYFMRO4qM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProviderVdcType.class
+SHA-256-Digest: U+EJ2EsD1Iu0BPlPdwnt1sGoC7G9xv8DgRo5uaHThzo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAclRuleRecordT
+ ype.class
+SHA-256-Digest: BUrDBkR2TLTrO1uYPi4CWtv3IHqimspqsm3HCeqj5kA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NetworkConfigurationType.
+ class
+SHA-256-Digest: b591dJ7do33wwBqotLegxs6dV+wSSaVeh9R6Axl9Zmo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ProviderVdcCapacityType.c
+ lass
+SHA-256-Digest: dv5Lg8qR47ljz1oV3zWb/TBsoIrTIDSYTMk9vuibWBY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/NumericRangeTyp
+ e.class
+SHA-256-Digest: tlFVceyC4U9BPOMiV5lpUz6WUnZsRecT2fJGAzRGz14=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnServiceType.class
+SHA-256-Digest: uXEHoa2TMA0WTiXdjNokRci1IsZa7D0yWrdLo92cr40=
+
+Name: etc/1.5/schemas/vcloud/catalog.xsd
+SHA-256-Digest: DkcZbVF2BRpAf8G1F6MKyyr84iyfUt+Y80YqEv6CkZs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppTemplateChildrenType.
+ class
+SHA-256-Digest: vrSHvwLGyZh8D0pbO0On8XdMRItFOqS5AvezuFURhyY=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/CpuCompatibilitySec
+ tionType.class
+SHA-256-Digest: j/GBXE65D1aJWIoM8wAc5HbiGz2ZTCYyOEp0aUUxlYU=
+
+Name: META-INF/JAXB/episode_versions.xjb
+SHA-256-Digest: /x1kDHlRs1l5Wu+u0103mq9sA5rThw5cRX5UCsyPkyQ=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/package-info.class
+SHA-256-Digest: bTp4G+/EZyPhOQuh8hmN9rsDOOnHvkvSJqsJQvuEh2A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CustomOrgLdapSettingsType
+ .class
+SHA-256-Digest: n/HDZmrcVoPwQ+t9ot5TU4jYFXX/xnJ6EqJ4CTSuGs4=
+
+Name: com/vmware/vcloud/api/rest/constants/ExtensionConstants$MediaTyp
+ e.class
+SHA-256-Digest: A45IpzcYOImzlIRocqi39BjMqSizWeYwmtkjyk7lros=
+
+Name: etc/1.5/schemas/internal/internalQueryRecordView.xsd
+SHA-256-Digest: fGjKqt8jMVVccDa7oGO7E2jmLS7DWz1E8qS3Yob+udM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/Property.class
+SHA-256-Digest: Kg7TCP8OL+1jl8xnxL7sFdL1de26i3A3X2eFp/LB8rU=
+
+Name: etc/1.5/schemas/extension/settings.xsd
+SHA-256-Digest: BokHAHOiAqcWLQ+8mg6kXyP9pOeTsTJLrJEXPXMLUpk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWHostReferenc
+ esType.class
+SHA-256-Digest: VRYB6/ZrBje55YkkOPtqZ4ftD/hjkEVQ4nufFLtOW4k=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminVAppTempl
+ ateRecordType.class
+SHA-256-Digest: hA05zs8pnr0ighMj3TqPWF19KdV9KxPn336XtBops50=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWAllocationPo
+ olVdcTemplateSpecificationType.class
+SHA-256-Digest: QqAgMpl/d06y0C/+1BOkZmchj8VIRDc6LIMkD43il+E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateVAppTemplatePa
+ ramsType.class
+SHA-256-Digest: eq/se6KQJlZXoWLpM2icYpp63Ub51haEZR08+2bpM/A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/SiteAssociationsType.clas
+ s
+SHA-256-Digest: 45B5aXJzi4jrMrQ3uRTP89nAeJ/QBsP1MWxStCQ4feA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VxlanPoolType.c
+ lass
+SHA-256-Digest: i7yW/16NSr6CeyuWb8/XwKng0uKaHMaPR+PU881rfrE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VersionsType.class
+SHA-256-Digest: q0K88sJLYHzrzWmpCBAjvovPnyz9asC3YRrros2YRHk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultMediaRecordTyp
+ e.class
+SHA-256-Digest: DXOuopqOta1mlrBgXBZVNIjAlHWJQRPTgUidjkQP8E4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AllocationVappVdcTemplate
+ SpecificationType.class
+SHA-256-Digest: D0T06TipjwWimwg9/0SU6sNWq4eiQs03dN0VA1VAgEA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWProviderVdcP
+ aramsType.class
+SHA-256-Digest: aPkqhTcEiRTixh9Hwc+Q9YSzadRiDvU8LBLCvxr78oA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrganizationRightsType.cl
+ ass
+SHA-256-Digest: fqA9rdOVXy3NSR9bCo6LarTd6Fdzd4hprAGdeudNDk8=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$DetachParamet
+ ers.class
+SHA-256-Digest: ngNIH34yAp0cIaARUImCuaXa3BystMkJmNsdkdSbFVA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VMWExternalNetw
+ orkReferencesType.class
+SHA-256-Digest: l3BrXDiFbIWtEyJEG8ZheFoLmnypP3nreNSwF7gRlOk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FilesListType.class
+SHA-256-Digest: DDDIdtf4m38thTVmTspY9JCEaScAljwi+ssFF/BrQi4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OvfToVdcNetworkMapType.cl
+ ass
+SHA-256-Digest: JdLoJRhf+BFfqirlO/PgfasPxGkW0xJ5I2vbLtFDDwk=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AdminOrgType.class
+SHA-256-Digest: smB8zxL7YS+vOCp1MecGLncmH5ltNhviU8obggGKVLA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VendorTemplateAttributesT
+ ype.class
+SHA-256-Digest: zgZX12Kmj7JDhaWkRIJPI1AIreEjTc8gwyZcAjna8ZA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/VAppChildrenType.class
+SHA-256-Digest: Z1YrbqgRZFDuYET7uQnb+0IIYzAmI0SpXRsoo9+voCA=
+
+Name: etc/1.5/schemas/admin/blockingExtensions.xsd
+SHA-256-Digest: FsEpwIHutq30uSGyAFZRzDDEfBn5qPzv5esseQ+mhNM=
+
+Name: etc/1.5/schemas/admin/user.xsd
+SHA-256-Digest: Q2IhoYMIRS9EGBKG6DuoCRn1ZmDE7J4B72V9olHrKQM=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/CoresPerSocketType.
+ class
+SHA-256-Digest: Fh1WTceg3hQ3Jy8hwMST0Xq8aaz2e7Tasgt4PiAhbdM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/NatOneToOneVmRuleType.cla
+ ss
+SHA-256-Digest: 4R0ahs98QXa0sEoGF9kTT5bxOny4K0C5ozKhkQcXGII=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OIDCAttributeMappingType.
+ class
+SHA-256-Digest: 6IgIalDaeGxxYsAEN4fwHvpspg5+qp+pHfUVZzleCjg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultStorageProfile
+ RecordType.class
+SHA-256-Digest: j9DJygDjdEYNUX+QZlZGc1Fj1uoNziagLKGQLJiKmDI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/OrgLdapGroupAttributesTyp
+ e.class
+SHA-256-Digest: 3kdGIMNoefbIRWmk4mXtVPQmznoQ7uyJqRKYxFhKEcs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IdpRecommendedRolesType.c
+ lass
+SHA-256-Digest: +oO4b8crLyK1jAptdqa7x6UeuuBbw/MPtW5qjJAvZ2M=
+
+Name: etc/1.5/schemas/vcloud/vdcStorageProfile.xsd
+SHA-256-Digest: Lnaxp2yZt+se7EQlQL1lSU5FNubTbv/R3AnFdIhua5w=
+
+Name: com/vmware/vcloud/api/rest/constants/RestConstants$MinorErrorCod
+ es.class
+SHA-256-Digest: G07vKIU+tJ3IqznW+41G4d4RvoL6heicIdDnI0NIel4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ResourceEntityType.class
+SHA-256-Digest: tTMuSGkAeZ6v7bndE20mCRMKAGPNcboFXQK7ztGWwwo=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/Selector.class
+SHA-256-Digest: 9oIBVPEPYTtYnD5NOIYswbmTAJYiRyptE7wM2YQQ3+4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HistoricUsageType.class
+SHA-256-Digest: +EseWU6Zk0yIoGB2CElyWRzdv+BOim7mfKDCWXlAyuc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultDiskRecordType
+ .class
+SHA-256-Digest: 2GtOuwyW0WU14g5mtTtnyK4qP5II2M3l8lSRuGUKxj0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultApiDefinitionR
+ ecordType.class
+SHA-256-Digest: 0hdWL5zECjcmUkYun3zbw5WdOvOiT/BJ6JS+reD8agA=
+
+Name: etc/1.5/schemas/extension/vmwextensions.xjb
+SHA-256-Digest: fzJphJGJf9iy40n8/9hpz2+QqkO68LvQK34iuOtcAQI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminAllocated
+ ExternalAddressRecordType.class
+SHA-256-Digest: fAfx7yNb+IXJGyufN00QeM+/rnpTe/sIPefAbJG2Ah8=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskPrototypeType.class
+SHA-256-Digest: xEMg+aKbNOi4x8zM7x6bqmQQtLuTNcg0NUyfeJUzcLA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VmVimInfoType.c
+ lass
+SHA-256-Digest: 3b3aBd5YPF/wRBy98Uv7PUP9pkUPPIMMBpJqv35ykLI=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/GenevePoolType.
+ class
+SHA-256-Digest: rjkiwCjehk/E2k1/vzbNjuSigYgT0SsviOO7vAdXWeQ=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/vmware/ConfigKeyValueType.
+ class
+SHA-256-Digest: 0Qj8SXjZK+EC/sxW8Eaz/D9Amiz4S7rNPFtD1n+ne5w=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/CimBase64Binary.class
+SHA-256-Digest: 9vdid1cf9Uh4sOxRRiWA1UzhmklWepezr1SLyPFlH7I=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CaptureVAppParamsType.cla
+ ss
+SHA-256-Digest: cvXuleXvoJ45fRT8wX5Z0qAsDdn0RTS6fyJNysYjoHY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CapacityType.class
+SHA-256-Digest: 5dx0NmBhU157/+oSWWMaq6+vnMdmBpoFokqSy88zk0g=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/RasdItemsListType.class
+SHA-256-Digest: YKYskb/AA11qWCfjVEm87urg1LkHHN2Cvma14I7u+TY=
+
+Name: etc/1.5/schemas/admin/vCloudEntities.xsd
+SHA-256-Digest: pPV2//yDwC3+QKMhnMskFonhAjxbR5QkSzNHLcTDoMA=
+
+Name: etc/schemas/versioning/versions_v51.xjb
+SHA-256-Digest: ReLuQUolMvYT0EJM2gwJ9rRl94kPMfU7KxwWqHeIi2c=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVAppOrgNetwork
+ RelationRecordType.class
+SHA-256-Digest: q3Kk7nnshK13Z2mINMIja68ThLsNV9gFajvVwtD2iKU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ImportVmAsVAppP
+ aramsType.class
+SHA-256-Digest: /+YPKJTajSEwBW6/MFQNGXnDAxsSVBV89Mu0yppduos=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataValueType.class
+SHA-256-Digest: c6gXZhAtO1CVPN0GGU8viODdoDDZtBOsQLsoZxHxe2s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpScopeType.class
+SHA-256-Digest: c1ilZ8twkbMLI17YcjVeeuLF0ch7Uj6wl2xBa2rYb98=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/EdgeClusterConfigurationT
+ ype.class
+SHA-256-Digest: 3sdB0umtCiQOaCWSXMi4ybGTAS0GLyNcyMODWAq2C+4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/CapabilitiesType.class
+SHA-256-Digest: gRnXPf4MdnZ2cfIEn4kxA1tb+lMj9Z6qpt+v2SpOTjM=
+
+Name: etc/schemas/versioning/versions_v10.xjb
+SHA-256-Digest: lkTK3mOR5Gwb4/xM7u9whVFIOBAGRKOhUCIniyCWAh4=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/InstantiateOvfParamsType.
+ class
+SHA-256-Digest: rmDF7vo77wBZpOXkQFaDhykWHi0acb9ngjIqllGrDUc=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/ResourceAllocationChangeab
+ leTypeType.class
+SHA-256-Digest: yeZ9KfeIO4F6HSG3SDGAfTiWvrdkIxvrU8XpVHnpa18=
+
+Name: etc/1.5/schemas/vcloud/vdc.xsd
+SHA-256-Digest: ZY+JOr4TZ+Aa7vzK6D6QjJrydLpN/otqS+uNlTAg9Xc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TaskStepListType.class
+SHA-256-Digest: HPcZPRQ77+9Uzz82B5+wJa5z575l6OLB0wy0apGzv7s=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/QualifierUInt32.class
+SHA-256-Digest: pTM4Z5kz1C3+0X9Oq/ztmuaFQuLjlGy58mzxdjB2ksc=
+
+Name: etc/README.txt
+SHA-256-Digest: jWmy2j04s8deN6EWeaVdZ04XUlCna0CR3vhRPZH/H8o=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/LBPoolServicePortType.cla
+ ss
+SHA-256-Digest: rCcAuki7jtNdbq+D0cp1FVIX61XLORQb8ApdUHUYL+s=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/TrustStoreUpdateParamsTyp
+ e.class
+SHA-256-Digest: 56eCT3Fx8z0JHDSjhqotNfP5dJNcWmh6WNGaRC7CdLA=
+
+Name: etc/1.5/schemas/vcloud/vAppTemplate.xsd
+SHA-256-Digest: 2jpGYwPOATKy5oGXrqnzYa4CgCgrAxPZcfku0xqdXrM=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AutomaticNetwor
+ kPoolReferenceType.class
+SHA-256-Digest: nSsQkin7wo/1dmeuCxT1CIZW7aPHNogpH1SmlYtBOEA=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/FileUploadParamsType.clas
+ s
+SHA-256-Digest: qLDboxJWHLwuxObKP03kqINspxMB0atWTUpqcUjyQAs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MetadataStringValue.class
+SHA-256-Digest: 6Bx/xcUmqsnvBoBBG1ITLNcXYAzyJ33X4JmhmU+7Zpg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/ShieldManagerTy
+ pe.class
+SHA-256-Digest: Pqyyy/VLzUIOWEjY7iZGSIHO1M27woOyinl+sCLAu1A=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultResourcePoolRe
+ cordType.class
+SHA-256-Digest: 77uCWda5pcrQsfFFK0ozUTvINpnOnP058gFLrtMolS4=
+
+Name: com/vmware/vcloud/api/rest/constants/VCloudMediaTypesBase.class
+SHA-256-Digest: IwkMIQh+gKrGKjV73+esKaDld4avDEXvQTfCW84dh7E=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/DefaultStorageProfileSect
+ ionType.class
+SHA-256-Digest: 4Ay3F6diy1Lcnitjt2az5oO4iovP2iOFS8XuE7trWrE=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/MsgType.class
+SHA-256-Digest: vskAKwv6PF12N0M/+H1gsN3uyXSXjG3EVPSKQJJpLew=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/GatewayInterfacesType.cla
+ ss
+SHA-256-Digest: oL7MMadeL1ymCh2XP8veDGeici4BihKPQ2RJwBfWVaw=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/MappingBehavior.class
+SHA-256-Digest: mm8xCiuT5ckK1cD4qomzd6tL7wUsRFzq5Z62onlRnMg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VdcTemplateNetw
+ orkProfileType.class
+SHA-256-Digest: 0bOIOXiVHAc3xZ/RhXHKvPIGXgeOAqsKWSH+Dww3Dlc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/AmqpSettingsTyp
+ e.class
+SHA-256-Digest: 6x3BZwdvQ8NF5yMO2UD7oC917BrBESmXoN2sblLUbXE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/MediaStateType.class
+SHA-256-Digest: RDwifuhr8EH+vXWGDsFUnFIB6BsBDuQpFczQ2fgzisQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultHostRecordType
+ .class
+SHA-256-Digest: f7ERfZXmLItqtTaPLAJ4b/XxLyUEffLqWJrE2Id28ps=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/BlockingTaskOpe
+ rationParamsType.class
+SHA-256-Digest: DqzfjrtCdhCIuUcGzI34jMpky7tlRay9wCFgHDoiZnU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVAppRecordType
+ .class
+SHA-256-Digest: dFegRyeELiqjVoHaA0WVJ4AT7KwXaIizHt12c7TqHWY=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/HybridOrgType.class
+SHA-256-Digest: CWmw8FcT81R+1jL++YGhvbKjCMX6ppdYAK+w7iM7lIQ=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/AmqpConfigListType.class
+SHA-256-Digest: 0ywrfIwIqLDKGy7FeQlf5Axaqwj/J/dQZbkbe3KNBt0=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultAdminOrgNetwor
+ kRecordType.class
+SHA-256-Digest: 2HNG+z0z8nyg5ffn0KyzPc2gnxQL1UIbrA4u5tIKRUc=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultSiteRecordType
+ .class
+SHA-256-Digest: LjD7oe/xjOeiYSB0JlTmgUI+5nr9ON3+Vvmgi56jb90=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/ExternalNatIpMapType.clas
+ s
+SHA-256-Digest: TQVCbrI0FkZnikuGeVZjZ3tOreIoLBKypvsvaXLra4w=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultVMWProviderVdc
+ RecordType.class
+SHA-256-Digest: 4sS79Idhg8He0MZSZuVmMy8A/K9fOZoeXLVDMc7dk6g=
+
+Name: etc/1.5/schemas/internal/internal.xsd
+SHA-256-Digest: kGJJuiWdOyhM9aMsRtJhCoRg/ogjC+QYtaAyX7IMWWg=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VersionsType.cl
+ ass
+SHA-256-Digest: 62tvLDW8RULhkoNixacibQNNz/Wu0A1Vc2lOyxGc8pY=
+
+Name: com/vmware/vcloud/api/rest/schema/ovf/VirtualSystemCaption.class
+SHA-256-Digest: zdzQL2T1VtB9yHBFg0IY46ubFPJEcZLa2j5Hw0xzFFs=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/UpdateResourceP
+ oolSetParamsType.class
+SHA-256-Digest: lpfVaDeVG7FAmUT0QcAJkCahVwyrbjkLAK2lschKsAE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/QueryResultGroupRecordTyp
+ e.class
+SHA-256-Digest: 5lg4xTBwpw9ElD8DxS1QudGBGfjo0NtKanRgo3/f/DU=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/IpsecVpnUnmanagedPeerType
+ .class
+SHA-256-Digest: 2Xmx91B5Wv4+MQCn4QVUcX67UTsYQhbcVh3ApKR/XIE=
+
+Name: com/vmware/vcloud/api/rest/schema_v1_5/extension/VdsContextType.
+ class
+SHA-256-Digest: CWZiu55a5xqMx5xZYiFu5V6tFHqppSB0KekF4kpxniw=
+

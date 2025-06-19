@@ -1,0 +1,2393 @@
+<html>
+
+<body>
+<p><b> QUERY DOCUMENTATION</p>
+<br>
+    <dt><p class="table-title">Query</p></dt>
+    <dd>
+    <table cellspacing="0">
+      <tr>
+        <th>Type Name</th>
+        <th>Description</th>
+        <th>User</th>
+        <th>Admin</th>
+        <th>System</th>
+        <th>Format</th>
+        <th>References Result</th>
+        <th>Records Result</th>
+        <th>Deprecated Since</th>
+      </tr>
+      
+        <tr class="$rowClass" >
+            <td>organization</td>
+            <td>
+                All organizations visible to you.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgRecord)
+            </td>
+            <td>
+                            38.1
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgVdc</td>
+            <td>
+                All VDCs in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgVdcReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgVdcRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>media</td>
+            <td>
+                All media that you can view or modify.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            MediaReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(MediaRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vAppTemplate</td>
+            <td>
+                All vApp templates in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppTemplateReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VAppTemplateRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vApp</td>
+            <td>
+                All vApps that you can view or modify
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VAppRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vm</td>
+            <td>
+                All VMs in your organization that you can view or modify.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VMReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VMRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgNetwork</td>
+            <td>
+                Networks in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgNetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgNetworkRecord)
+            </td>
+            <td>
+                            35.0
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminOrgNetwork</td>
+            <td>
+                All organization networks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgNetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminOrgNetworkRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vAppNetwork</td>
+            <td>
+                All vApp networks in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppNetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VAppNetworkRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>catalog</td>
+            <td>
+                All catalogs in your organization that you have rights to view or modify.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            CatalogReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(CatalogRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminOrgVdc</td>
+            <td>
+                All organization vDCs in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminVdcReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminVdcRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>providerVdc</td>
+            <td>
+                All provider vDCs in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VMWProviderVdcReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VMWProviderVdcRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>externalNetwork</td>
+            <td>
+                External networks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            NetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(NetworkRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>group</td>
+            <td>
+                All groups in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            GroupReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(GroupRecord)
+            </td>
+            <td>
+                            38.1
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>user</td>
+            <td>
+                Users in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            UserReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(UserRecord)
+            </td>
+            <td>
+                            38.1
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>strandedUser</td>
+            <td>
+                "All stranded users. When you delete an LDAP group, users who were imported from that group become stranded and cannot log in."
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            UserReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(StrandedUserRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>role</td>
+            <td>
+                All roles defined in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            RoleReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(RoleRecord)
+            </td>
+            <td>
+                            38.1
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>allocatedExternalAddress</td>
+            <td>
+                All allocated external IP addresses in your organization and the networks that use them.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(AllocatedExternalAddressRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>event</td>
+            <td>
+                Stored event records in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(EventRecord)
+            </td>
+            <td>
+                            34.0
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>resourcePool</td>
+            <td>
+                All resource pools in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ResourcePoolReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ResourcePoolRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>datastore</td>
+            <td>
+                All datastores in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            DatastoreReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(DatastoreRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>networkPool</td>
+            <td>
+                All network pools in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            NetworkPoolReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(NetworkPoolRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>portgroup</td>
+            <td>
+                All vCenter portgroups in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(PortgroupRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>dvSwitch</td>
+            <td>
+                All vCenter distributed virtual switches available for use by the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(DvSwitchRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>cell</td>
+            <td>
+                All vCloud Director cells supporting this cloud.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(CellRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>virtualCenter</td>
+            <td>
+                All vCenter servers registered to the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VirtualCenterReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VirtualCenterRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>host</td>
+            <td>
+                ESX/ESXi hosts registered to the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            HostReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(HostRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminVApp</td>
+            <td>
+                All vApps in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminVAppRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>right</td>
+            <td>
+                All rights defined in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            RightReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(RightRecord)
+            </td>
+            <td>
+                            38.1
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminVM</td>
+            <td>
+                All VMs in vApps or vApp templates in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VMReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminVMRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminAllocatedExternalAddress</td>
+            <td>
+                All allocated external IP addresses in the system and the networks that use them.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(AdminAllocatedExternalAddressRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vAppOrgNetworkRelation</td>
+            <td>
+                vApps visible to you and their connections to organization networks.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppOrgNetworkRelationReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VAppOrgNetworkRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgVdcResourcePoolRelation</td>
+            <td>
+                All resource pools in the system and the organization vDCs that use them.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(OrgVdcResourcePoolRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>providerVdcResourcePoolRelation</td>
+            <td>
+                All resource pools in the system and the Provider vDCs that use them.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(ProviderVdcResourcePoolRelationRecord)
+            </td>
+            <td>
+                            32.0
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>datastoreProviderVdcRelation</td>
+            <td>
+                All datastores in the system and the Provider vDCs that use them.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(DatastoreProviderVdcRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminUser</td>
+            <td>
+                Users in all organizations in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            UserReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminUserRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminGroup</td>
+            <td>
+                Groups in all organizations in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            GroupReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminGroupRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminVAppNetwork</td>
+            <td>
+                All vApp networks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppNetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminVAppNetworkRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminCatalog</td>
+            <td>
+                All catalogs in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            CatalogReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminCatalogRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminCatalogItem</td>
+            <td>
+                Catalog items in all catalogs in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            CatalogItemReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminCatalogItemRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>catalogItem</td>
+            <td>
+                All catalogs in your organization that you have rights to view or modify.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            CatalogItemReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(CatalogItemRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminMedia</td>
+            <td>
+                All media in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            MediaReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminMediaRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminVAppTemplate</td>
+            <td>
+                All vApp templates in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppTemplateReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminVAppTemplateRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminShadowVM</td>
+            <td>
+                All shadow VMs in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VMReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminShadowVMRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>task</td>
+            <td>
+                Active and recently completed tasks in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            TaskReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(TaskRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminTask</td>
+            <td>
+                All active or recently completed tasks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            TaskReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminTaskRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>blockingTask</td>
+            <td>
+                All active blocking tasks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            BlockingTaskReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(BlockingTaskRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>disk</td>
+            <td>
+                All independent disks in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            DiskReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(DiskRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vmDiskRelation</td>
+            <td>
+                 Independent disks in your organization that are attached to a VM.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(VmDiskRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminDisk</td>
+            <td>
+                All independent disks in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminDiskReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminDiskRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminVMDiskRelation</td>
+            <td>
+                 Independent disks in the system that are attached to a VM.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(AdminVmDiskRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>condition</td>
+            <td>
+                System alerts for objects that have errors or warnings.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(ConditionRecord)
+            </td>
+            <td>
+                            35.0
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminEvent</td>
+            <td>
+                All stored event records in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminEventReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminEventRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>strandedItem</td>
+            <td>
+                All stranded items in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            StrandedItemReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(StrandedItemRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminService</td>
+            <td>
+                System Administrator representation of all extension services registered with the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminServiceReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminServiceRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>service</td>
+            <td>
+                All extension services registered with the system.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ServiceReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ServiceRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>serviceLink</td>
+            <td>
+                All service links defined by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ServiceLinkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ServiceLinkRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>storageProfile</td>
+            <td>
+                All storage profiles in the VCD server group.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            StorageProfileReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(StorageProfileRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgVdcStorageProfile</td>
+            <td>
+                All organization VDC storage profiles in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgVdcStorageProfileReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgVdcStorageProfileRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminOrgVdcStorageProfile</td>
+            <td>
+                All organization VDC storage profiles in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminOrgVdcStorageProfileReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminOrgVdcStorageProfileRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>providerVdcStorageProfile</td>
+            <td>
+                All Provider VDC storage profiles in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ProviderVdcStorageProfileReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ProviderVdcStorageProfileRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>apiFilter</td>
+            <td>
+                All API filters defined in the system for extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ApiFilterReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ApiFilterRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminApiDefinition</td>
+            <td>
+                System Administrator representation of all extension service API definitions.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminApiDefinitionReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminApiDefinitionRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>apiDefinition</td>
+            <td>
+                All extension service API definitions.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ApiDefinitionReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ApiDefinitionRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminFileDescriptor</td>
+            <td>
+                System Administrator representation of all API filters defined in the system by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminFileDescriptorReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminFileDescriptorRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>fileDescriptor</td>
+            <td>
+                All file descriptors defined in the system by extension services.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(FileDescriptorRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>resourceClassAction</td>
+            <td>
+                All resource class actions defined in the system by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ResourceClassActionReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ResourceClassActionRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>aclRule</td>
+            <td>
+                All ACL rules defined in the system by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AclRuleReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AclRuleRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>resourceClass</td>
+            <td>
+                All resources classes defined in the system by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ResourceClassReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ResourceClassRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>serviceResource</td>
+            <td>
+                All service resources defined in the system by extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            ServiceResourceResourceReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ServiceResourceRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>edgeGateway</td>
+            <td>
+                All Edge Gateways in your organization.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            EdgeGatewayReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(EdgeGatewayRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgVdcNetwork</td>
+            <td>
+                All organization VDC networks in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgVdcNetworkReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgVdcNetworkRecord)
+            </td>
+            <td>
+                            35.0
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vAppOrgVdcNetworkRelation</td>
+            <td>
+                vApps accessible to you and their connections to organization VDC networks.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VAppOrgVdcNetworkRelationReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VAppOrgVdcNetworkRelationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>externalLocalization</td>
+            <td>
+                Localization resources for all registered extension services.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            records,idrecords
+                        </td>
+            <td>
+                        </td>
+            <td>
+                QueryResultRecords(ExternalLocalizationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>resourcePoolVmList</td>
+            <td>
+                All VMs in the system and the resource pools they use.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VMReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(ResourcePoolVMRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vmGroupVms</td>
+            <td>
+                List of all VMs in a VM group and associated container data.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VmGroupVmsReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VmGroupVmsRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>vmGroups</td>
+            <td>
+                List of all VM groups in all clusters.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            VmGroupsReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(VmGroupsRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminRole</td>
+            <td>
+                All roles defined in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            RoleReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminRoleRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>nsxTManager</td>
+            <td>
+                All NSX-T managers registered in the system.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            NsxTManagerReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(NsxTManagerRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>adminOrgVdcTemplate</td>
+            <td>
+                All VDC Templates in your organization.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            AdminOrgVdcTemplateReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(AdminOrgVdcTemplateRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgVdcTemplate</td>
+            <td>
+                All VDC Templates in your organization.
+            </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgVdcTemplateReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgVdcTemplateRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>gatewayUplinks</td>
+            <td>
+                List of IP addresses that are consumed by gateways.
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            GatewayUplinksReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(GatewayUplinksRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>site</td>
+            <td>
+                The full list of sites in the multisite association
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            SiteReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(SiteRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>siteAssociation</td>
+            <td>
+                The full list of associations in the multisite
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            SiteAssociationReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(SiteAssociationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+      
+        <tr class="$rowClass" >
+            <td>orgAssociation</td>
+            <td>
+                The full list of org associations for this organization
+            </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            -
+                        </td>
+            <td>
+                            YES
+                        </td>
+            <td>
+                            All
+                        </td>
+            <td>
+                            OrgAssociationReference(s)
+                        </td>
+            <td>
+                QueryResultRecords(OrgAssociationRecord)
+            </td>
+            <td>
+                            -
+                        </td>
+        </tr>
+          </table>
+    </dd>
+</dl>
+
+<br>
+
+</body>
+</html>
