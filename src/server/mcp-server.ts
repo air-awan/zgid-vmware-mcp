@@ -16,17 +16,23 @@ import { McpToolResponse } from '../types.js';
 
 export class ZettagridMcpServer {
   private server: Server;
-  private client: ZettagridClient;
+  private client?: ZettagridClient;
 
   constructor(server: Server) {
     this.server = server;
-    this.client = new ZettagridClient();
   }
 
   /**
    * Initialize the MCP server with all tool handlers
    */
   async initialize(): Promise<void> {
+    try {
+      // Initialize the client here, after environment is loaded
+      this.client = new ZettagridClient();
+    } catch (error) {
+      console.error('Failed to initialize Zettagrid client:', error);
+      throw error;
+    }
     // Register list_tools handler
     this.server.setRequestHandler(ListToolsRequestSchema, async () => ({
       tools: [
@@ -392,6 +398,13 @@ export class ZettagridMcpServer {
     // Register call_tool handler
     this.server.setRequestHandler(CallToolRequestSchema, async (request) => {
       const { name, arguments: args } = request.params;
+
+      if (!this.client) {
+        throw new McpError(
+          ErrorCode.InternalError,
+          'Server not properly initialized'
+        );
+      }
 
       try {
         let result: McpToolResponse;

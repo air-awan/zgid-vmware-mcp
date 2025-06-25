@@ -212,6 +212,50 @@ function extractIdFromHref(href: string): string {
 }
 
 /**
+ * Parse generic query results from vCloud Director query response
+ */
+export function parseQueryResults(xmlString: string): Record<string, any>[] {
+  const results: Record<string, any>[] = [];
+  
+  // Find all record elements (e.g., AdminOrgVdcRecord, OrgVdcRecord, etc.)
+  const recordPattern = /<(\w+:)?(\w*Record)[^>]*>/g;
+  let match;
+  
+  while ((match = recordPattern.exec(xmlString)) !== null) {
+    const fullMatch = match[0];
+    const record: Record<string, any> = {};
+    
+    // Extract all attributes from the record element
+    const attrPattern = /(\w+)=["']([^"']*)["']/g;
+    let attrMatch;
+    
+    while ((attrMatch = attrPattern.exec(fullMatch)) !== null) {
+      const [, attrName, attrValue] = attrMatch;
+      
+      if (!attrName || attrValue === undefined) continue;
+      
+      // Convert numeric values
+      if (/^\d+(\.\d+)?$/.test(attrValue)) {
+        record[attrName] = parseFloat(attrValue);
+      } else if (attrValue === 'true' || attrValue === 'false') {
+        record[attrName] = attrValue === 'true';
+      } else {
+        record[attrName] = attrValue;
+      }
+    }
+    
+    // Extract ID from href if present
+    if (record.href && !record.id) {
+      record.id = extractIdFromHref(record.href);
+    }
+    
+    results.push(record);
+  }
+  
+  return results;
+}
+
+/**
  * Get status description from vCloud Director status code
  */
 export function getStatusDescription(status: number): string {

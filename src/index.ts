@@ -6,32 +6,48 @@
 import { Server } from '@modelcontextprotocol/sdk/server/index.js';
 import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js';
 import { ZettagridMcpServer } from './server/mcp-server.js';
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
 
 /**
  * Main function to start the MCP server
  */
 async function main(): Promise<void> {
-  // Create MCP server instance
-  const server = new Server(
-    {
-      name: 'zettagrid-vmware-mcp',
-      version: '1.0.0',
-    },
-    {
-      capabilities: {
-        tools: {},
-        resources: {},
+  try {
+    // Log startup to stderr for debugging
+    console.error('Starting Zettagrid VMware MCP Server...');
+    
+    // Create MCP server instance
+    const server = new Server(
+      {
+        name: 'zettagrid-vmware-mcp',
+        version: '1.0.0',
       },
-    }
-  );
+      {
+        capabilities: {
+          tools: {},
+          resources: {},
+        },
+      }
+    );
 
-  // Initialize Zettagrid MCP server
-  const zettagridServer = new ZettagridMcpServer(server);
-  await zettagridServer.initialize();
+    // Initialize Zettagrid MCP server
+    const zettagridServer = new ZettagridMcpServer(server);
+    await zettagridServer.initialize();
+    
+    console.error('Zettagrid client initialized successfully');
 
-  // Create transport and start server
-  const transport = new StdioServerTransport();
-  await server.connect(transport);
+    // Create transport and start server
+    const transport = new StdioServerTransport();
+    await server.connect(transport);
+    
+    console.error('MCP server connected and ready');
+  } catch (error) {
+    console.error('Error during server initialization:', error);
+    throw error;
+  }
 }
 
 // Handle graceful shutdown

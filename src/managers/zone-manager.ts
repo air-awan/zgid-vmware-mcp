@@ -9,8 +9,13 @@ export class ZoneManager {
   private zones: Map<string, ZoneConfig> = new Map();
 
   constructor() {
-    this.config = this.loadConfiguration();
-    this.initializeZones();
+    try {
+      this.config = this.loadConfiguration();
+      this.initializeZones();
+    } catch (error) {
+      console.error('Failed to initialize ZoneManager:', error);
+      throw error;
+    }
   }
 
   /**
@@ -70,6 +75,7 @@ export class ZoneManager {
 
     const organizationName = process.env.ZETTAGRID_ORGANIZATION;
     if (!organizationName) {
+      console.error('ZETTAGRID_ORGANIZATION environment variable is not set');
       throw new Error('ZETTAGRID_ORGANIZATION environment variable is required');
     }
 
