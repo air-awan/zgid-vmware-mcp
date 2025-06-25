@@ -61,15 +61,10 @@ export class ZoneManager {
    */
   private loadZoneConfig(zoneName: ZoneId): ZoneConfig | null {
     const tokenEnvVar = `ZETTAGRID_API_TOKEN_${zoneName.toUpperCase()}`;
-    const endpointEnvVar = `ZETTAGRID_API_ENDPOINT_${zoneName.toUpperCase()}`;
-    const oauthEnvVar = `ZETTAGRID_OAUTH_ENDPOINT_${zoneName.toUpperCase()}`;
-    
     const apiToken = process.env[tokenEnvVar];
-    const apiEndpoint = process.env[endpointEnvVar];
-    const oauthEndpoint = process.env[oauthEnvVar];
     
-    if (!apiToken || !apiEndpoint) {
-      console.warn(`Zone '${zoneName}' not configured: missing ${!apiToken ? tokenEnvVar : endpointEnvVar}`);
+    if (!apiToken) {
+      console.warn(`Zone '${zoneName}' not configured: missing ${tokenEnvVar}`);
       return null;
     }
 
@@ -78,14 +73,26 @@ export class ZoneManager {
       throw new Error('ZETTAGRID_ORGANIZATION environment variable is required');
     }
 
-    // If OAuth endpoint not configured, build it from the API endpoint
-    const finalOauthEndpoint = oauthEndpoint || 
-      `${apiEndpoint.replace('/api', '')}/oauth/tenant/${organizationName}/token`;
+    // Zone code mapping for endpoint generation
+    const zoneCodeMap: Record<ZoneId, string> = {
+      sydney: 'syd',
+      melbourne: 'mel',
+      perth: 'per',
+      brisbane: 'bri',
+      adelaide: 'adl',
+      darwin: 'dar'
+    };
+
+    const zoneCode = zoneCodeMap[zoneName];
+    
+    // Auto-generate endpoints using standard Zettagrid format
+    const apiEndpoint = `https://mycloud.${zoneCode}.zettagrid.com/api`;
+    const oauthEndpoint = `https://mycloud.${zoneCode}.zettagrid.com/oauth/tenant/${organizationName}/token`;
 
     return {
       name: zoneName,
       apiEndpoint,
-      oauthEndpoint: finalOauthEndpoint,
+      oauthEndpoint,
       apiToken,
       organizationName,
       apiVersion: process.env.ZETTAGRID_API_VERSION || '39.1'

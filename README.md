@@ -73,39 +73,45 @@ npm test
 Create a `.env` file with your Zettagrid zone configurations:
 
 ```bash
-# Zone Configuration
+# Organization Configuration
+ZETTAGRID_ORGANIZATION=your-organization-name
 ZETTAGRID_DEFAULT_ZONE=perth
 ZETTAGRID_API_VERSION=39.1
 
-# Perth Zone (Example)
-ZETTAGRID_API_TOKEN_PERTH=your-api-token-here
-ZETTAGRID_API_ENDPOINT_PERTH=https://mycloud.per.zettagrid.com/api
+# Zone API Tokens (configure the zones you need)
+ZETTAGRID_API_TOKEN_PERTH=your-perth-api-token
+ZETTAGRID_API_TOKEN_SYDNEY=your-sydney-api-token
+ZETTAGRID_API_TOKEN_MELBOURNE=your-melbourne-api-token
+ZETTAGRID_API_TOKEN_BRISBANE=your-brisbane-api-token
+ZETTAGRID_API_TOKEN_ADELAIDE=your-adelaide-api-token
+ZETTAGRID_API_TOKEN_DARWIN=your-darwin-api-token
 
-# Organization Configuration
-ZETTAGRID_ORGANIZATION=your-organization-name
-
-# Performance Settings
+# Performance Settings (optional)
 ZETTAGRID_TIMEOUT=30000
 ZETTAGRID_RETRY_ATTEMPTS=3
 ZETTAGRID_ENABLE_CACHING=true
 
-# Debug Settings
+# Debug Settings (optional)
 DEBUG_LEVEL=info
 ZETTAGRID_DEBUG=false
 ```
+
+**Note**: API and OAuth endpoints are automatically generated based on the standard Zettagrid format:
+- API endpoint: `https://mycloud.{zone-code}.zettagrid.com/api`
+- OAuth endpoint: `https://mycloud.{zone-code}.zettagrid.com/oauth/tenant/{org}/token`
 
 ### All Supported Zones
 
 Configure any or all of the following Australian zones:
 
-| Zone | Environment Variables | Example Endpoint |
-|------|----------------------|------------------|
-| Sydney | `ZETTAGRID_API_TOKEN_SYDNEY`, `ZETTAGRID_API_ENDPOINT_SYDNEY` | `https://mycloud.syd.zettagrid.com/api` |
-| Melbourne | `ZETTAGRID_API_TOKEN_MELBOURNE`, `ZETTAGRID_API_ENDPOINT_MELBOURNE` | `https://mycloud.mel.zettagrid.com/api` |
-| Perth | `ZETTAGRID_API_TOKEN_PERTH`, `ZETTAGRID_API_ENDPOINT_PERTH` | `https://mycloud.per.zettagrid.com/api` |
-| Brisbane | `ZETTAGRID_API_TOKEN_BRISBANE`, `ZETTAGRID_API_ENDPOINT_BRISBANE` | `https://mycloud.bri.zettagrid.com/api` |
-| Adelaide | `ZETTAGRID_API_TOKEN_ADELAIDE`, `ZETTAGRID_API_ENDPOINT_ADELAIDE` | `https://mycloud.ade.zettagrid.com/api` |
-| Darwin | `ZETTAGRID_API_TOKEN_DARWIN`, `ZETTAGRID_API_ENDPOINT_DARWIN` | `https://mycloud.dwn.zettagrid.com/api` |
+| Zone | API Token Variable | Auto-Generated Endpoint |
+|------|-------------------|------------------------|
+| Sydney | `ZETTAGRID_API_TOKEN_SYDNEY` | `https://mycloud.syd.zettagrid.com/api` |
+| Melbourne | `ZETTAGRID_API_TOKEN_MELBOURNE` | `https://mycloud.mel.zettagrid.com/api` |
+| Perth | `ZETTAGRID_API_TOKEN_PERTH` | `https://mycloud.per.zettagrid.com/api` |
+| Brisbane | `ZETTAGRID_API_TOKEN_BRISBANE` | `https://mycloud.bri.zettagrid.com/api` |
+| Adelaide | `ZETTAGRID_API_TOKEN_ADELAIDE` | `https://mycloud.adl.zettagrid.com/api` |
+| Darwin | `ZETTAGRID_API_TOKEN_DARWIN` | `https://mycloud.dar.zettagrid.com/api` |
 
 ## Usage
 
@@ -142,12 +148,10 @@ Add the Zettagrid MCP server to your Claude Desktop configuration:
       "command": "node",
       "args": ["/path/to/zettagrid-vmware-mcp/build/index.js"],
       "env": {
+        "ZETTAGRID_ORGANIZATION": "your-organization-name",
         "ZETTAGRID_DEFAULT_ZONE": "perth",
         "ZETTAGRID_API_VERSION": "39.1",
-        "ZETTAGRID_ORGANIZATION": "your-organization-name",
         "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
-        "ZETTAGRID_API_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/api",
-        "ZETTAGRID_OAUTH_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/oauth/tenant/your-organization/token",
         "ZETTAGRID_TIMEOUT": "30000",
         "ZETTAGRID_RETRY_ATTEMPTS": "3",
         "ZETTAGRID_ENABLE_CACHING": "true",
@@ -171,12 +175,10 @@ Configure Cursor to use the Zettagrid MCP server by adding to your Cursor settin
       "command": "node",
       "args": ["/path/to/zettagrid-vmware-mcp/build/index.js"],
       "env": {
+        "ZETTAGRID_ORGANIZATION": "your-organization-name",
         "ZETTAGRID_DEFAULT_ZONE": "perth",
         "ZETTAGRID_API_VERSION": "39.1",
-        "ZETTAGRID_ORGANIZATION": "your-organization-name",
         "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
-        "ZETTAGRID_API_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/api",
-        "ZETTAGRID_OAUTH_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/oauth/tenant/your-organization/token",
         "ZETTAGRID_TIMEOUT": "30000",
         "ZETTAGRID_RETRY_ATTEMPTS": "3",
         "ZETTAGRID_ENABLE_CACHING": "true",
@@ -213,21 +215,16 @@ To configure multiple zones, add all zone credentials to the `env` section:
 ```json
 {
   "env": {
+    "ZETTAGRID_ORGANIZATION": "your-organization-name",
     "ZETTAGRID_DEFAULT_ZONE": "perth",
     "ZETTAGRID_API_VERSION": "39.1",
-    "ZETTAGRID_ORGANIZATION": "your-organization-name",
     
     "ZETTAGRID_API_TOKEN_SYDNEY": "your-sydney-token",
-    "ZETTAGRID_API_ENDPOINT_SYDNEY": "https://mycloud.syd.zettagrid.com/api",
-    "ZETTAGRID_OAUTH_ENDPOINT_SYDNEY": "https://mycloud.syd.zettagrid.com/oauth/tenant/your-organization/token",
-    
     "ZETTAGRID_API_TOKEN_MELBOURNE": "your-melbourne-token",
-    "ZETTAGRID_API_ENDPOINT_MELBOURNE": "https://mycloud.mel.zettagrid.com/api",
-    "ZETTAGRID_OAUTH_ENDPOINT_MELBOURNE": "https://mycloud.mel.zettagrid.com/oauth/tenant/your-organization/token",
-    
     "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
-    "ZETTAGRID_API_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/api",
-    "ZETTAGRID_OAUTH_ENDPOINT_PERTH": "https://mycloud.per.zettagrid.com/oauth/tenant/your-organization/token"
+    "ZETTAGRID_API_TOKEN_BRISBANE": "your-brisbane-token",
+    "ZETTAGRID_API_TOKEN_ADELAIDE": "your-adelaide-token",
+    "ZETTAGRID_API_TOKEN_DARWIN": "your-darwin-token"
   }
 }
 ```

@@ -60,31 +60,31 @@ npm run clean            # Clean build directory
 The application requires `.env` file with zone-specific credentials:
 
 ```bash
-# Zone Configuration
+# Organization Configuration
+ZETTAGRID_ORGANIZATION=your-organization-name
 ZETTAGRID_DEFAULT_ZONE=perth
 ZETTAGRID_API_VERSION=39.1
-ZETTAGRID_ORGANIZATION=your-organization-name
 
-# Zone API Tokens (per zone)
+# Zone API Tokens (configure the zones you need)
 ZETTAGRID_API_TOKEN_PERTH=your-token
 ZETTAGRID_API_TOKEN_SYDNEY=your-token
-# ... other zones
+ZETTAGRID_API_TOKEN_MELBOURNE=your-token
+ZETTAGRID_API_TOKEN_BRISBANE=your-token
+ZETTAGRID_API_TOKEN_ADELAIDE=your-token
+ZETTAGRID_API_TOKEN_DARWIN=your-token
 
-# Zone API Endpoints
-ZETTAGRID_API_ENDPOINT_PERTH=https://mycloud.per.zettagrid.com/api
-ZETTAGRID_API_ENDPOINT_SYDNEY=https://mycloud.syd.zettagrid.com/api
-# ... other zones
-
-# Zone OAuth Endpoints
-ZETTAGRID_OAUTH_ENDPOINT_PERTH=https://mycloud.per.zettagrid.com/oauth/tenant/your-organization/token
-# ... other zones
-
-# Performance Settings
+# Performance Settings (optional)
 ZETTAGRID_TIMEOUT=30000
 ZETTAGRID_RETRY_ATTEMPTS=3
 ZETTAGRID_ENABLE_CACHING=true
 DEBUG_LEVEL=info
 ```
+
+**Note**: API and OAuth endpoints are automatically generated using the standard Zettagrid format:
+- API: `https://mycloud.{zone-code}.zettagrid.com/api`
+- OAuth: `https://mycloud.{zone-code}.zettagrid.com/oauth/tenant/{org}/token`
+
+Zone codes: Sydney (syd), Melbourne (mel), Perth (per), Brisbane (bri), Adelaide (adl), Darwin (dar)
 
 ## Key Technologies
 
