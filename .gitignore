@@ -59,3 +59,7 @@ src-tauri/target/
 # Temporary files
 *.tmp
 *.temp
+
+# Markdown files (except README.md)
+*.md
+!README.md
