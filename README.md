@@ -1,6 +1,6 @@
 # Zettagrid VMware MCP Server
 
-A comprehensive Model Context Protocol (MCP) server for managing Zettagrid's VMware vCloud Director infrastructure across all Australian zones. This server enables AI assistants to perform complete tenant organization administration through the vCloud Director API.
+A comprehensive Model Context Protocol (MCP) server for managing Zettagrid's VMware Cloud Director infrastructure across all Australian zones. This server enables AI assistants to perform complete tenant organization administration through the Cloud Director API.
 
 ## Features
 
@@ -17,7 +17,7 @@ A comprehensive Model Context Protocol (MCP) server for managing Zettagrid's VMw
 
 - Node.js 18.0 or later
 - npm or yarn package manager
-- Valid Zettagrid API token and organization access
+- Valid Zettagrid API token and organization access - See token instructions https://customer.support.zettagrid.com/servicedesk/customer/portal/9/article/1270415361
 
 ### Quick Start
 
@@ -433,7 +433,8 @@ DEBUG_LEVEL=debug ZETTAGRID_DEBUG=true npm run dev
 
 ### Support
 
-- **Documentation**: See `/design` folder for detailed technical documentation
+- **Zettagrid**: This MCP server is not officially supported by Zettagrid and provided with warranties of no kind.
+- **Documentation**: This readme.md
 - **Issues**: Report bugs via GitHub Issues
 - **Community**: Join the discussion in GitHub Discussions
 
