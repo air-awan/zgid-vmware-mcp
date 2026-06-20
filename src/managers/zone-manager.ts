@@ -236,7 +236,7 @@ export class ZoneManager {
     defaultZone: string;
   } {
     return {
-      totalZones: 6, // Total possible Zettagrid zones
+      totalZones: 2, // Total Zettagrid Indonesia zones (Jakarta, Cibitung)
       configuredZones: this.zones.size,
       availableZones: Array.from(this.zones.keys()),
       defaultZone: this.config.defaultZone

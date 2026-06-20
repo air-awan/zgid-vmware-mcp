@@ -56,7 +56,7 @@ export class RefinedVMCreator {
   private client: ZettagridClient;
   private zone: string;
 
-  constructor(client: ZettagridClient, zone: string = 'perth') {
+  constructor(client: ZettagridClient, zone: string = 'jakarta') {
     this.client = client;
     this.zone = zone;
   }
@@ -467,12 +467,12 @@ export class RefinedVMCreator {
 
 // Test function
 async function testRefinedVMCreator(): Promise<void> {
-  console.log('🚀 Testing Refined VM Creator - Perth Zone');
+  console.log('🚀 Testing Refined VM Creator - Jakarta Zone');
   console.log('=' .repeat(60));
 
   loadEnvFile();
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   try {
     // Authentication

@@ -54,7 +54,7 @@ export class NSXTFirewallManager {
   private client: ZettagridClient;
   private zone: string;
 
-  constructor(client: ZettagridClient, zone: string = 'perth') {
+  constructor(client: ZettagridClient, zone: string = 'jakarta') {
     this.client = client;
     this.zone = zone;
   }
@@ -451,7 +451,7 @@ async function testNSXTFirewallManager(): Promise<void> {
 
   loadEnvFile();
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   try {
     // Authentication

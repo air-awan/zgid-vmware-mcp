@@ -50,7 +50,7 @@ export class RefinedFirewallManager {
   private client: ZettagridClient;
   private zone: string;
 
-  constructor(client: ZettagridClient, zone: string = 'perth') {
+  constructor(client: ZettagridClient, zone: string = 'jakarta') {
     this.client = client;
     this.zone = zone;
   }
@@ -313,12 +313,12 @@ export class RefinedFirewallManager {
 
 // Test function
 async function testRefinedFirewallManager(): Promise<void> {
-  console.log('🔥 Testing Refined Firewall Manager - Perth Zone');
+  console.log('🔥 Testing Refined Firewall Manager - Jakarta Zone');
   console.log('=' .repeat(60));
 
   loadEnvFile();
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   try {
     // Authentication

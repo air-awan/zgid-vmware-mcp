@@ -34,7 +34,7 @@ async function testVMPowerOperations(): Promise<void> {
   loadEnvFile();
 
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   try {
     // Test authentication first

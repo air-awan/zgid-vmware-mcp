@@ -10,7 +10,7 @@ import { config } from 'dotenv';
 // Load environment variables
 config();
 
-const ZONE = 'perth';
+const ZONE = 'jakarta';
 
 async function debugVdcData(vdcId?: string) {
   console.log('🔍 Debugging VDC Data Structure');

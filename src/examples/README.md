@@ -1,79 +1,63 @@
-# Zettagrid VMware MCP Examples
+# Zettagrid Indonesia MCP Server - Example Scripts
 
-This directory contains example scripts demonstrating various features of the Zettagrid VMware MCP client.
+This directory contains example scripts for testing and demonstrating the Zettagrid Indonesia MCP Server.
 
-## Available Examples
+## Prerequisites
 
-### Core Functionality Tests
-- **`connectivity-test.ts`** - Test zone connectivity and basic authentication
-- **`complete-vm-test.ts`** - Full VM lifecycle test (create vApp, VM, power operations)
-- **`comprehensive-test.ts`** - Comprehensive API testing across multiple zones
-- **`live-test.ts`** - Live testing against real Zettagrid infrastructure
-- **`vm-power-test.ts`** - VM power management examples
+Create a `.env` file in the project root:
 
-### Network and Security
-- **`firewall-test.ts`** - Firewall rule creation and management
-- **`firewall-investigation.ts`** - Firewall configuration analysis
-- **`nsxt-firewall-investigation.ts`** - NSX-T specific firewall analysis
+```bash
+ZETTAGRID_ORGANIZATION=your-organization-name
+ZETTAGRID_DEFAULT_ZONE=jakarta
+ZETTAGRID_API_VERSION=39.1
 
-### Analysis and Investigation
-- **`gateway-config-analyzer.ts`** - Gateway configuration analysis
-- **`live-test-scenario.ts`** - Live testing scenarios
+# Zone API Tokens (configure the zones you need)
+ZETTAGRID_API_TOKEN_JAKARTA=your-jakarta-api-token
+ZETTAGRID_API_TOKEN_CIBITUNG=your-cibitung-api-token
+
+ZETTAGRID_TIMEOUT=30000
+ZETTAGRID_RETRY_ATTEMPTS=3
+ZETTAGRID_ENABLE_CACHING=true
+```
+
+**Note**: Endpoints are automatically generated:
+- API: `https://mycloud-jkt.zettagrid.id/api` (Jakarta)
+- OAuth: `https://mycloud-jkt.zettagrid.id/oauth/tenant/{org}/token` (Jakarta)
+- API: `https://mycloud-cbt.zettagrid.id/api` (Cibitung)
+- OAuth: `https://mycloud-cbt.zettagrid.id/oauth/tenant/{org}/token` (Cibitung)
+
+## Available Scripts
+
+| Script | Description |
+|--------|-------------|
+| `connectivity-test.ts` | Test basic connectivity and authentication |
+| `comprehensive-test.ts` | Full suite of API operations |
+| `live-test.ts` | Live infrastructure discovery test |
+| `live-test-scenario.ts` | End-to-end scenario test |
+| `vm-power-test.ts` | VM power on/off operations |
+| `test-vdc-resources.ts` | VDC resource reporting |
+| `test-all-tools.ts` | Test all MCP tools |
+| `test-available-tools.ts` | List and verify available tools |
+| `test-firewall-tools.ts` | Firewall rule management |
+| `test-vm-console.ts` | VM console access |
+| `firewall-test.ts` | Firewall connectivity test |
+| `firewall-investigation.ts` | Investigate firewall endpoints |
+| `gateway-config-analyzer.ts` | Analyze edge gateway configuration |
+| `debug-list-vdcs.ts` | Debug VDC listing |
+| `debug-vdc-data.ts` | Debug VDC data retrieval |
 
 ## Running Examples
 
-### Prerequisites
-1. Configure your `.env` file with valid Zettagrid credentials
-2. Build the project: `npm run build`
-3. Ensure you have access to the required zones
-
-### Basic Usage
 ```bash
-# Run connectivity test
+# Connectivity test
 npx tsx src/examples/connectivity-test.ts
 
-# Run complete VM test
-npx tsx src/examples/complete-vm-test.ts
+# Full live test
+npx tsx src/examples/live-test.ts
 
-# Run firewall tests
-npx tsx src/examples/firewall-test.ts
+# VM power operations
+npx tsx src/examples/vm-power-test.ts
+
+# Test all tools
+npx tsx src/examples/test-all-tools.ts
 ```
-
-### Environment Setup
-Create a `.env` file in the project root:
-```bash
-ZETTAGRID_DEFAULT_ZONE=perth
-ZETTAGRID_API_VERSION=39.1
-ZETTAGRID_ORGANIZATION=your-organization-name
-ZETTAGRID_API_TOKEN_PERTH=your-perth-token
-ZETTAGRID_API_ENDPOINT_PERTH=https://mycloud.per.zettagrid.com/api
-ZETTAGRID_OAUTH_ENDPOINT_PERTH=https://mycloud.per.zettagrid.com/oauth/tenant/your-organization/token
-```
-
-## Example Categories
-
-### 1. Connectivity and Authentication
-- Basic zone connectivity testing
-- OAuth token refresh validation
-- Multi-zone authentication
-
-### 2. Resource Management
-- Organization and VDC operations
-- vApp and VM lifecycle management
-- Storage and network operations
-
-### 3. Security and Networking
-- Firewall rule management
-- NAT rule configuration
-- Gateway configuration analysis
-
-### 4. Analysis and Debugging
-- Configuration investigation tools
-- Live environment testing
-- Performance analysis
-
-## Notes
-- All examples include error handling and detailed logging
-- Examples are designed to be run independently
-- Some examples may create/modify resources - use with caution in production
-- Check individual files for specific requirements and configurations

@@ -266,8 +266,8 @@ export class ZoneAuth {
       errors.push('API token should not contain spaces');
     }
     
-    // Basic format validation - Zettagrid tokens are typically alphanumeric
-    if (!/^[a-zA-Z0-9]+$/.test(token)) {
+    // Basic format validation - Zettagrid tokens are alphanumeric and may include dashes or underscores
+    if (!/^[a-zA-Z0-9_-]+$/.test(token)) {
       errors.push('API token contains invalid characters');
     }
     

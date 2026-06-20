@@ -71,7 +71,7 @@ const args = process.argv.slice(2);
 if (args.length < 1) {
   console.error('❌ Usage: npx tsx src/examples/test-vm-console.ts <vmId> [zoneId]');
   console.error('   Example: npx tsx src/examples/test-vm-console.ts vm-12345');
-  console.error('   Example: npx tsx src/examples/test-vm-console.ts vm-12345 sydney');
+  console.error('   Example: npx tsx src/examples/test-vm-console.ts vm-12345 jakarta');
   process.exit(1);
 }
 

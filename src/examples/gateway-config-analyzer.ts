@@ -32,7 +32,7 @@ async function analyzeGatewayConfiguration(): Promise<void> {
 
   loadEnvFile();
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   try {
     // Authentication
