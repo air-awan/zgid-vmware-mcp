@@ -1,7 +1,7 @@
 {
   "name": "@zettagrid/vmware-mcp",
   "version": "1.0.0",
-  "description": "Zettagrid VMware MCP Server - Comprehensive tenant organization management across Australian zones",
+  "description": "Zettagrid Indonesia VMware MCP Server - Comprehensive tenant organization management across Indonesian zones (Jakarta, Cibitung)",
   "type": "module",
   "main": "build/index.js",
   "bin": {
@@ -28,13 +28,13 @@
     "model-context-protocol",
     "cloud",
     "infrastructure",
-    "australia",
+    "indonesia",
     "multi-zone"
   ],
   "author": "Zettagrid",
   "license": "MIT",
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^0.5.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
     "axios": "^1.6.2",
     "dotenv": "^16.5.0",
     "zod": "^3.22.4"
