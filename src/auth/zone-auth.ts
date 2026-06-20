@@ -292,7 +292,7 @@ export class ZoneAuth {
         errors.push('API endpoint must use HTTPS');
       }
       
-      if (!url.hostname.includes('zettagrid.com')) {
+      if (!url.hostname.includes('zettagrid.id')) {
         errors.push('API endpoint should be a Zettagrid domain');
       }
       
