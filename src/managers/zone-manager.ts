@@ -88,8 +88,8 @@ export class ZoneManager {
     const zoneCode = zoneCodeMap[zoneName];
     
     // Auto-generate endpoints using standard Zettagrid format
-    const apiEndpoint = `https://mycloud-${zoneCode}.zettagrid.com/api`;
-    const oauthEndpoint = `https://mycloud-${zoneCode}.zettagrid.com/oauth/tenant/${organizationName}/token`;
+    const apiEndpoint = `https://mycloud-${zoneCode}.zettagrid.id/api`;
+    const oauthEndpoint = `https://mycloud-${zoneCode}.zettagrid.id/oauth/tenant/${organizationName}/token`;
 
     return {
       name: zoneName,
