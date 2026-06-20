@@ -381,20 +381,20 @@ export class ZettagridClient {
 
       // Extract VDC name
       const nameMatch = xmlData.match(/name="([^"]+)"/);
-      if (nameMatch && nameMatch[1]) {
+      if (nameMatch?.[1]) {
         vdcName = nameMatch[1];
       }
 
       // Extract ComputeCapacity CPU values
       const cpuMatch = xmlData.match(/<Cpu>[\s\S]*?<Allocated>(\d+)<\/Allocated>[\s\S]*?<Used>(\d+)<\/Used>[\s\S]*?<\/Cpu>/);
-      if (cpuMatch && cpuMatch[1] && cpuMatch[2]) {
+      if (cpuMatch?.[1] && cpuMatch[2]) {
         cpuAllocatedMhz = parseInt(cpuMatch[1], 10);
         cpuUsedMhz = parseInt(cpuMatch[2], 10);
       }
 
       // Extract ComputeCapacity Memory values
       const memoryMatch = xmlData.match(/<Memory>[\s\S]*?<Allocated>(\d+)<\/Allocated>[\s\S]*?<Used>(\d+)<\/Used>[\s\S]*?<\/Memory>/);
-      if (memoryMatch && memoryMatch[1] && memoryMatch[2]) {
+      if (memoryMatch?.[1] && memoryMatch[2]) {
         memoryAllocatedMB = parseInt(memoryMatch[1], 10);
         memoryUsedMB = parseInt(memoryMatch[2], 10);
       }
@@ -419,13 +419,13 @@ export class ZettagridClient {
             const usedMatch = record.match(/storageUsedMB="(\d+)"/);
             const limitMatch = record.match(/storageLimitMB="(\d+)"/);
             
-            if (usedMatch && usedMatch[1] && limitMatch && limitMatch[1]) {
+            if (usedMatch?.[1] && limitMatch?.[1]) {
               storageUsedMB += parseInt(usedMatch[1], 10);
               storageAllocatedMB += parseInt(limitMatch[1], 10);
             }
           }
         }
-      } catch (error) {
+      } catch (_error) {
         // Storage query failed, storage will show as 0
       }
 

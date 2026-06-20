@@ -641,7 +641,7 @@ export class ZettagridMcpServer {
             break;
 
           case 'get_zone_info':
-            result = await this.client.getZoneInfo();
+            result = this.client.getZoneInfo();
             break;
 
           default:

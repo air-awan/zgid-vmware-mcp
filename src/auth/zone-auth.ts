@@ -82,7 +82,7 @@ export class ZoneAuth {
       try {
         const newToken = await this.tokenManager.refreshToken(this.zoneConfig, session.token.refreshToken);
         session.token = newToken;
-      } catch (error) {
+      } catch (_error) {
         // If refresh fails, re-authenticate from scratch
         await this.tokenManager.invalidateSession(this.zoneConfig);
         await this.initialize();
@@ -170,7 +170,7 @@ export class ZoneAuth {
           missingPermissions: requiredOperations
         };
       }
-    } catch (error) {
+    } catch (_error) {
       return {
         hasPermissions: false,
         missingPermissions: requiredOperations
@@ -299,7 +299,7 @@ export class ZoneAuth {
       if (url.pathname !== '/api' && !url.pathname.startsWith('/api/')) {
         errors.push('API endpoint should include /api path');
       }
-    } catch (error) {
+    } catch (_error) {
       errors.push('API endpoint is not a valid URL');
     }
     

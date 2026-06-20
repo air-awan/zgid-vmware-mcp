@@ -129,7 +129,7 @@ export class TokenManager {
    * Check if a token is still valid
    */
   private isTokenValid(token: AuthToken): boolean {
-    if (!token || !token.token) {
+    if (!token?.token) {
       return false;
     }
 
