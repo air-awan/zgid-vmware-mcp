@@ -1091,7 +1091,7 @@ export interface ApiResponse<T = any> {
 }
 
 // Utility Types
-export type ZoneId = 'sydney' | 'melbourne' | 'perth' | 'brisbane' | 'adelaide' | 'darwin';
+export type ZoneId = 'jakarta' | 'cibitung';
 
 export interface PaginationParams {
   page?: number;
