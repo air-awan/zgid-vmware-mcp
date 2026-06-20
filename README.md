@@ -1,10 +1,10 @@
 # Zettagrid VMware MCP Server
 
-A comprehensive Model Context Protocol (MCP) server for managing Zettagrid's VMware Cloud Director infrastructure across all Australian zones. This server enables AI assistants to perform complete tenant organization administration through the Cloud Director API.
+A comprehensive Model Context Protocol (MCP) server for managing Zettagrid's VMware Cloud Director infrastructure across Indonesian zones. This server enables AI assistants to perform complete tenant organization administration through the Cloud Director API.
 
 ## Features
 
-- **Multi-Zone Support**: Manage resources across all Australian Zettagrid zones (Sydney, Melbourne, Perth, Brisbane, Adelaide, Darwin)
+- **Multi-Zone Support**: Manage resources across all Zettagrid Indonesia zones (Jakarta, Cibitung)
 - **Comprehensive API Coverage**: Full tenant organization lifecycle management
 - **OAuth Authentication**: Secure API token refresh and session management
 - **Type-Safe Operations**: Complete TypeScript implementation with vCloud Director schema compliance
@@ -75,16 +75,12 @@ Create a `.env` file with your Zettagrid zone configurations:
 ```bash
 # Organization Configuration
 ZETTAGRID_ORGANIZATION=your-organization-name
-ZETTAGRID_DEFAULT_ZONE=perth
+ZETTAGRID_DEFAULT_ZONE=jakarta
 ZETTAGRID_API_VERSION=39.1
 
 # Zone API Tokens (configure the zones you need)
-ZETTAGRID_API_TOKEN_PERTH=your-perth-api-token
-ZETTAGRID_API_TOKEN_SYDNEY=your-sydney-api-token
-ZETTAGRID_API_TOKEN_MELBOURNE=your-melbourne-api-token
-ZETTAGRID_API_TOKEN_BRISBANE=your-brisbane-api-token
-ZETTAGRID_API_TOKEN_ADELAIDE=your-adelaide-api-token
-ZETTAGRID_API_TOKEN_DARWIN=your-darwin-api-token
+ZETTAGRID_API_TOKEN_JAKARTA=your-jakarta-api-token
+ZETTAGRID_API_TOKEN_CIBITUNG=your-cibitung-api-token
 
 # Performance Settings (optional)
 ZETTAGRID_TIMEOUT=30000
@@ -97,21 +93,17 @@ ZETTAGRID_DEBUG=false
 ```
 
 **Note**: API and OAuth endpoints are automatically generated based on the standard Zettagrid format:
-- API endpoint: `https://mycloud.{zone-code}.zettagrid.com/api`
-- OAuth endpoint: `https://mycloud.{zone-code}.zettagrid.com/oauth/tenant/{org}/token`
+- API endpoint: `https://mycloud-{zone-code}.zettagrid.id/api`
+- OAuth endpoint: `https://mycloud-{zone-code}.zettagrid.id/oauth/tenant/{org}/token`
 
 ### All Supported Zones
 
-Configure any or all of the following Australian zones:
+Configure the following Indonesian zones:
 
 | Zone | API Token Variable | Auto-Generated Endpoint |
 |------|-------------------|------------------------|
-| Sydney | `ZETTAGRID_API_TOKEN_SYDNEY` | `https://mycloud.syd.zettagrid.com/api` |
-| Melbourne | `ZETTAGRID_API_TOKEN_MELBOURNE` | `https://mycloud.mel.zettagrid.com/api` |
-| Perth | `ZETTAGRID_API_TOKEN_PERTH` | `https://mycloud.per.zettagrid.com/api` |
-| Brisbane | `ZETTAGRID_API_TOKEN_BRISBANE` | `https://mycloud.bri.zettagrid.com/api` |
-| Adelaide | `ZETTAGRID_API_TOKEN_ADELAIDE` | `https://mycloud.adl.zettagrid.com/api` |
-| Darwin | `ZETTAGRID_API_TOKEN_DARWIN` | `https://mycloud.dar.zettagrid.com/api` |
+| Jakarta | `ZETTAGRID_API_TOKEN_JAKARTA` | `https://mycloud-jkt.zettagrid.id/api` |
+| Cibitung | `ZETTAGRID_API_TOKEN_CIBITUNG` | `https://mycloud-cbt.zettagrid.id/api` |
 
 ## Usage
 
@@ -149,9 +141,9 @@ Add the Zettagrid MCP server to your Claude Desktop configuration:
       "args": ["/path/to/zettagrid-vmware-mcp/build/index.js"],
       "env": {
         "ZETTAGRID_ORGANIZATION": "your-organization-name",
-        "ZETTAGRID_DEFAULT_ZONE": "perth",
+        "ZETTAGRID_DEFAULT_ZONE": "jakarta",
         "ZETTAGRID_API_VERSION": "39.1",
-        "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
+        "ZETTAGRID_API_TOKEN_JAKARTA": "your-jakarta-token",
         "ZETTAGRID_TIMEOUT": "30000",
         "ZETTAGRID_RETRY_ATTEMPTS": "3",
         "ZETTAGRID_ENABLE_CACHING": "true",
@@ -176,9 +168,9 @@ Configure Cursor to use the Zettagrid MCP server by adding to your Cursor settin
       "args": ["/path/to/zettagrid-vmware-mcp/build/index.js"],
       "env": {
         "ZETTAGRID_ORGANIZATION": "your-organization-name",
-        "ZETTAGRID_DEFAULT_ZONE": "perth",
+        "ZETTAGRID_DEFAULT_ZONE": "jakarta",
         "ZETTAGRID_API_VERSION": "39.1",
-        "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
+        "ZETTAGRID_API_TOKEN_JAKARTA": "your-jakarta-token",
         "ZETTAGRID_TIMEOUT": "30000",
         "ZETTAGRID_RETRY_ATTEMPTS": "3",
         "ZETTAGRID_ENABLE_CACHING": "true",
@@ -216,15 +208,12 @@ To configure multiple zones, add all zone credentials to the `env` section:
 {
   "env": {
     "ZETTAGRID_ORGANIZATION": "your-organization-name",
-    "ZETTAGRID_DEFAULT_ZONE": "perth",
+    "ZETTAGRID_DEFAULT_ZONE": "jakarta",
     "ZETTAGRID_API_VERSION": "39.1",
     
-    "ZETTAGRID_API_TOKEN_SYDNEY": "your-sydney-token",
-    "ZETTAGRID_API_TOKEN_MELBOURNE": "your-melbourne-token",
-    "ZETTAGRID_API_TOKEN_PERTH": "your-perth-token",
-    "ZETTAGRID_API_TOKEN_BRISBANE": "your-brisbane-token",
-    "ZETTAGRID_API_TOKEN_ADELAIDE": "your-adelaide-token",
-    "ZETTAGRID_API_TOKEN_DARWIN": "your-darwin-token"
+    "ZETTAGRID_API_TOKEN_JAKARTA": "your-jakarta-token",
+    "ZETTAGRID_API_TOKEN_CIBITUNG": "your-cibitung-token",
+    "ZETTAGRID_API_TOKEN_JAKARTA": "your-jakarta-token",
   }
 }
 ```
@@ -283,15 +272,15 @@ import { ZettagridClient } from '@zettagrid/vmware-mcp';
 const client = new ZettagridClient();
 
 // List organizations
-const orgs = await client.listOrganizations('perth');
+const orgs = await client.listOrganizations('jakarta');
 console.log(orgs.data);
 
 // Get VDCs  
-const vdcs = await client.listVdcs('perth');
+const vdcs = await client.listVdcs('jakarta');
 console.log(vdcs.data);
 
 // Zone information
-const zoneInfo = await client.getZoneInfo('perth');
+const zoneInfo = await client.getZoneInfo('jakarta');
 console.log(zoneInfo.data);
 ```
 
@@ -334,12 +323,12 @@ The server supports operations across multiple zones:
 const vdcs = await client.listVdcs();
 
 // Specific zone operation  
-const vdcsSydney = await client.listVdcs('sydney');
-const vdcsPerth = await client.listVdcs('perth');
+const vdcsJakarta = await client.listVdcs('jakarta');
+const vdcsCibitung = await client.listVdcs('cibitung');
 
 // Zone information
 const zones = client.getZoneInfo();
-console.log(zones.data.availableZones); // ['sydney', 'perth', ...]
+console.log(zones.data.availableZones); // ['jakarta', 'cibitung']
 ```
 
 ### Zone Health Monitoring
@@ -350,7 +339,7 @@ const healthCheck = await client.getHealthStatus();
 console.log(healthCheck.data);
 
 // Test specific zone
-const zoneTest = await client.testZone('perth');
+const zoneTest = await client.testZone('jakarta');
 console.log(zoneTest.data);
 ```
 
@@ -379,7 +368,7 @@ The server implements comprehensive error handling:
     "details": { ... }
   },
   "metadata": {
-    "zone": "perth",
+    "zone": "jakarta",
     "organization": "Org_cloud1100009", 
     "timestamp": "2025-06-19T14:58:05.809Z"
   }
@@ -408,7 +397,7 @@ The server implements comprehensive error handling:
 #### Authentication Failures
 ```bash
 # Check token validity
-curl -X POST "https://mycloud.per.zettagrid.com/oauth/tenant/YourOrg/token?grant_type=refresh_token&refresh_token=YourToken" \
+curl -X POST "https://mycloud-jkt.zettagrid.id/oauth/tenant/YourOrg/token?grant_type=refresh_token&refresh_token=YourToken" \
   -H "Accept: application/json"
 ```
 
@@ -446,11 +435,11 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 ### v1.0.0 (2025-06-19)
 - Initial release
-- Multi-zone support for all Australian Zettagrid zones
+- Multi-zone support for Zettagrid Indonesia zones (Jakarta, Cibitung)
 - OAuth authentication with automatic token refresh
 - Comprehensive vCloud Director API coverage
 - TypeScript implementation with full type safety
-- Live testing against Perth zone infrastructure
+- Live testing against Jakarta zone infrastructure
 - Complete MCP tool suite for cloud management
 
 ---

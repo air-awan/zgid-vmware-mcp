@@ -49,7 +49,7 @@ export class TokenManager {
    */
   private async getAuthToken(zoneConfig: ZoneConfig): Promise<AuthToken> {
     try {
-      // Build OAuth refresh URL: https://mycloud.per.zettagrid.com/oauth/tenant/Org_cloud1100009/token?grant_type=refresh_token&refresh_token=<token>
+      // Build OAuth refresh URL: https://mycloud-jkt.zettagrid.id/oauth/tenant/Org_cloud60748/token?grant_type=refresh_token&refresh_token=<token>
       const baseUrl = zoneConfig.apiEndpoint.replace('/api', '');
       const refreshUrl = `${baseUrl}/oauth/tenant/${zoneConfig.organizationName}/token?grant_type=refresh_token&refresh_token=${zoneConfig.apiToken}`;
       
@@ -129,7 +129,7 @@ export class TokenManager {
    * Check if a token is still valid
    */
   private isTokenValid(token: AuthToken): boolean {
-    if (!token || !token.token) {
+    if (!token?.token) {
       return false;
     }
 

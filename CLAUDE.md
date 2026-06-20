@@ -4,14 +4,14 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Structure
 
-This is a Zettagrid VMware MCP (Model Context Protocol) Server that provides comprehensive tenant organization management across Australian zones. It's a TypeScript-based Node.js application that interfaces with VMware vCloud Director APIs.
+This is a Zettagrid Indonesia VMware MCP (Model Context Protocol) Server that provides comprehensive tenant organization management across Indonesian zones. It's a TypeScript-based Node.js application that interfaces with VMware vCloud Director APIs.
 
 ### Core Architecture
 - **`src/index.ts`** - Main MCP server entry point
 - **`src/server/mcp-server.ts`** - MCP protocol implementation and tool handlers
 - **`src/client/zettagrid-client.ts`** - Main API client with comprehensive vCloud Director operations
 - **`src/managers/`** - Business logic and resource management
-  - **`zone-manager.ts`** - Multi-zone configuration and management across Australian regions
+  - **`zone-manager.ts`** - Multi-zone configuration and management (Jakarta, Cibitung)
   - **`firewall-manager.ts`** - Firewall rule management and operations
   - **`vm-creator.ts`** - Virtual machine creation and lifecycle management
 - **`src/auth/`** - Authentication system with OAuth token management
@@ -23,10 +23,11 @@ This is a Zettagrid VMware MCP (Model Context Protocol) Server that provides com
 - **`src/lib/`** - Library exports for external usage
 
 ### Multi-Zone Support
-The application supports all Australian Zettagrid zones:
-- Sydney, Melbourne, Perth, Brisbane, Adelaide, Darwin
-- Each zone has independent authentication and API endpoints
-- Zone-aware session management and API routing
+The application supports Zettagrid Indonesia zones:
+- **Jakarta** (zone code: `jkt`) — `https://mycloud-jkt.zettagrid.id/api`
+- **Cibitung** (zone code: `cbt`) — `https://mycloud-cbt.zettagrid.id/api`
+
+Each zone has independent authentication and API endpoints. Zone-aware session management and API routing is handled automatically.
 
 ## Build Commands
 
@@ -62,16 +63,12 @@ The application requires `.env` file with zone-specific credentials:
 ```bash
 # Organization Configuration
 ZETTAGRID_ORGANIZATION=your-organization-name
-ZETTAGRID_DEFAULT_ZONE=perth
+ZETTAGRID_DEFAULT_ZONE=jakarta
 ZETTAGRID_API_VERSION=39.1
 
 # Zone API Tokens (configure the zones you need)
-ZETTAGRID_API_TOKEN_PERTH=your-token
-ZETTAGRID_API_TOKEN_SYDNEY=your-token
-ZETTAGRID_API_TOKEN_MELBOURNE=your-token
-ZETTAGRID_API_TOKEN_BRISBANE=your-token
-ZETTAGRID_API_TOKEN_ADELAIDE=your-token
-ZETTAGRID_API_TOKEN_DARWIN=your-token
+ZETTAGRID_API_TOKEN_JAKARTA=your-jakarta-token
+ZETTAGRID_API_TOKEN_CIBITUNG=your-cibitung-token
 
 # Performance Settings (optional)
 ZETTAGRID_TIMEOUT=30000
@@ -80,11 +77,11 @@ ZETTAGRID_ENABLE_CACHING=true
 DEBUG_LEVEL=info
 ```
 
-**Note**: API and OAuth endpoints are automatically generated using the standard Zettagrid format:
-- API: `https://mycloud.{zone-code}.zettagrid.com/api`
-- OAuth: `https://mycloud.{zone-code}.zettagrid.com/oauth/tenant/{org}/token`
+**Note**: API and OAuth endpoints are automatically generated using the standard Zettagrid Indonesia format:
+- API: `https://mycloud-{zone-code}.zettagrid.id/api`
+- OAuth: `https://mycloud-{zone-code}.zettagrid.id/oauth/tenant/{org}/token`
 
-Zone codes: Sydney (syd), Melbourne (mel), Perth (per), Brisbane (bri), Adelaide (adl), Darwin (dar)
+Zone codes: Jakarta (`jkt`), Cibitung (`cbt`)
 
 ## Key Technologies
 
@@ -100,7 +97,7 @@ Zone codes: Sydney (syd), Melbourne (mel), Perth (per), Brisbane (bri), Adelaide
 
 ### OAuth Flow Implementation
 1. **API Token**: Initial Zettagrid API token per zone
-2. **Token Exchange**: Automatic exchange for OAuth access tokens
+2. **Token Exchange**: Automatic exchange for OAuth access tokens via `zettagrid.id` OAuth endpoint
 3. **Session Management**: Cached sessions with automatic refresh
 4. **Multi-Zone**: Independent authentication state per zone
 
@@ -111,52 +108,37 @@ Zone codes: Sydney (syd), Melbourne (mel), Perth (per), Brisbane (bri), Adelaide
 
 ## API Capabilities
 
-The MCP server provides comprehensive vCloud Director operations:
+The MCP server provides 20 tools for vCloud Director operations:
 
 ### Organization Management
-- List and manage organizations
-- Organization settings and configuration
-- User and group management
+- `list_organizations` - List all accessible organizations
+- `get_organization` - Get organization details
 
 ### Virtual Data Center (VDC) Operations
-- VDC lifecycle management
-- Compute policies and resource allocation
-- Storage profile management
+- `list_vdcs` - List VDCs in an organization
+- `get_vdc` - Get VDC details
+- `show_vdc_resources` - Show VDC resource usage table (RAM, vCPU, Storage)
+- `show_all_vdc_resources` - Consolidated resource table across all VDCs
 
 ### vApp and VM Management
-- vApp deployment and lifecycle
-- VM power operations and configuration
-- Storage and network configuration
+- `list_vapps` - List virtual applications
+- `list_vms` - List virtual machines
+- `power_on_vm` - Power on a VM
+- `power_off_vm` - Power off a VM
+- `get_vm_console` - Get VM console access ticket
 
 ### Network and Security
-- Organization network management
-- Firewall rule configuration
-- NAT rule management
-- Load balancer operations
+- `list_edge_gateways` - List edge gateways
+- `get_edge_gateway` - Get edge gateway details
+- `list_firewall_rules` - List firewall rules
+- `create_firewall_rule` - Create a firewall rule
+- `show_edge_network_config` - Show edge network configuration
+- `list_external_networks` - List external networks
+- `get_provider_network_info` - Get provider network info
 
-## Development Patterns
-
-### Error Handling
-- Comprehensive error types with zone context
-- Automatic retry logic with exponential backoff
-- Session re-authentication on token expiration
-- Detailed error metadata for debugging
-
-### XML Response Parsing
-- Custom XML parsers in `utils/xml-parser.ts`
-- Type-safe parsing with schema validation
-- Support for vCloud Director query result formats
-
-### Zone-Aware Operations
-- All operations support optional zone parameter
-- Automatic fallback to default zone
-- Zone configuration validation and health checks
-
-### Testing Approach
-- Unit tests for core functionality
-- Integration tests with mock responses
-- Live testing against real Zettagrid infrastructure
-- Test fixtures for consistent test data
+### Zone Management
+- `test_zone` - Test connectivity and auth for a zone
+- `get_zone_info` - Get zone configuration info
 
 ## Security Considerations
 

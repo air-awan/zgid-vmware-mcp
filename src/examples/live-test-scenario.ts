@@ -34,7 +34,7 @@ async function discoverPerthResources(): Promise<void> {
   loadEnvFile();
 
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
 
   let availableVdcs: any[] = [];
   let availableVapps: any[] = [];

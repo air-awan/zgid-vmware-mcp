@@ -51,12 +51,12 @@ async function main(): Promise<void> {
 }
 
 // Handle graceful shutdown
-process.on('SIGINT', async () => {
+process.on('SIGINT', () => {
   console.log('Received SIGINT, shutting down gracefully...');
   process.exit(0);
 });
 
-process.on('SIGTERM', async () => {
+process.on('SIGTERM', () => {
   console.log('Received SIGTERM, shutting down gracefully...');
   process.exit(0);
 });

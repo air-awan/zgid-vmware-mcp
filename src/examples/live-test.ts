@@ -35,7 +35,7 @@ async function finalLiveTest(): Promise<void> {
   loadEnvFile();
 
   const client = new ZettagridClient();
-  const zone = 'perth';
+  const zone = 'jakarta';
   const testResults: string[] = [];
 
   try {

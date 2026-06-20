@@ -22,7 +22,7 @@ export class ZoneManager {
    * Load configuration from environment variables
    */
   private loadConfiguration(): ZettagridConfig {
-    const defaultZone = (process.env.ZETTAGRID_DEFAULT_ZONE || 'perth') as ZoneId;
+    const defaultZone = (process.env.ZETTAGRID_DEFAULT_ZONE || 'jakarta') as ZoneId;
     
     return {
       zones: {},
@@ -38,7 +38,7 @@ export class ZoneManager {
    * Initialize all available zones from environment configuration
    */
   private initializeZones(): void {
-    const zoneNames: ZoneId[] = ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin'];
+    const zoneNames: ZoneId[] = ['jakarta', 'cibitung'];
     
     for (const zoneName of zoneNames) {
       const zoneConfig = this.loadZoneConfig(zoneName);
@@ -81,19 +81,15 @@ export class ZoneManager {
 
     // Zone code mapping for endpoint generation
     const zoneCodeMap: Record<ZoneId, string> = {
-      sydney: 'syd',
-      melbourne: 'mel',
-      perth: 'per',
-      brisbane: 'bri',
-      adelaide: 'adl',
-      darwin: 'dar'
+      jakarta: 'jkt',
+      cibitung: 'cbt'
     };
 
     const zoneCode = zoneCodeMap[zoneName];
     
     // Auto-generate endpoints using standard Zettagrid format
-    const apiEndpoint = `https://mycloud.${zoneCode}.zettagrid.com/api`;
-    const oauthEndpoint = `https://mycloud.${zoneCode}.zettagrid.com/oauth/tenant/${organizationName}/token`;
+    const apiEndpoint = `https://mycloud-${zoneCode}.zettagrid.id/api`;
+    const oauthEndpoint = `https://mycloud-${zoneCode}.zettagrid.id/oauth/tenant/${organizationName}/token`;
 
     return {
       name: zoneName,
@@ -240,7 +236,7 @@ export class ZoneManager {
     defaultZone: string;
   } {
     return {
-      totalZones: 6, // Total possible Zettagrid zones
+      totalZones: 2, // Total Zettagrid Indonesia zones (Jakarta, Cibitung)
       configuredZones: this.zones.size,
       availableZones: Array.from(this.zones.keys()),
       defaultZone: this.config.defaultZone
@@ -265,12 +261,8 @@ export class ZoneManager {
    */
   getZoneDisplayName(zoneId: string): string {
     const zoneDisplayNames: Record<string, string> = {
-      sydney: 'Sydney (NSW)',
-      melbourne: 'Melbourne (VIC)', 
-      perth: 'Perth (WA)',
-      brisbane: 'Brisbane (QLD)',
-      adelaide: 'Adelaide (SA)',
-      darwin: 'Darwin (NT)'
+      jakarta: 'Jakarta (JK)',
+      cibitung: 'Cibitung (JB)'
     };
     
     return zoneDisplayNames[zoneId] || zoneId.charAt(0).toUpperCase() + zoneId.slice(1);

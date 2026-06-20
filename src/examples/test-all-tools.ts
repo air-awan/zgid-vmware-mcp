@@ -10,7 +10,7 @@ import { config } from 'dotenv';
 // Load environment variables
 config();
 
-const ZONE = 'perth'; // Testing in Perth zone
+const ZONE = 'jakarta'; // Testing in Perth zone
 const DELAY_MS = 1000; // Delay between tests to avoid rate limiting
 
 function delay(ms: number): Promise<void> {

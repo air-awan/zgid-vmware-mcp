@@ -82,7 +82,7 @@ export class ZoneAuth {
       try {
         const newToken = await this.tokenManager.refreshToken(this.zoneConfig, session.token.refreshToken);
         session.token = newToken;
-      } catch (error) {
+      } catch (_error) {
         // If refresh fails, re-authenticate from scratch
         await this.tokenManager.invalidateSession(this.zoneConfig);
         await this.initialize();
@@ -170,7 +170,7 @@ export class ZoneAuth {
           missingPermissions: requiredOperations
         };
       }
-    } catch (error) {
+    } catch (_error) {
       return {
         hasPermissions: false,
         missingPermissions: requiredOperations
@@ -266,8 +266,8 @@ export class ZoneAuth {
       errors.push('API token should not contain spaces');
     }
     
-    // Basic format validation - Zettagrid tokens are typically alphanumeric
-    if (!/^[a-zA-Z0-9]+$/.test(token)) {
+    // Basic format validation - Zettagrid tokens are alphanumeric and may include dashes or underscores
+    if (!/^[a-zA-Z0-9_-]+$/.test(token)) {
       errors.push('API token contains invalid characters');
     }
     
@@ -292,14 +292,14 @@ export class ZoneAuth {
         errors.push('API endpoint must use HTTPS');
       }
       
-      if (!url.hostname.includes('zettagrid.com')) {
+      if (!url.hostname.includes('zettagrid.id')) {
         errors.push('API endpoint should be a Zettagrid domain');
       }
       
       if (url.pathname !== '/api' && !url.pathname.startsWith('/api/')) {
         errors.push('API endpoint should include /api path');
       }
-    } catch (error) {
+    } catch (_error) {
       errors.push('API endpoint is not a valid URL');
     }
     

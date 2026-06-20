@@ -32,7 +32,7 @@ function loadEnvFile() {
 // Load environment variables
 loadEnvFile();
 
-const ZONE = 'perth';
+const ZONE = 'jakarta';
 
 // Format the resource data as a table
 function formatTable(data: VdcResourceSummary): string {
