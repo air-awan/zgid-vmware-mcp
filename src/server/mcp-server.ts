@@ -155,8 +155,8 @@ export class ZettagridMcpServer {
             properties: {
               zoneId: {
                 type: 'string',
-                description: 'Zone ID to test (e.g., perth, sydney)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                description: 'Zone ID to test (e.g., jakarta, cibitung)',
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -170,7 +170,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional, uses default if not specified)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -188,7 +188,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['organizationId']
@@ -203,7 +203,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -221,7 +221,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['vdcId']
@@ -240,7 +240,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['vdcId']
@@ -255,7 +255,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -273,7 +273,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -291,7 +291,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -309,7 +309,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['vmId']
@@ -328,7 +328,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['vmId']
@@ -347,7 +347,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['vmId']
@@ -362,7 +362,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -380,7 +380,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['edgeGatewayId']
@@ -399,7 +399,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['edgeGatewayId']
@@ -456,7 +456,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['edgeGatewayId', 'description']
@@ -475,7 +475,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             },
             required: ['edgeGatewayId']
@@ -490,7 +490,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
@@ -504,7 +504,7 @@ export class ZettagridMcpServer {
               zoneId: {
                 type: 'string',
                 description: 'Zone ID (optional)',
-                enum: ['sydney', 'melbourne', 'perth', 'brisbane', 'adelaide', 'darwin']
+                enum: ['jakarta', 'cibitung']
               }
             }
           }
